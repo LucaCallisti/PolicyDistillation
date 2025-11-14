@@ -1,0 +1,39 @@
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/StudentDistillation/videos/StudentDistillation_LunarLander folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:416: UserWarning: [33mWARN: Unable to save last video! Did you call close()?[0m
+  logger.warn("Unable to save last video! Did you call close()?")
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 208, in <module>
+    Train_student_distillation()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 203, in Train_student_distillation
+    Distillation_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/StudentTeacher_distillation.py", line 214, in train
+    mean_rwd_test_ID, mean_rwd_test_OD = self.test()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/StudentTeacher_distillation.py", line 247, in test
+    mean_reward_ID = test_model(model_A=self.student, model_B = self.Teacher, env =self.test_envs, iteration=self.iteration, global_step = self.global_step, seeds=self.dict_test_enviroment['IDseeds'], video_folder=self.dict_test_enviroment['video_folder'], device = self.device)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Test_model.py", line 60, in test_model
+    action, log_prob_A, entropy = take_action(model_A, done, info)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Test_model.py", line 22, in take_action
+    action, log_prob, entropy = model.get_action(input)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 153, in get_action
+    x = self.get_backbone(x)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 139, in get_backbone
+    x = self.cnn_backbone(x)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/container.py", line 240, in forward
+    input = module(input)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+RuntimeError: Input type (torch.FloatTensor) and weight type (torch.cuda.FloatTensor) should be the same or input should be a MKLDNN tensor and weight is a dense tensor

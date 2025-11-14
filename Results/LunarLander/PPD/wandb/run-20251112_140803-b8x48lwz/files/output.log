@@ -1,0 +1,21 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/PPD/videos/PPD_LunarLander_PPDparam1.0 folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 150, in <module>
+    Train_student_PPD()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 147, in Train_student_PPD
+    PPD_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 288, in train
+    logs = self.ppo_update(advantages, returns)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 148, in ppo_update
+    PPD_loss = (torch.distributions.kl.kl_divergence(Teacher_distribution, Student_distribution) * torch.clamp(ratio, 1 - cfg["clip_coef"])).mean()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/distributions/kl.py", line 192, in kl_divergence
+    return fun(p, q)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/distributions/kl.py", line 248, in _kl_categorical_categorical
+    t = p.probs * (p.logits - q.logits)
+RuntimeError: Inference tensors cannot be saved for backward. To work around you can make a clone to get a normal tensor and use it in autograd.

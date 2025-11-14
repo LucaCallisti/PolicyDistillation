@@ -1,0 +1,43 @@
+Start training...
+[1/2000] AvgRew: -103.26
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/Pusher/PPO/Teacher/videos/PPO_Pusher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -55.0, Reward per episode: [-63.9 -51.9 -52.6 -56.8 -62.  -50.8 -60.7 -46.6 -57.3 -47.7]
+[2/2000] AvgRew: -103.87
+[3/2000] AvgRew: -101.33
+[4/2000] AvgRew: -104.58
+[5/2000] AvgRew: -101.85
+[6/2000] AvgRew: -97.85
+[7/2000] AvgRew: -99.46
+[8/2000] AvgRew: -94.67
+[9/2000] AvgRew: -93.32
+[10/2000] AvgRew: -92.13
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/Pusher/PPO/Teacher/videos/PPO_Pusher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -48.1, Reward per episode: [-52.9 -49.9 -46.5 -46.8 -51.5 -48.6 -50.5 -41.5 -48.7 -43.8]
+[11/2000] AvgRew: -90.09
+[12/2000] AvgRew: -84.89
+[13/2000] AvgRew: -86.51
+[14/2000] AvgRew: -84.67
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 76, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 72, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 266, in train
+    avg_rew, reward_episodes = self.collect_rollouts()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 142, in collect_rollouts
+    action, logprob, _, value = self.agent.get_action_and_value(input_)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 208, in get_action_and_value
+    dist = Categorical(logits=logits)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 174, in get_action
+    action_rescaled = low + 0.5 * (tanh_action + 1.0) * (high - low)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

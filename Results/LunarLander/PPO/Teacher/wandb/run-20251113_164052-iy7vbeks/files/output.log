@@ -1,0 +1,19 @@
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/PPO/Teacher/videos/PPO_LunarLander_Teacher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 208, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 68, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 305, in train
+    mean_rwd_test = self.test()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 333, in test
+    mean_reward = test_model(model_A=self.agent, env =self.test_envs, iteration=self.iteration, global_step = self.global_step, seeds=self.dict_test_enviroment['seeds'], video_folder=self.dict_test_enviroment['video_folder'], device = self.device)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Test_model.py", line 59, in test_model
+    action, log_prob_A, entropy = take_action(model_A, done, info)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Test_model.py", line 24, in take_action
+    obs_tensor = torch.tensor(info['state_observation'], dtype=torch.float32).to(next(model.parameters()).device)
+KeyError: 'state_observation'

@@ -1,0 +1,36 @@
+Start training...
+[1/1000] AvgRew: -26.71
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -93.7, Reward per episode: [ -54.5 -117.5  -69.5 -111.   -64.8  -63.8 -100.7 -122.  -113.2 -120.3]
+[2/1000] AvgRew: -26.91
+[3/1000] AvgRew: -32.76
+[4/1000] AvgRew: -31.14
+[5/1000] AvgRew: -31.68
+[6/1000] AvgRew: -29.56
+[7/1000] AvgRew: -28.40
+[8/1000] AvgRew: -25.52
+[9/1000] AvgRew: -27.27
+[10/1000] AvgRew: -19.98
+[11/1000] AvgRew: -25.96
+[12/1000] AvgRew: -24.37
+[13/1000] AvgRew: -26.80
+[14/1000] AvgRew: -20.85
+[15/1000] AvgRew: -34.08
+[16/1000] AvgRew: -15.15
+[17/1000] AvgRew: -24.54
+[18/1000] AvgRew: -17.56
+[19/1000] AvgRew: -37.19
+[20/1000] AvgRew: -24.01
+[21/1000] AvgRew: -35.77
+[22/1000] AvgRew: -28.85
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 110, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 106, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 281, in train
+    logs = self.ppo_update(advantages, returns)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 214, in ppo_update
+    assert torch.isclose(ratio, torch.tensor(1.0), atol=1e-4).all(), "Ratio not close to 1 at first update!"
+AssertionError: Ratio not close to 1 at first update!

@@ -1,0 +1,18 @@
+Start training...
+Sanity check for NaNs in model parameters, iteration: 1
+[1/2000] AvgRew: -103.26
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/Pusher/PPO/Teacher/videos/PPO_Pusher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -55.0, Reward per episode: [-63.9 -51.9 -52.6 -56.8 -62.  -50.8 -60.7 -46.6 -57.3 -47.7]
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 76, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 72, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 374, in train
+    init_screen = self.agent.get_screen(screen = self.next_obs)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 246, in get_screen
+    return get_screen(envs, screen)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 378, in get_screen
+    screen = screen.permute(0, 3, 1, 2).float() / 255.0
+RuntimeError: permute(sparse_coo): number of dimensions in the tensor input does not match the length of the desired ordering of dimensions i.e. input.dim() = 2 is not equal to len(dims) = 4

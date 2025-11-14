@@ -1,0 +1,53 @@
+Start training...
+Sanity check for NaNs in model parameters, iteration: 1
+Sanity check - CNN params sum: 793.7477228511125
+Sanity check - critic params sum: -17.321771120186895
+Sanity check - actor_backbone params sum: 14.165310759097338
+Sanity check - mu_layer params sum: 0.034501404501497746
+Sanity check - log_std_param params sum: -1.9832631051540375
+[1/2000] AvgRew: nan
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -92.3, Reward per episode: [-92.6 -93.4 -92.8 -92.8 -93.3 -92.9 -91.8 -94.1 -89.2 -90.2]
+Sanity check for NaNs in model parameters, iteration: 2
+Sanity check - CNN params sum: 731.2553580948152
+Sanity check - critic params sum: -13.85094714272418
+Sanity check - actor_backbone params sum: 11.55597772449255
+Sanity check - mu_layer params sum: 0.04482967406511307
+Sanity check - log_std_param params sum: -2.0760492347180843
+[2/2000] AvgRew: nan
+Sanity check for NaNs in model parameters, iteration: 3
+Sanity check - CNN params sum: 558.9115865039639
+Sanity check - critic params sum: -13.39247386981151
+Sanity check - actor_backbone params sum: 11.852168768644333
+Sanity check - mu_layer params sum: 0.1775506092235446
+Sanity check - log_std_param params sum: -2.1454976946115494
+[3/2000] AvgRew: -27.04
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 134, in <module>
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 130, in Train_teacher
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 321, in train
+    logs = self.ppo_update(advantages, returns)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 199, in ppo_update
+    _, newlogprob, entropy, newvalue = self.agent.get_action_and_value(b_obs[mb_inds], b_actions[mb_inds])
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 210, in get_action_and_value
+    action, log_prob, entropy = self.get_action(x, action)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 152, in get_action
+    x = self.get_backbone(x)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 138, in get_backbone
+    x = self.cnn_backbone(x)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/container.py", line 240, in forward
+    input = module(input)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+KeyboardInterrupt

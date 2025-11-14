@@ -1,0 +1,65 @@
+Start training...
+Sanity check for NaNs in model parameters, iteration: 1
+[1/2000] AvgRew: -103.26
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/Pusher/PPO/Teacher/videos/PPO_Pusher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-0 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py", line 741, in _async_worker
+    observation, info = env.reset(**data)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/My_wrapper.py", line 86, in reset
+    obs, info = self.env.reset(**kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 543, in reset
+    obs, info = super().reset(seed=seed, options=options)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/core.py", line 333, in reset
+    return self.env.reset(seed=seed, options=options)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py", line 340, in reset
+    self._capture_frame()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py", line 312, in _capture_frame
+    frame = self.env.render()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/core.py", line 337, in render
+    return self.env.render()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 409, in render
+    return super().render()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/core.py", line 337, in render
+    return self.env.render()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 301, in render
+    return env_render_passive_checker(self.env)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py", line 361, in env_render_passive_checker
+    result = env.render()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/envs/mujoco/mujoco_env.py", line 159, in render
+    return self.mujoco_renderer.render(self.render_mode)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/envs/mujoco/mujoco_rendering.py", line 731, in render
+    viewer = self._get_viewer(render_mode=render_mode)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/envs/mujoco/mujoco_rendering.py", line 755, in _get_viewer
+    self.viewer = OffScreenViewer(
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/envs/mujoco/mujoco_rendering.py", line 157, in __init__
+    super().__init__(model, data, width, height, max_geom, visual_options)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/envs/mujoco/mujoco_rendering.py", line 69, in __init__
+    self.con = mujoco.MjrContext(self.model, mujoco.mjtFontScale.mjFONTSCALE_150)
+mujoco.FatalError: gladLoadGL error
+[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Raising the last exception back to the main process.[0m
+  self._raise_if_errors(successes)
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 71, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 67, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 362, in train
+    mean_rwd_test = self.test()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 394, in test
+    mean_reward = test_model(model_A=self.agent, env =self.test_envs, iteration=self.iteration, global_step = self.global_step, seeds=self.dict_test_enviroment['seeds'], video_folder=self.dict_test_enviroment['video_folder'], device = self.device)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Test_model.py", line 47, in test_model
+    obs, info = env.reset(seed = seeds)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py", line 265, in reset
+    return self.reset_wait()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py", line 361, in reset_wait
+    self._raise_if_errors(successes)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py", line 711, in _raise_if_errors
+    raise exctype(value)
+mujoco.FatalError: gladLoadGL error

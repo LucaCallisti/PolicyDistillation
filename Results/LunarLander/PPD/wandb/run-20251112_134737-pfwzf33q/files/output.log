@@ -1,0 +1,33 @@
+0
+0
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/PPD/videos/PPD_LunarLander_PPDparam1.0 folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 150, in <module>
+    Train_student_PPD()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 147, in Train_student_PPD
+    PPD_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 289, in train
+    logs = self.ppo_update(advantages, returns)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 142, in ppo_update
+    _, Teacher_logprob, _ = self.Teacher.get_action(b_obs_Teacher[mb_inds], b_actions[mb_inds])
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 152, in get_action
+    logits = self.actor_out(self.actor_backbone(x))
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/container.py", line 240, in forward
+    input = module(input)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:5! (when checking argument for argument mat1 in method wrapper_CUDA_addmm)

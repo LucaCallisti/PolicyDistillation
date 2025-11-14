@@ -1,0 +1,32 @@
+Start training...
+[DEBUG] b_actions[mb_inds][:5]: tensor([[ 0.2557,  0.7203,  0.5781],
+        [ 0.2584,  0.1528,  0.0765],
+        [-0.1713,  0.5264,  0.9327],
+        [ 0.3770,  0.6126,  0.1988],
+        [ 0.2355,  0.6172,  0.5495]], device='cuda:7')
+[DEBUG] b_logprobs[mb_inds][:5]: tensor([-1.0026, -3.4172, -2.7707, -1.4224, -0.8041], device='cuda:7')
+[DEBUG] newlogprob[:5]: tensor([-184.7866, -184.7904, -184.7979, -184.7880, -184.7930],
+       device='cuda:7', grad_fn=<SliceBackward0>)
+[DEBUG] newlogprob has -inf: False
+[DEBUG] newlogprob has NaN: False
+[DEBUG] entropy[:5]: tensor([2.1774, 2.1774, 2.1774, 2.1774, 2.1774], device='cuda:7',
+       grad_fn=<SliceBackward0>)
+[DEBUG] entropy has -inf: False
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py(229)ppo_update()
+-> assert torch.isclose(ratio, torch.tensor(1.0), atol=1e-4).all(), "Ratio not close to 1 at first update!"
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 110, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 106, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 296, in train
+    with torch.inference_mode():
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 229, in ppo_update
+    print(f"[DEBUG] newlogprob has NaN: {torch.isnan(newlogprob).any()}")
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 229, in ppo_update
+    print(f"[DEBUG] newlogprob has NaN: {torch.isnan(newlogprob).any()}")
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

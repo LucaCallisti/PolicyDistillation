@@ -1,0 +1,13 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing/Teacher_files/videos/Teacher_lr_1.00e-04_ent_coef_1.00e-02_Anneal_ent folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+linear_input_size 128
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 332, in <module>
+    train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 139, in train
+    input = agent.init_deque(next_obs)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Utils_PPO.py", line 356, in init_deque
+    self.input = Visual_input(init_screen, self.nn_inputs, self.skipped_frames)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Utils_PPO.py", line 416, in __init__
+    self.input[:, :, :, :] = init_screens.expand(-1, (self.skipped_frames +1) * self.nn_inputs, -1, -1)
+RuntimeError: The expanded size of the tensor (8) must match the existing size (3) at non-singleton dimension 1.  Target sizes: [-1, 8, -1, -1].  Tensor sizes: [16, 3, 96, 96]

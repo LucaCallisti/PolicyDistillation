@@ -1,0 +1,30 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing/Teacher_files/videos/Teacher_lr_1.00e-04_ent_coef_1.00e-02_Anneal_ent folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 342, in <module>
+    train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 156, in train
+    next_obs, reward, terminations, truncations, infos = envs.step(action.cpu().numpy())
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/sync_vector_env.py", line 264, in step
+    ) = self.envs[i].step(action)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 513, in step
+    obs, reward, terminated, truncated, info = super().step(action)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 125, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 285, in step
+    return self.env.step(action)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/envs/box2d/car_racing.py", line 563, in step
+    self.state = self._render("state_pixels")
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/envs/box2d/car_racing.py", line 628, in _render
+    self._render_road(zoom, trans, angle)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/envs/box2d/car_racing.py", line 698, in _render_road
+    self._draw_colored_polygon(self.surf, poly, color, zoom, translation, angle)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/envs/box2d/car_racing.py", line 785, in _draw_colored_polygon
+    gfxdraw.aapolygon(self.surf, poly, color)
+KeyboardInterrupt

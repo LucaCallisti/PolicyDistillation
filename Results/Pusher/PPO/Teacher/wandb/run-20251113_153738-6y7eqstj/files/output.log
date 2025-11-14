@@ -1,0 +1,35 @@
+Start training...
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py(141)collect_rollouts()
+-> self.obs[step] = input_
+self = <PPO.PPOTrainer object at 0x7f5a41a66cb0>
+self = <PPO.PPOTrainer object at 0x7f5a41a66cb0>
+tensor([[ 0.0756, -0.3507,  1.3577, -0.5161, -1.4566, -0.1853,  1.5844],
+        [ 0.2014,  0.8720, -1.4199, -1.3441,  1.4761,  0.2929, -0.0136],
+        [-0.5461, -0.6969,  1.6919,  0.4576,  0.6314, -0.8152, -0.7736],
+        [ 0.2015,  0.8362, -0.2127,  0.8073,  1.3811,  1.2355,  0.2373]],
+       device='cuda:4')
+tensor([[ 0.0756, -0.3507,  1.3577, -0.5161, -1.4566, -0.1853,  1.5844],
+        [ 0.2014,  0.8720, -1.4199, -1.3441,  1.4761,  0.2929, -0.0136],
+        [-0.5461, -0.6969,  1.6919,  0.4576,  0.6314, -0.8152, -0.7736],
+        [ 0.2015,  0.8362, -0.2127,  0.8073,  1.3811,  1.2355,  0.2373]],
+       device='cuda:4')
+tensor([ 9.5367e-07,  4.7684e-07, -9.5367e-07,  0.0000e+00], device='cuda:4')
+tensor([0., 0., 0., 0.], device='cuda:4')
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 76, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 72, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 268, in train
+    avg_rew, reward_episodes = self.collect_rollouts()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 141, in collect_rollouts
+    self.obs[step] = input_
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 141, in collect_rollouts
+    self.obs[step] = input_
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

@@ -1,0 +1,29 @@
+Start training...
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 71, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 67, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 324, in train
+    avg_rew, reward_episodes = self.collect_rollouts()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 142, in collect_rollouts
+    action, logprob, _, value = self.agent.get_action_and_value(input_)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 207, in get_action_and_value
+    action, log_prob, entropy = self.get_action(x, action)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 172, in get_action
+    x = self.actor_backbone(x)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/container.py", line 240, in forward
+    input = module(input)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 must have the same dtype, but got Double and Float

@@ -1,0 +1,12 @@
+{"time":"2025-11-12T16:55:45.467629417+01:00","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-11-12T16:55:45.798462691+01:00","level":"INFO","msg":"stream: created new stream","id":"3jspifaq"}
+{"time":"2025-11-12T16:55:45.79852682+01:00","level":"INFO","msg":"stream: started","id":"3jspifaq"}
+{"time":"2025-11-12T16:55:45.79855857+01:00","level":"INFO","msg":"writer: started","stream_id":"3jspifaq"}
+{"time":"2025-11-12T16:55:45.79854601+01:00","level":"INFO","msg":"handler: started","stream_id":"3jspifaq"}
+{"time":"2025-11-12T16:55:45.798578209+01:00","level":"INFO","msg":"sender: started","stream_id":"3jspifaq"}
+{"time":"2025-11-12T16:55:46.148996128+01:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-11-12T17:22:08.284602297+01:00","level":"INFO","msg":"stream: closing","id":"3jspifaq"}
+{"time":"2025-11-12T17:22:09.247534516+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-12T17:22:09.49509944+01:00","level":"INFO","msg":"handler: closed","stream_id":"3jspifaq"}
+{"time":"2025-11-12T17:22:09.495255218+01:00","level":"INFO","msg":"sender: closed","stream_id":"3jspifaq"}
+{"time":"2025-11-12T17:22:09.495282548+01:00","level":"INFO","msg":"stream: closed","id":"3jspifaq"}

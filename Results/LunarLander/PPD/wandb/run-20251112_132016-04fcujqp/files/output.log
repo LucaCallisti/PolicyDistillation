@@ -1,0 +1,224 @@
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py(15)__init__()
+-> self.envs = gym.vector.AsyncVectorEnv([make_env(dict_enviroment, idx, wrappers=[RenderFrameWrapper]) for idx in range(config["num_envs"])])
+*** NameError: name 'dict_enviroment' is not defined
+(array([-4.4643664e-01,  1.4102083e+00, -5.6410965e-10, -2.6666665e-02,
+       -6.0370100e-01,  8.1956388e-09,  0.0000000e+00,  0.0000000e+00],
+      dtype=float32), {})
+array([[[  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0],
+        ...,
+        [  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0]],
+
+       [[  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0],
+        ...,
+        [  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0]],
+
+       [[  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0],
+        ...,
+        [  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0]],
+
+       ...,
+
+       [[255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        ...,
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255]],
+
+       [[255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        ...,
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255]],
+
+       [[255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        ...,
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255]]], shape=(400, 600, 3), dtype=uint8)
+(array([ 4.4343406e-01,  1.4103457e+00, -1.2307839e-09, -2.6666669e-02,
+       -1.5552650e-01, -1.9837170e-08,  0.0000000e+00,  0.0000000e+00],
+      dtype=float32), {})
+array([[[  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0],
+        ...,
+        [  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0]],
+
+       [[  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0],
+        ...,
+        [  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0]],
+
+       [[  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0],
+        ...,
+        [  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0]],
+
+       ...,
+
+       [[255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        ...,
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255]],
+
+       [[255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        ...,
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255]],
+
+       [[255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        ...,
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255]]], shape=(400, 600, 3), dtype=uint8)
+*** NameError: name 'env' is not defined
+array([[[  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0],
+        ...,
+        [  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0]],
+
+       [[  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0],
+        ...,
+        [  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0]],
+
+       [[  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0],
+        ...,
+        [  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0]],
+
+       ...,
+
+       [[255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        ...,
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255]],
+
+       [[255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        ...,
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255]],
+
+       [[255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        ...,
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255]]], shape=(400, 600, 3), dtype=uint8)
+*** TypeError: RecordEpisodeStatistics.step() missing 1 required positional argument: 'action'
+(array([ 0.4433756 ,  1.4091918 , -0.00739334, -0.05111842, -0.15397188,
+        0.03109704,  0.        ,  0.        ], dtype=float32), np.float64(-2.2610782457085734), False, False, {})
+array([[[  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0],
+        ...,
+        [  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0]],
+
+       [[  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0],
+        ...,
+        [  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0]],
+
+       [[  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0],
+        ...,
+        [  0,   0,   0],
+        [  0,   0,   0],
+        [  0,   0,   0]],
+
+       ...,
+
+       [[255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        ...,
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255]],
+
+       [[255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        ...,
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255]],
+
+       [[255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        ...,
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255]]], shape=(400, 600, 3), dtype=uint8)
+*** AssertionError
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 150, in <module>
+    Train_student_PPD()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 138, in Train_student_PPD
+    PPD_trainer = PPD(
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 15, in __init__
+    self.envs = gym.vector.AsyncVectorEnv([make_env(dict_enviroment, idx, wrappers=[RenderFrameWrapper]) for idx in range(config["num_envs"])])
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 15, in __init__
+    self.envs = gym.vector.AsyncVectorEnv([make_env(dict_enviroment, idx, wrappers=[RenderFrameWrapper]) for idx in range(config["num_envs"])])
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

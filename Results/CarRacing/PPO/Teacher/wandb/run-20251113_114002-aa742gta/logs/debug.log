@@ -1,0 +1,38 @@
+2025-11-13 11:40:02,408 INFO    MainThread:2751657 [wandb_setup.py:_flush():80] Current SDK version is 0.21.1
+2025-11-13 11:40:02,408 INFO    MainThread:2751657 [wandb_setup.py:_flush():80] Configure stats pid to 2751657
+2025-11-13 11:40:02,408 INFO    MainThread:2751657 [wandb_setup.py:_flush():80] Loading settings from /home/l.callisti/.config/wandb/settings
+2025-11-13 11:40:02,408 INFO    MainThread:2751657 [wandb_setup.py:_flush():80] Loading settings from /home/l.callisti/Distillation_LunarLander/Final_pipeline/wandb/settings
+2025-11-13 11:40:02,408 INFO    MainThread:2751657 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-11-13 11:40:02,408 INFO    MainThread:2751657 [wandb_init.py:setup_run_log_directory():703] Logging user logs to ./Results/CarRacing/PPO/Teacher/wandb/run-20251113_114002-aa742gta/logs/debug.log
+2025-11-13 11:40:02,408 INFO    MainThread:2751657 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to ./Results/CarRacing/PPO/Teacher/wandb/run-20251113_114002-aa742gta/logs/debug-internal.log
+2025-11-13 11:40:02,409 INFO    MainThread:2751657 [wandb_init.py:init():830] calling init triggers
+2025-11-13 11:40:02,409 INFO    MainThread:2751657 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'env_name': 'CarRacing-v3', 'seed': 1000, 'torch_deterministic': True, 'num_envs': 32, 'num_steps': 512, 'num_iterations': 2000, 'learning_rate': 0.00025, 'anneal_lr': True, 'gamma': 0.99, 'gae_lambda': 0.95, 'clip_coef': 0.2, 'clip_vloss': True, 'ent_coef': 0.001, 'anneal_ent_coef': True, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'update_epochs': 20, 'minibatch_size': 256, 'norm_adv': True, 'target_reward': 900, 'Test_frequency': 10, 'reset_after_test': True, 'Verbose_frequency': 1, 'run_name': 'PPO_CarRacing_Teacher_BatchNorm', 'render_idx': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], 'record_video_idx': [0], 'folder_path': './Results/CarRacing/PPO/Teacher/', 'seeds': [100, 101, 102, 103, 104, 105, 106, 107, 108, 109], 'video_folder': './Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher_BatchNorm', '_wandb': {'code_path': 'code/CarRacing.py'}}
+2025-11-13 11:40:02,409 INFO    MainThread:2751657 [wandb_init.py:init():871] starting backend
+2025-11-13 11:40:02,631 INFO    MainThread:2751657 [wandb_init.py:init():874] sending inform_init request
+2025-11-13 11:40:02,641 INFO    MainThread:2751657 [wandb_init.py:init():882] backend started and connected
+2025-11-13 11:40:02,657 INFO    MainThread:2751657 [wandb_init.py:init():953] updated telemetry
+2025-11-13 11:40:02,658 INFO    MainThread:2751657 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2025-11-13 11:40:03,473 INFO    MainThread:2751657 [wandb_init.py:init():1029] starting run threads in backend
+2025-11-13 11:40:03,503 WARNING MainThread:2751657 [wandb_init.py:init():1585] [no run ID] interrupted
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1581, in init
+    return wi.init(run_settings, run_config, run_printer)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1074, in init
+    run._on_start()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2518, in _on_start
+    self._backend.interface.publish_python_packages(working_set())
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 347, in publish_python_packages
+    for pkg in working_set:
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/util.py", line 1995, in working_set
+    yield InstalledDistribution(key=d.metadata["Name"], version=d.version)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 612, in metadata
+    return _adapters.Message(email.message_from_string(text))
+  File "/usr/lib/python3.10/email/__init__.py", line 38, in message_from_string
+    return Parser(*args, **kws).parsestr(s)
+  File "/usr/lib/python3.10/email/parser.py", line 67, in parsestr
+    return self.parse(StringIO(text), headersonly=headersonly)
+  File "/usr/lib/python3.10/email/parser.py", line 54, in parse
+    if not data:
+KeyboardInterrupt
+2025-11-13 11:40:04,483 INFO    MsgRouterThr:2751657 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 0 handles.

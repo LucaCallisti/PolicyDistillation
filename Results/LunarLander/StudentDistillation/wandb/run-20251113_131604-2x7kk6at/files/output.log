@@ -1,0 +1,17 @@
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/StudentDistillation/videos/StudentDistillation_LunarLander folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:416: UserWarning: [33mWARN: Unable to save last video! Did you call close()?[0m
+  logger.warn("Unable to save last video! Did you call close()?")
+Finished with reward: -628.1, Reward per episode: [-1050.5  -486.  -1025.1  -467.9  -611.1  -706.4  -339.6  -641.3  -491.6
+  -461.5]
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 207, in <module>
+    Train_student_distillation()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 202, in Train_student_distillation
+    Distillation_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/StudentTeacher_distillation.py", line 210, in train
+    mean_rwd_test = self.test()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/StudentTeacher_distillation.py", line 243, in test
+    Tester_under_teacher = TestModel_underTeacher(Teacher = self.Teacher, seeds = self.dict_test_enviroment['seeds'], env = self.test_envs)
+TypeError: TestModel_underTeacher.__init__() got an unexpected keyword argument 'env'

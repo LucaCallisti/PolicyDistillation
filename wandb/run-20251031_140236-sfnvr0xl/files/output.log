@@ -1,0 +1,8 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing/Teacher_files/videos/Teacher_lr_1.00e-04_ent_coef_1.00e-02_Anneal_ent folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 325, in <module>
+    train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 94, in train
+    assert isinstance(envs.single_action_space, gym.spaces.Discrete), "only discrete action space is supported"
+AssertionError: only discrete action space is supported

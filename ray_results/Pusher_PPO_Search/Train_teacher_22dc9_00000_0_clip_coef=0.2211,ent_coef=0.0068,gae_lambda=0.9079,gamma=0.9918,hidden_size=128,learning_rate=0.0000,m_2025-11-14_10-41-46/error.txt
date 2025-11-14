@@ -1,0 +1,27 @@
+Failure # 1 (occurred at 2025-11-14_10-41-57)
+[36mray::ImplicitFunc.train()[39m (pid=2370495, ip=10.30.3.131, actor_id=7750966080783db9f94d718001000000, repr=Train_teacher)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/ray/tune/trainable/trainable.py", line 331, in train
+    raise skipped from exception_cause(skipped)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/ray/air/_internal/util.py", line 107, in run
+    self._ret = self._target(*self._args, **self._kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/ray/tune/trainable/function_trainable.py", line 44, in <lambda>
+    training_func=lambda: self._trainable_func(self.config),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/ray/tune/trainable/function_trainable.py", line 249, in _trainable_func
+    output = fn()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 74, in Train_teacher
+    PPO_trainer = PPOTrainer(
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 87, in __init__
+    self.agent = agent.to(device)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/cuda/__init__.py", line 372, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: No CUDA GPUs are available

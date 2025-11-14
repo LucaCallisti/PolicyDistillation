@@ -1,0 +1,27 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing/Teacher_files/videos/Teacher_lr_1.00e-04_ent_coef_1.00e-02_Anneal_ent folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+frame di prova shape: torch.Size([1, 1, 133, 200])
+torch.Size([1, 4, 133, 200])
+torch.Size([1, 32, 129, 196])
+torch.Size([1, 64, 125, 192])
+torch.Size([1, 64, 58, 92])
+torch.Size([1, 128, 54, 88])
+torch.Size([1, 128, 23, 40])
+torch.Size([1, 128, 19, 36])
+linear_input_size 128
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 336, in <module>
+    train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 99, in train
+    agent = PPO_Image_model(envs).to(args.device)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+KeyboardInterrupt

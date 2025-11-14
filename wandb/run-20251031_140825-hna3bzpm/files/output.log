@@ -1,0 +1,19 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing/Teacher_files/videos/Teacher_lr_1.00e-04_ent_coef_1.00e-02_Anneal_ent folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/Utils_PPO.py(263)__init__()
+-> self.num_envs = 1
+Discrete(5)
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 325, in <module>
+    train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 99, in train
+    agent = PPO_Image_model(envs).to(args.device)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Utils_PPO.py", line 263, in __init__
+    self.num_envs = 1
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Utils_PPO.py", line 263, in __init__
+    self.num_envs = 1
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

@@ -1,0 +1,15 @@
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py(15)__init__()
+-> self.envs = gym.vector.AsyncVectorEnv([make_env(dict_enviroment, idx, wrappers=[RenderFrameWrapper]) for idx in range(config["num_envs"])])
+*** NameError: name 'dict_enviroment' is not defined
+<RenderFrameWrapper<RecordEpisodeStatistics<TimeLimit<LunarLander instance>>>>
+*** NameError: name 'eit' is not defined
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/PPD/videos/PPD_LunarLander_PPDparam1.0 folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 150, in <module>
+    Train_student_PPD()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 138, in Train_student_PPD
+    PPD_trainer = PPD(
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 20, in __init__
+    self.obs_Teacher = torch.zeros((config["num_steps"], config["num_envs"], self.Teacher.input_shape), device=self.device)
+TypeError: zeros(): argument 'size' failed to unpack the object at pos 3 with error "type must be tuple of ints,but got tuple"

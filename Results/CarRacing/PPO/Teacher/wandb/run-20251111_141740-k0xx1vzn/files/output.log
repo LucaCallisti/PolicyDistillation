@@ -1,0 +1,459 @@
+Start training...
+[1/1000] AvgRew: -26.71
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -93.0, Reward per episode: [-92.6 -93.4 -92.8 -92.8 -93.3 -92.9 -91.8 -94.1 -92.8 -93.4]
+[2/1000] AvgRew: -49.05
+[3/1000] AvgRew: -56.77
+[4/1000] AvgRew: -58.01
+[5/1000] AvgRew: -58.72
+[6/1000] AvgRew: -58.33
+[7/1000] AvgRew: -56.32
+[8/1000] AvgRew: -57.47
+[9/1000] AvgRew: -55.51
+[10/1000] AvgRew: -53.15
+[11/1000] AvgRew: -53.45
+[12/1000] AvgRew: -51.90
+[13/1000] AvgRew: -53.04
+[14/1000] AvgRew: -52.81
+[15/1000] AvgRew: -51.76
+[16/1000] AvgRew: -51.19
+[17/1000] AvgRew: -51.19
+[18/1000] AvgRew: -49.18
+[19/1000] AvgRew: -47.98
+[20/1000] AvgRew: -46.34
+[21/1000] AvgRew: -45.27
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py(176)get_action()
+-> if self.deterministic:
+torch.Size([128, 4, 96, 96])
+tensor([[[[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]]],
+
+
+        [[[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]]],
+
+
+        [[[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]]],
+
+
+        ...,
+
+
+        [[[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]]],
+
+
+        [[[0.6269, 0.6269, 0.6384,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6453,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6545,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6361,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6453,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6545,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6361,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6453,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6545,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6361,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6453,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6522,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]]],
+
+
+        [[[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          [0.6269, 0.6269, 0.6269,  ..., 0.6269, 0.6269, 0.6269],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]]]],
+       device='cuda:7')
+tensor([[[[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]]],
+
+
+        [[[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]]],
+
+
+        [[[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]]],
+
+
+        ...,
+
+
+        [[[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]]],
+
+
+        [[[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]]],
+
+
+        [[[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]],
+
+         [[False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          ...,
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False],
+          [False, False, False,  ..., False, False, False]]]], device='cuda:7')
+tensor(0, device='cuda:7')
+tensor([[nan, nan, nan,  ..., nan, nan, nan],
+        [nan, nan, nan,  ..., nan, nan, nan],
+        [nan, nan, nan,  ..., nan, nan, nan],
+        ...,
+        [nan, nan, nan,  ..., nan, nan, nan],
+        [nan, nan, nan,  ..., nan, nan, nan],
+        [nan, nan, nan,  ..., nan, nan, nan]], device='cuda:7',
+       grad_fn=<ViewBackward0>)
+tensor(0., device='cuda:7')
+tensor(0.9921, device='cuda:7')
+True
+torch.Size([128, 4, 96, 96])
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 78, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 74, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 280, in train
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 211, in ppo_update
+    logratio = newlogprob - b_logprobs[mb_inds]
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 208, in get_action_and_value
+    action, log_prob, entropy = self.get_action(x, action)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 176, in get_action
+    if self.deterministic:
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 176, in get_action
+    if self.deterministic:
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

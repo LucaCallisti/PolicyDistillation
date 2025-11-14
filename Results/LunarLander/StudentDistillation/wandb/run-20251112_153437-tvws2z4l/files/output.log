@@ -1,0 +1,11 @@
+Start training...
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 207, in <module>
+    Train_student_distillation()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 202, in Train_student_distillation
+    Distillation_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/StudentTeacher_distillation.py", line 213, in train
+    mean_rwd_test = self.test()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/StudentTeacher_distillation.py", line 245, in test
+    return test_model(model_A=self.student, env =self.test_envs, iteration=self.iteration, global_step = self.global_step, dict_test=self.dict_test_enviroment, device = self.device)
+TypeError: test_model() got an unexpected keyword argument 'global_step'

@@ -1,0 +1,18 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing/Teacher_files/videos/Teacher_lr_1.00e-04_ent_coef_1.00e-02_Anneal_ent folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 341, in <module>
+    train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 271, in train
+    nn.utils.clip_grad_norm_(agent.parameters(), args.max_grad_norm)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/utils/clip_grad.py", line 38, in _no_grad_wrapper
+    return func(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/utils/clip_grad.py", line 220, in clip_grad_norm_
+    _clip_grads_with_norm_(parameters, max_norm, total_norm, foreach)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/utils/clip_grad.py", line 38, in _no_grad_wrapper
+    return func(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/utils/clip_grad.py", line 159, in _clip_grads_with_norm_
+    clip_coef = max_norm / (total_norm + 1e-6)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/_tensor.py", line 39, in wrapped
+    return f(*args, **kwargs)
+KeyboardInterrupt

@@ -1,0 +1,23 @@
+0
+0
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/PPD/videos/PPD_LunarLander_PPDparam1.0 folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py(21)__init__()
+-> self.next_obs, self.info = self.envs.reset(seed=config["seed"])
+(18, 400, 600, 3)
+Start training...
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py(44)collect_rollouts()
+-> screen = self.agent.get_screen(envs=None, screen=self.next_obs.cpu())
+torch.Size([18, 1, 133, 200])
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 150, in <module>
+    Train_student_PPD()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 147, in Train_student_PPD
+    PPD_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 277, in train
+    avg_rew, reward_episodes = self.collect_rollouts()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 52, in collect_rollouts
+    self.obs_Teacher[step] = self.info["state_observation"]
+TypeError: can't assign a numpy.ndarray to a torch.cuda.FloatTensor

@@ -1,0 +1,86 @@
+Start training...
+Sanity check for NaNs in model parameters, iteration: 1
+Sanity check - CNN params sum: 830.5820372439921
+Sanity check - critic params sum: -17.846930975472787
+Sanity check - actor_backbone params sum: 12.328352339565754
+Sanity check - mu_layer params sum: 0.023798499256372452
+Sanity check - log_std_param params sum: -2.0259851068258286
+[1/2000] AvgRew: nan
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher_GroupNorm folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/Test_model.py(60)test_model()
+-> All_entropies[:, t] = entropy
+*** NameError: name 'entropy' is not defined
+*** NameError: name 'self' is not defined
+Agent(
+  (cnn_backbone): Sequential(
+    (0): Conv2d(4, 32, kernel_size=(5, 5), stride=(1, 1))
+    (1): GroupNorm(8, 32, eps=1e-05, affine=True)
+    (2): ReLU(inplace=True)
+    (3): Conv2d(32, 64, kernel_size=(5, 5), stride=(1, 1))
+    (4): GroupNorm(16, 64, eps=1e-05, affine=True)
+    (5): ReLU(inplace=True)
+    (6): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (7): Conv2d(64, 64, kernel_size=(5, 5), stride=(1, 1))
+    (8): GroupNorm(16, 64, eps=1e-05, affine=True)
+    (9): ReLU(inplace=True)
+    (10): Conv2d(64, 128, kernel_size=(5, 5), stride=(1, 1))
+    (11): GroupNorm(32, 128, eps=1e-05, affine=True)
+    (12): ReLU(inplace=True)
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): Conv2d(128, 128, kernel_size=(5, 5), stride=(1, 1))
+    (15): GroupNorm(32, 128, eps=1e-05, affine=True)
+    (16): ReLU(inplace=True)
+    (17): Conv2d(128, 128, kernel_size=(5, 5), stride=(1, 1))
+    (18): GroupNorm(32, 128, eps=1e-05, affine=True)
+    (19): ReLU(inplace=True)
+    (20): AdaptiveAvgPool2d(output_size=1)
+  )
+  (critic): Sequential(
+    (0): Linear(in_features=128, out_features=128, bias=True)
+    (1): Tanh()
+    (2): Linear(in_features=128, out_features=128, bias=True)
+    (3): Tanh()
+    (4): Linear(in_features=128, out_features=1, bias=True)
+  )
+  (actor_backbone): Sequential(
+    (0): Linear(in_features=128, out_features=128, bias=True)
+    (1): Tanh()
+    (2): Linear(in_features=128, out_features=128, bias=True)
+    (3): Tanh()
+  )
+  (mu_layer): Linear(in_features=128, out_features=3, bias=True)
+  (log_std_param): Linear(in_features=128, out_features=3, bias=True)
+)
+*** AttributeError: 'Agent' object has no attribute 'agent_typpe'
+'Image'
+*** NameError: name 'model' is not defined
+*** NameError: name 'model' is not defined
+tensor([2.0217, 1.9936, 2.0278, 1.9952, 2.0216, 2.0223, 1.9969, 1.9925, 1.9920,
+        1.9945], device='cuda:4')
+tensor([2.0217, 1.9936, 2.0278, 1.9952, 2.0216, 2.0223, 1.9969, 1.9925, 1.9920,
+        1.9945], device='cuda:4')
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/Test_model.py(60)test_model()
+-> All_entropies[:, t] = entropy
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/Test_model.py(60)test_model()
+-> All_entropies[:, t] = entropy
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/Test_model.py(60)test_model()
+-> All_entropies[:, t] = entropy
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 119, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 115, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 361, in train
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 393, in test
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Test_model.py", line 60, in test_model
+    All_entropies[:, t] = entropy
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Test_model.py", line 60, in test_model
+    All_entropies[:, t] = entropy
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

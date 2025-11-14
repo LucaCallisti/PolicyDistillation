@@ -1,0 +1,19 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/PPD/videos/PPD_LunarLander_PPDparam1.0 folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Start training...
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 150, in <module>
+    Train_student_PPD()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 147, in Train_student_PPD
+    PPD_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 276, in train
+    avg_rew, reward_episodes = self.collect_rollouts()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 35, in collect_rollouts
+    screen = self.agent.get_screen(envs=None, screen=self.next_obs.cpu())
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 248, in get_screen
+    return get_screen(envs, screen)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 380, in get_screen
+    screen = screen.permute(0, 3, 1, 2).float() / 255.0
+RuntimeError: permute(sparse_coo): number of dimensions in the tensor input does not match the length of the desired ordering of dimensions i.e. input.dim() = 2 is not equal to len(dims) = 4

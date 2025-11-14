@@ -1,0 +1,12 @@
+{"time":"2025-10-31T15:51:38.593330379+01:00","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-10-31T15:51:39.044614423+01:00","level":"INFO","msg":"stream: created new stream","id":"zwebiroz"}
+{"time":"2025-10-31T15:51:39.044733952+01:00","level":"INFO","msg":"stream: started","id":"zwebiroz"}
+{"time":"2025-10-31T15:51:39.044788211+01:00","level":"INFO","msg":"writer: started","stream_id":"zwebiroz"}
+{"time":"2025-10-31T15:51:39.04487395+01:00","level":"INFO","msg":"sender: started","stream_id":"zwebiroz"}
+{"time":"2025-10-31T15:51:39.044792981+01:00","level":"INFO","msg":"handler: started","stream_id":"zwebiroz"}
+{"time":"2025-10-31T15:51:39.461879683+01:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-10-31T15:59:51.358581704+01:00","level":"INFO","msg":"stream: closing","id":"zwebiroz"}
+{"time":"2025-10-31T15:59:52.050875593+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-31T15:59:52.298532779+01:00","level":"INFO","msg":"handler: closed","stream_id":"zwebiroz"}
+{"time":"2025-10-31T15:59:52.298690157+01:00","level":"INFO","msg":"sender: closed","stream_id":"zwebiroz"}
+{"time":"2025-10-31T15:59:52.298718077+01:00","level":"INFO","msg":"stream: closed","id":"zwebiroz"}

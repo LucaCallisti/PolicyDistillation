@@ -1,0 +1,15 @@
+{"time":"2025-11-07T12:34:59.485580617+01:00","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-11-07T12:34:59.930056239+01:00","level":"INFO","msg":"stream: created new stream","id":"we93cy8l"}
+{"time":"2025-11-07T12:34:59.930144058+01:00","level":"INFO","msg":"stream: started","id":"we93cy8l"}
+{"time":"2025-11-07T12:34:59.930183928+01:00","level":"INFO","msg":"writer: started","stream_id":"we93cy8l"}
+{"time":"2025-11-07T12:34:59.930202348+01:00","level":"INFO","msg":"handler: started","stream_id":"we93cy8l"}
+{"time":"2025-11-07T12:34:59.930235987+01:00","level":"INFO","msg":"sender: started","stream_id":"we93cy8l"}
+{"time":"2025-11-07T12:35:00.382314614+01:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-11-07T12:37:45.275491268+01:00","level":"INFO","msg":"stream: closing","id":"we93cy8l"}
+{"time":"2025-11-07T12:37:45.43064612+01:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run we93cy8l was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-11-07T12:37:45.475261217+01:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-11-07T12:37:45.475430495+01:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run CarRacing-Distillation/we93cy8l not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-11-07T12:37:46.129214333+01:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/luca-callisti-/CarRacing-Distillation/we93cy8l/file_stream"}
+{"time":"2025-11-07T12:37:46.129317592+01:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/luca-callisti-/CarRacing-Distillation/we93cy8l/file_stream: {\"error\":\"run CarRacing-Distillation/we93cy8l not found while streaming file\"}"}
+{"time":"2025-11-07T12:37:47.676615974+01:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run we93cy8l was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-11-07T12:37:51.974375371+01:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run we93cy8l was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}

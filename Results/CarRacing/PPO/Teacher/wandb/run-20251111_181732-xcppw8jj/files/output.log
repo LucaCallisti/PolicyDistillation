@@ -1,0 +1,2098 @@
+Start training...
+[INFO] Number of trainable parameters: -19.06790542602539
+step: 0
+mu: tensor([-0.0037,  0.0013,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1
+mu: tensor([-0.0042,  0.0029,  0.0029], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 2
+mu: tensor([-0.0044,  0.0032,  0.0034], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 3
+mu: tensor([-0.0047,  0.0023,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 4
+mu: tensor([-0.0048,  0.0022,  0.0017], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 5
+mu: tensor([-0.0047,  0.0033,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 6
+mu: tensor([-0.0042,  0.0037,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 7
+mu: tensor([-0.0045,  0.0024,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 8
+mu: tensor([-0.0046,  0.0023,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 9
+mu: tensor([-0.0044,  0.0023,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 10
+mu: tensor([-0.0044,  0.0023,  0.0026], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 11
+mu: tensor([-0.0043,  0.0023,  0.0026], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 12
+mu: tensor([-0.0043,  0.0023,  0.0025], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 13
+mu: tensor([-0.0043,  0.0023,  0.0026], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 14
+mu: tensor([-0.0042,  0.0024,  0.0026], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 15
+mu: tensor([-0.0042,  0.0024,  0.0025], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 16
+mu: tensor([-0.0042,  0.0023,  0.0025], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 17
+mu: tensor([-0.0042,  0.0023,  0.0025], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 18
+mu: tensor([-0.0041,  0.0022,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 19
+mu: tensor([-0.0041,  0.0021,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 20
+mu: tensor([-0.0041,  0.0020,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 21
+mu: tensor([-0.0041,  0.0020,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 22
+mu: tensor([-0.0041,  0.0019,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 23
+mu: tensor([-0.0041,  0.0019,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 24
+mu: tensor([-0.0041,  0.0019,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 25
+mu: tensor([-0.0041,  0.0020,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 26
+mu: tensor([-0.0041,  0.0020,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 27
+mu: tensor([-0.0041,  0.0020,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 28
+mu: tensor([-0.0041,  0.0020,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 29
+mu: tensor([-0.0041,  0.0020,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 30
+mu: tensor([-0.0041,  0.0020,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 31
+mu: tensor([-0.0041,  0.0020,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 32
+mu: tensor([-0.0041,  0.0019,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 33
+mu: tensor([-0.0041,  0.0019,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 34
+mu: tensor([-0.0041,  0.0019,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 35
+mu: tensor([-0.0040,  0.0019,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 36
+mu: tensor([-0.0040,  0.0019,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 37
+mu: tensor([-0.0040,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 38
+mu: tensor([-0.0040,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 39
+mu: tensor([-0.0040,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 40
+mu: tensor([-0.0040,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 41
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 42
+mu: tensor([-0.0040,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 43
+mu: tensor([-0.0040,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 44
+mu: tensor([-0.0040,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 45
+mu: tensor([-0.0040,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 46
+mu: tensor([-0.0040,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 47
+mu: tensor([-0.0040,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 48
+mu: tensor([-0.0040,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 49
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 50
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 51
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 52
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 53
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 54
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 55
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 56
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 57
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 58
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 59
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 60
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 61
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 62
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 63
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 64
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 65
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 66
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 67
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 68
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 69
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 70
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 71
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 72
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 73
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 74
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 75
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 76
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 77
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 78
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 79
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 80
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 81
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 82
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 83
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 84
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 85
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 86
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 87
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 88
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 89
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 90
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 91
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 92
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 93
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 94
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 95
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 96
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 97
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 98
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 99
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 100
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 101
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 102
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 103
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 104
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 105
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 106
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 107
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 108
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 109
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 110
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 111
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 112
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 113
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 114
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 115
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 116
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 117
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 118
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 119
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 120
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 121
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 122
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 123
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 124
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 125
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 126
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 127
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 128
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 129
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 130
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 131
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 132
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 133
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 134
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 135
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 136
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 137
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 138
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 139
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 140
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 141
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 142
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 143
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 144
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 145
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 146
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 147
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 148
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 149
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 150
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 151
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 152
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 153
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 154
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 155
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 156
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 157
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 158
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 159
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 160
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 161
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 162
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 163
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 164
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 165
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 166
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 167
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 168
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 169
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 170
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 171
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 172
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 173
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 174
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 175
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 176
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 177
+mu: tensor([-0.0038,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 178
+mu: tensor([-0.0039,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 179
+mu: tensor([-0.0039,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 180
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 181
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 182
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 183
+mu: tensor([-0.0038,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 184
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 185
+mu: tensor([-0.0038,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 186
+mu: tensor([-0.0038,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 187
+mu: tensor([-0.0038,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 188
+mu: tensor([-0.0038,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 189
+mu: tensor([-0.0038,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 190
+mu: tensor([-0.0038,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 191
+mu: tensor([-0.0038,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 192
+mu: tensor([-0.0038,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 193
+mu: tensor([-0.0038,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 194
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 195
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 196
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 197
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 198
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 199
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 200
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 201
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 202
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 203
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 204
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 205
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 206
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 207
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 208
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 209
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 210
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 211
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 212
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 213
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 214
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 215
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 216
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 217
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 218
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 219
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 220
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 221
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 222
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 223
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 224
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 225
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 226
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 227
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 228
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 229
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 230
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 231
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 232
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 233
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 234
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 235
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 236
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 237
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 238
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 239
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 240
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 241
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 242
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 243
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 244
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 245
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 246
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 247
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 248
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 249
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 250
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 251
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 252
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 253
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 254
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 255
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 256
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 257
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 258
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 259
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 260
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 261
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 262
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 263
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 264
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 265
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 266
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 267
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 268
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 269
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 270
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 271
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 272
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 273
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 274
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 275
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 276
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 277
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 278
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 279
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 280
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 281
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 282
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 283
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 284
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 285
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 286
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 287
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 288
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 289
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 290
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 291
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 292
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 293
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 294
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 295
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 296
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 297
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 298
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 299
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 300
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 301
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 302
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 303
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 304
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 305
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 306
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 307
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 308
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 309
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 310
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 311
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 312
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 313
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 314
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 315
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 316
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 317
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 318
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 319
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 320
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 321
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 322
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 323
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 324
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 325
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 326
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 327
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 328
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 329
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 330
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 331
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 332
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 333
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 334
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 335
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 336
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 337
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 338
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 339
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 340
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 341
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 342
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 343
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 344
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 345
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 346
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 347
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 348
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 349
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 350
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 351
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 352
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 353
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 354
+mu: tensor([-0.0039,  0.0018,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 355
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 356
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 357
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 358
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 359
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 360
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 361
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 362
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 363
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 364
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 365
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 366
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 367
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 368
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 369
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 370
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 371
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 372
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 373
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 374
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 375
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 376
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 377
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 378
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 379
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 380
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 381
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 382
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 383
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 384
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 385
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 386
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 387
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 388
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 389
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 390
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 391
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 392
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 393
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 394
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 395
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 396
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 397
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 398
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 399
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 400
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 401
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 402
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 403
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 404
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 405
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 406
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 407
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 408
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 409
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 410
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 411
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 412
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 413
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 414
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 415
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 416
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 417
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 418
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 419
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 420
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 421
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 422
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 423
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 424
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 425
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 426
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 427
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 428
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 429
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 430
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 431
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 432
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 433
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 434
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 435
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 436
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 437
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 438
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 439
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 440
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 441
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 442
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 443
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 444
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 445
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 446
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 447
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 448
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 449
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 450
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 451
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 452
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 453
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 454
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 455
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 456
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 457
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 458
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 459
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 460
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 461
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 462
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 463
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 464
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 465
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 466
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 467
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 468
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 469
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 470
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 471
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 472
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 473
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 474
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 475
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 476
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 477
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 478
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 479
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 480
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 481
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 482
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 483
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 484
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 485
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 486
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 487
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 488
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 489
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 490
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 491
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 492
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 493
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 494
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 495
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 496
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 497
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 498
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 499
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 500
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 501
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 502
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 503
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 504
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 505
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 506
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 507
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 508
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 509
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 510
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 511
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 512
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 513
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 514
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 515
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 516
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 517
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 518
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 519
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 520
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 521
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 522
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 523
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 524
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 525
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 526
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 527
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 528
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 529
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 530
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 531
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 532
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 533
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 534
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 535
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 536
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 537
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 538
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 539
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 540
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 541
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 542
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 543
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 544
+mu: tensor([-0.0039,  0.0017,  0.0021], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 545
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 546
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 547
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 548
+mu: tensor([-0.0038,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 549
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 550
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 551
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 552
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 553
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 554
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 555
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 556
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 557
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 558
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 559
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 560
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 561
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 562
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 563
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 564
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 565
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 566
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 567
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 568
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 569
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 570
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 571
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 572
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 573
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 574
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 575
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 576
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 577
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 578
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 579
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 580
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 581
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 582
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 583
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 584
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 585
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 586
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 587
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 588
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 589
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 590
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 591
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 592
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 593
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 594
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 595
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 596
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 597
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 598
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 599
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 600
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 601
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 602
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 603
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 604
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 605
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 606
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 607
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 608
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 609
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 610
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 611
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 612
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 613
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 614
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 615
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 616
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 617
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 618
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 619
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 620
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 621
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 622
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 623
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 624
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 625
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 626
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 627
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 628
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 629
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 630
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 631
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 632
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 633
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 634
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 635
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 636
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 637
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 638
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 639
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 640
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 641
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 642
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 643
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 644
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 645
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 646
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 647
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 648
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 649
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 650
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 651
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 652
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 653
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 654
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 655
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 656
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 657
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 658
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 659
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 660
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 661
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 662
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 663
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 664
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 665
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 666
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 667
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 668
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 669
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 670
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 671
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 672
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 673
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 674
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 675
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 676
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 677
+mu: tensor([-0.0039,  0.0018,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 678
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 679
+mu: tensor([-0.0039,  0.0018,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 680
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 681
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 682
+mu: tensor([-0.0039,  0.0018,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 683
+mu: tensor([-0.0039,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 684
+mu: tensor([-0.0039,  0.0018,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 685
+mu: tensor([-0.0039,  0.0018,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 686
+mu: tensor([-0.0039,  0.0018,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 687
+mu: tensor([-0.0040,  0.0018,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 688
+mu: tensor([-0.0040,  0.0018,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 689
+mu: tensor([-0.0039,  0.0018,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 690
+mu: tensor([-0.0040,  0.0018,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 691
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 692
+mu: tensor([-0.0040,  0.0018,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 693
+mu: tensor([-0.0040,  0.0018,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 694
+mu: tensor([-0.0040,  0.0018,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 695
+mu: tensor([-0.0039,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 696
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 697
+mu: tensor([-0.0039,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 698
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 699
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 700
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 701
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 702
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 703
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 704
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 705
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 706
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 707
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 708
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 709
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 710
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 711
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 712
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 713
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 714
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 715
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 716
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 717
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 718
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 719
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 720
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 721
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 722
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 723
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 724
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 725
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 726
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 727
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 728
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 729
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 730
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 731
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 732
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 733
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 734
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 735
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 736
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 737
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 738
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 739
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 740
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 741
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 742
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 743
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 744
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 745
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 746
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 747
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 748
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 749
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 750
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 751
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 752
+mu: tensor([-0.0040,  0.0017,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 753
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 754
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 755
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 756
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 757
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 758
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 759
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 760
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 761
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 762
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 763
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 764
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 765
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 766
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 767
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 768
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 769
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 770
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 771
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 772
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 773
+mu: tensor([-0.0039,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 774
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 775
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 776
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 777
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 778
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 779
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 780
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 781
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 782
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 783
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 784
+mu: tensor([-0.0040,  0.0017,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 785
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 786
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 787
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 788
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 789
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 790
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 791
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 792
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 793
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 794
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 795
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 796
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 797
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 798
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 799
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 800
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 801
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 802
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 803
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 804
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 805
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 806
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 807
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 808
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 809
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 810
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 811
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 812
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 813
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 814
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 815
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 816
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 817
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 818
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 819
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 820
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 821
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 822
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 823
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 824
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 825
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 826
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 827
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 828
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 829
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 830
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 831
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 832
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 833
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 834
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 835
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 836
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 837
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 838
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 839
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 840
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 841
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 842
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 843
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 844
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 845
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 846
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 847
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 848
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 849
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 850
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 851
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 852
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 853
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 854
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 855
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 856
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 857
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 858
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 859
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 860
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 861
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 862
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 863
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 864
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 865
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 866
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 867
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 868
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 869
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 870
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 871
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 872
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 873
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 874
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 875
+mu: tensor([-0.0039,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 876
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 877
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 878
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 879
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 880
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 881
+mu: tensor([-0.0040,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 882
+mu: tensor([-0.0040,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 883
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 884
+mu: tensor([-0.0040,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 885
+mu: tensor([-0.0040,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 886
+mu: tensor([-0.0040,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 887
+mu: tensor([-0.0040,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 888
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 889
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 890
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 891
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 892
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 893
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 894
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 895
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 896
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 897
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 898
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 899
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 900
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 901
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 902
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 903
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 904
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 905
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 906
+mu: tensor([-0.0040,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 907
+mu: tensor([-0.0040,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 908
+mu: tensor([-0.0040,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 909
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 910
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 911
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 912
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 913
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 914
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 915
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 916
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 917
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 918
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 919
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 920
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 921
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 922
+mu: tensor([-0.0039,  0.0016,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 923
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 924
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 925
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 926
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 927
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 928
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 929
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 930
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 931
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 932
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 933
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 934
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 935
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 936
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 937
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 938
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 939
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 940
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 941
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 942
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 943
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 944
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 945
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 946
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 947
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 948
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 949
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 950
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 951
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 952
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 953
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 954
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 955
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 956
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 957
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 958
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 959
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 960
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 961
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 962
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 963
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 964
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 965
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 966
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 967
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 968
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 969
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 970
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 971
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 972
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 973
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 974
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 975
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 976
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 977
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 978
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 979
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 980
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 981
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 982
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 983
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 984
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 985
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 986
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 987
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 988
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 989
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 990
+mu: tensor([-0.0039,  0.0017,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 991
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 992
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 993
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 994
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 995
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 996
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 997
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 998
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 999
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1000
+mu: tensor([-0.0039,  0.0018,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1001
+mu: tensor([-0.0040,  0.0021,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1002
+mu: tensor([-0.0039,  0.0021,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1003
+mu: tensor([-0.0039,  0.0026,  0.0033], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1004
+mu: tensor([-0.0040,  0.0023,  0.0031], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1005
+mu: tensor([-0.0036,  0.0031,  0.0022], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1006
+mu: tensor([-0.0042,  0.0030,  0.0026], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1007
+mu: tensor([-0.0048,  0.0037,  0.0027], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1008
+mu: tensor([-0.0049,  0.0031,  0.0030], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1009
+mu: tensor([-0.0049,  0.0028,  0.0033], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1010
+mu: tensor([-0.0048,  0.0025,  0.0034], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1011
+mu: tensor([-0.0046,  0.0024,  0.0033], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1012
+mu: tensor([-0.0045,  0.0025,  0.0031], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1013
+mu: tensor([-0.0044,  0.0024,  0.0030], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1014
+mu: tensor([-0.0045,  0.0023,  0.0027], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1015
+mu: tensor([-0.0044,  0.0022,  0.0025], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1016
+mu: tensor([-0.0043,  0.0022,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1017
+mu: tensor([-0.0043,  0.0022,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1018
+mu: tensor([-0.0043,  0.0021,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1019
+mu: tensor([-0.0042,  0.0021,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1020
+mu: tensor([-0.0042,  0.0021,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1021
+mu: tensor([-0.0042,  0.0021,  0.0024], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1022
+mu: tensor([-0.0042,  0.0021,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+step: 1023
+mu: tensor([-0.0042,  0.0020,  0.0023], device='cuda:7') std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7')
+mu: tensor([-0.0040,  0.0016,  0.0023], device='cuda:7', grad_fn=<SelectBackward0>) std: tensor([0.5000, 0.5000, 0.5000], device='cuda:7', grad_fn=<SelectBackward0>)
+[DEBUG] Number of trainable parameters: -19.06790542602539
+[DEBUG] b_actions[mb_inds][:5]: tensor([[ 0.2557,  0.7203,  0.5781],
+        [ 0.2584,  0.1528,  0.0765],
+        [-0.1713,  0.5264,  0.9327],
+        [ 0.3770,  0.6126,  0.1988],
+        [ 0.2355,  0.6172,  0.5495]], device='cuda:7')
+[DEBUG] b_logprobs[mb_inds][:5]: tensor([-1.0026, -3.4172, -2.7707, -1.4224, -0.8041], device='cuda:7')
+[DEBUG] newlogprob[:5]: tensor([-1.0026, -3.4172, -2.7707, -1.4224, -0.8041], device='cuda:7',
+       grad_fn=<SliceBackward0>)
+[DEBUG] newlogprob has -inf: False
+[DEBUG] newlogprob has NaN: False
+[DEBUG] entropy[:5]: tensor([2.1774, 2.1774, 2.1774, 2.1774, 2.1774], device='cuda:7',
+       grad_fn=<SliceBackward0>)
+[DEBUG] entropy has -inf: False
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py(237)ppo_update()
+-> assert torch.isclose(ratio, torch.tensor(1.0), atol=1e-4).all(), "Ratio not close to 1 at first update!"
+tensor([1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000], device='cuda:7', grad_fn=<ExpBackward0>)
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 110, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 106, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 304, in train
+    }
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 237, in ppo_update
+    newvalue = newvalue.view(-1)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 237, in ppo_update
+    newvalue = newvalue.view(-1)
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

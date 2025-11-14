@@ -1,0 +1,14 @@
+{"time":"2025-11-13T15:49:30.813847801+01:00","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-11-13T15:49:31.243838876+01:00","level":"INFO","msg":"stream: created new stream","id":"wzg0kazn"}
+{"time":"2025-11-13T15:49:31.243937735+01:00","level":"INFO","msg":"stream: started","id":"wzg0kazn"}
+{"time":"2025-11-13T15:49:31.243933645+01:00","level":"INFO","msg":"handler: started","stream_id":"wzg0kazn"}
+{"time":"2025-11-13T15:49:31.243948654+01:00","level":"INFO","msg":"writer: started","stream_id":"wzg0kazn"}
+{"time":"2025-11-13T15:49:31.243950774+01:00","level":"INFO","msg":"sender: started","stream_id":"wzg0kazn"}
+{"time":"2025-11-13T15:49:31.571341259+01:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-11-13T19:56:47.099093238+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/luca-callisti-/PPO_Pusher-v5/wzg0kazn/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-11-13T22:05:01.743370284+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/luca-callisti-/PPO_Pusher-v5/wzg0kazn/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-11-14T09:59:35.971998691+01:00","level":"INFO","msg":"stream: closing","id":"wzg0kazn"}
+{"time":"2025-11-14T09:59:38.037564988+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-14T09:59:38.336451198+01:00","level":"INFO","msg":"handler: closed","stream_id":"wzg0kazn"}
+{"time":"2025-11-14T09:59:38.336691206+01:00","level":"INFO","msg":"sender: closed","stream_id":"wzg0kazn"}
+{"time":"2025-11-14T09:59:38.336780364+01:00","level":"INFO","msg":"stream: closed","id":"wzg0kazn"}

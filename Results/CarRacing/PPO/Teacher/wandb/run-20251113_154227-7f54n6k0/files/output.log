@@ -1,0 +1,622 @@
+Start training...
+[1/2000] AvgRew: nan
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher_GroupNorm folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -19.1, Reward per episode: [-14.8 -27.4 -10.4 -17.3 -16.1 -10.7  -9.8 -32.6 -24.2 -27.9]
+[2/2000] AvgRew: -26.81
+[3/2000] AvgRew: nan
+[4/2000] AvgRew: -26.49
+[5/2000] AvgRew: nan
+[6/2000] AvgRew: -25.66
+[7/2000] AvgRew: nan
+[8/2000] AvgRew: -25.60
+[9/2000] AvgRew: nan
+[10/2000] AvgRew: -21.58
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher_GroupNorm folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -96.2, Reward per episode: [-105.3 -113.  -130.6 -110.9 -132.  -116.8  -49.1  -77.1  -73.5  -53.6]
+Warning: Ratio not close to 1 at first update! elements differ. 0.011413753032684326 max diff.
+[11/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 0.018590211868286133 max diff.
+[12/2000] AvgRew: -16.89
+Warning: Ratio not close to 1 at first update! elements differ. 0.01813274621963501 max diff.
+[13/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 0.018587946891784668 max diff.
+[14/2000] AvgRew: -19.60
+Warning: Ratio not close to 1 at first update! elements differ. 0.01309281587600708 max diff.
+[15/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 2.3218424320220947 max diff.
+[16/2000] AvgRew: -18.00
+Warning: Ratio not close to 1 at first update! elements differ. 4.928203582763672 max diff.
+[17/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 197.72341918945312 max diff.
+[18/2000] AvgRew: -18.88
+Warning: Ratio not close to 1 at first update! elements differ. 0.25600552558898926 max diff.
+[19/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 5.0386738777160645 max diff.
+[20/2000] AvgRew: 59.00
+Finished with reward: -72.1, Reward per episode: [-74.1 -70.3 -74.9 -67.6 -73.2 -75.  -67.2 -73.6 -71.1 -73.8]
+Warning: Ratio not close to 1 at first update! elements differ. 15.970947265625 max diff.
+[21/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 5.766961574554443 max diff.
+[22/2000] AvgRew: 56.87
+Warning: Ratio not close to 1 at first update! elements differ. 6.9514079093933105 max diff.
+[23/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 43.35877990722656 max diff.
+[24/2000] AvgRew: -29.96
+Warning: Ratio not close to 1 at first update! elements differ. 13.249680519104004 max diff.
+[25/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 108.45157623291016 max diff.
+[26/2000] AvgRew: -62.92
+Warning: Ratio not close to 1 at first update! elements differ. 216.34811401367188 max diff.
+[27/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 818.0961303710938 max diff.
+[28/2000] AvgRew: -60.65
+Warning: Ratio not close to 1 at first update! elements differ. 17.709997177124023 max diff.
+[29/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 103.00537109375 max diff.
+[30/2000] AvgRew: -52.99
+Finished with reward: -83.9, Reward per episode: [-85.2 -83.5 -85.7 -82.  -86.6 -85.7 -79.5 -85.3 -81.9 -83.6]
+Warning: Ratio not close to 1 at first update! elements differ. 79.23625183105469 max diff.
+[31/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 316.3351135253906 max diff.
+[32/2000] AvgRew: -54.06
+Warning: Ratio not close to 1 at first update! elements differ. 42.161293029785156 max diff.
+[33/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 8.0448637008667 max diff.
+[34/2000] AvgRew: -51.68
+Warning: Ratio not close to 1 at first update! elements differ. 110.74153900146484 max diff.
+[35/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 77.25598907470703 max diff.
+[36/2000] AvgRew: -38.46
+Warning: Ratio not close to 1 at first update! elements differ. 11.956781387329102 max diff.
+[37/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 24.337331771850586 max diff.
+[38/2000] AvgRew: -33.72
+Warning: Ratio not close to 1 at first update! elements differ. 8.704935073852539 max diff.
+[39/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 4.987573146820068 max diff.
+[40/2000] AvgRew: -24.24
+Finished with reward: -57.3, Reward per episode: [-70.4 -67.  -39.1 -24.5 -79.9 -60.7 -30.3 -56.  -71.1 -73.8]
+Warning: Ratio not close to 1 at first update! elements differ. 396.12384033203125 max diff.
+[41/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 87.78498077392578 max diff.
+[42/2000] AvgRew: -36.74
+Warning: Ratio not close to 1 at first update! elements differ. 28.414615631103516 max diff.
+[43/2000] AvgRew: -89.16
+Warning: Ratio not close to 1 at first update! elements differ. 20.898365020751953 max diff.
+[44/2000] AvgRew: -15.10
+Warning: Ratio not close to 1 at first update! elements differ. 29.020065307617188 max diff.
+[45/2000] AvgRew: 30.57
+Warning: Ratio not close to 1 at first update! elements differ. 10.167435646057129 max diff.
+[46/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 89.31845092773438 max diff.
+[47/2000] AvgRew: 69.98
+Warning: Ratio not close to 1 at first update! elements differ. 7.975306510925293 max diff.
+[48/2000] AvgRew: -12.03
+Warning: Ratio not close to 1 at first update! elements differ. 375.09259033203125 max diff.
+[49/2000] AvgRew: 137.19
+Warning: Ratio not close to 1 at first update! elements differ. 184.30567932128906 max diff.
+[50/2000] AvgRew: 164.61
+Finished with reward: 359.2, Reward per episode: [414.8 223.4 115.1 461.2 292.6 589.3 600.8 205.  311.6 378.7]
+Warning: Ratio not close to 1 at first update! elements differ. 5.560277938842773 max diff.
+[51/2000] AvgRew: 127.96
+Warning: Ratio not close to 1 at first update! elements differ. 171.90634155273438 max diff.
+[52/2000] AvgRew: 229.57
+Warning: Ratio not close to 1 at first update! elements differ. 9.808964729309082 max diff.
+[53/2000] AvgRew: 258.04
+Warning: Ratio not close to 1 at first update! elements differ. 69.81060791015625 max diff.
+[54/2000] AvgRew: 78.21
+Warning: Ratio not close to 1 at first update! elements differ. 4.632480621337891 max diff.
+[55/2000] AvgRew: 317.91
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+[56/2000] AvgRew: 173.93
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+[57/2000] AvgRew: 183.60
+Warning: Ratio not close to 1 at first update! elements differ. 1.015162467956543 max diff.
+[58/2000] AvgRew: 126.97
+Warning: Ratio not close to 1 at first update! elements differ. 1.909653902053833 max diff.
+[59/2000] AvgRew: 155.62
+Warning: Ratio not close to 1 at first update! elements differ. 1.7375617027282715 max diff.
+[60/2000] AvgRew: 100.42
+Finished with reward: 138.6, Reward per episode: [-85.2 193.7 -82.1 421.6 -86.6 -85.7 322.1 166.9 307.9 313.1]
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+[61/2000] AvgRew: 167.06
+Warning: Ratio not close to 1 at first update! elements differ. 0.9999668598175049 max diff.
+[62/2000] AvgRew: 159.83
+Warning: Ratio not close to 1 at first update! elements differ. 2.4228875637054443 max diff.
+[63/2000] AvgRew: 120.61
+Warning: Ratio not close to 1 at first update! elements differ. 4.878739356994629 max diff.
+[64/2000] AvgRew: 176.27
+Warning: Ratio not close to 1 at first update! elements differ. 13.780515670776367 max diff.
+[65/2000] AvgRew: 134.02
+Warning: Ratio not close to 1 at first update! elements differ. 13.18415355682373 max diff.
+[66/2000] AvgRew: 147.91
+Warning: Ratio not close to 1 at first update! elements differ. 2.4506399631500244 max diff.
+[67/2000] AvgRew: 117.91
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+[68/2000] AvgRew: 139.16
+Warning: Ratio not close to 1 at first update! elements differ. 83.45189666748047 max diff.
+[69/2000] AvgRew: 187.63
+Warning: Ratio not close to 1 at first update! elements differ. 1.2727782726287842 max diff.
+[70/2000] AvgRew: 166.89
+Finished with reward: 164.7, Reward per episode: [ 44.4 187.1  82.8 241.7 -86.6  60.7 379.5 210.9 279.1 247.5]
+Warning: Ratio not close to 1 at first update! elements differ. 4.2275567054748535 max diff.
+[71/2000] AvgRew: 235.96
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+[72/2000] AvgRew: 179.02
+Warning: Ratio not close to 1 at first update! elements differ. 3.0682058334350586 max diff.
+[73/2000] AvgRew: 242.77
+Warning: Ratio not close to 1 at first update! elements differ. 45.512481689453125 max diff.
+[74/2000] AvgRew: 177.98
+Warning: Ratio not close to 1 at first update! elements differ. 1.4532139301300049 max diff.
+[75/2000] AvgRew: 240.35
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+[76/2000] AvgRew: 226.04
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+[77/2000] AvgRew: 247.72
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+[78/2000] AvgRew: 237.02
+Warning: Ratio not close to 1 at first update! elements differ. 24.181245803833008 max diff.
+[79/2000] AvgRew: 218.23
+Warning: Ratio not close to 1 at first update! elements differ. 5.483341693878174 max diff.
+[80/2000] AvgRew: 154.69
+Finished with reward: 36.5, Reward per episode: [-11.1 137.6  39.8 180.6 -86.6  17.9   2.5 125.8 -17.  -24.6]
+Warning: Ratio not close to 1 at first update! elements differ. 16.029443740844727 max diff.
+[81/2000] AvgRew: 62.14
+Warning: Ratio not close to 1 at first update! elements differ. 5.172307014465332 max diff.
+[82/2000] AvgRew: 107.02
+Warning: Ratio not close to 1 at first update! elements differ. 4.3287577629089355 max diff.
+[83/2000] AvgRew: 95.76
+Warning: Ratio not close to 1 at first update! elements differ. 40.90586853027344 max diff.
+[84/2000] AvgRew: 14.95
+Warning: Ratio not close to 1 at first update! elements differ. 15.453073501586914 max diff.
+[85/2000] AvgRew: 21.40
+Warning: Ratio not close to 1 at first update! elements differ. 41.14152526855469 max diff.
+[86/2000] AvgRew: 96.13
+Warning: Ratio not close to 1 at first update! elements differ. 15.61491584777832 max diff.
+[87/2000] AvgRew: 141.48
+Warning: Ratio not close to 1 at first update! elements differ. 24.134017944335938 max diff.
+[88/2000] AvgRew: 89.71
+Warning: Ratio not close to 1 at first update! elements differ. 170.85986328125 max diff.
+[89/2000] AvgRew: 55.55
+Warning: Ratio not close to 1 at first update! elements differ. 198.3596954345703 max diff.
+[90/2000] AvgRew: 13.57
+Finished with reward: 34.8, Reward per episode: [ 44.4 147.5  79.2 159.  -86.6  57.1  18.9  93.5 -81.9 -83.6]
+Warning: Ratio not close to 1 at first update! elements differ. 264.7752685546875 max diff.
+[91/2000] AvgRew: -32.20
+Warning: Ratio not close to 1 at first update! elements differ. 6.68143892288208 max diff.
+[92/2000] AvgRew: 148.40
+Warning: Ratio not close to 1 at first update! elements differ. 6.27255392074585 max diff.
+[93/2000] AvgRew: 63.78
+Warning: Ratio not close to 1 at first update! elements differ. 115.36891174316406 max diff.
+[94/2000] AvgRew: 90.52
+Warning: Ratio not close to 1 at first update! elements differ. 6.212404727935791 max diff.
+[95/2000] AvgRew: 24.63
+Warning: Ratio not close to 1 at first update! elements differ. 232.3003692626953 max diff.
+[96/2000] AvgRew: 58.83
+Warning: Ratio not close to 1 at first update! elements differ. 8.56601619720459 max diff.
+[97/2000] AvgRew: -16.97
+Warning: Ratio not close to 1 at first update! elements differ. 93.55790710449219 max diff.
+[98/2000] AvgRew: 42.95
+Warning: Ratio not close to 1 at first update! elements differ. 0.9999637007713318 max diff.
+[99/2000] AvgRew: 97.08
+Warning: Ratio not close to 1 at first update! elements differ. 13.586711883544922 max diff.
+[100/2000] AvgRew: 102.59
+Finished with reward: -83.9, Reward per episode: [-85.2 -83.5 -85.7 -82.  -86.6 -85.7 -79.5 -85.3 -81.9 -83.6]
+Warning: Ratio not close to 1 at first update! elements differ. 5.268439292907715 max diff.
+[101/2000] AvgRew: 36.65
+Warning: Ratio not close to 1 at first update! elements differ. 13.987696647644043 max diff.
+[102/2000] AvgRew: 40.31
+Warning: Ratio not close to 1 at first update! elements differ. 94.79623413085938 max diff.
+[103/2000] AvgRew: -31.25
+Warning: Ratio not close to 1 at first update! elements differ. 18.739282608032227 max diff.
+[104/2000] AvgRew: -19.68
+Warning: Ratio not close to 1 at first update! elements differ. 4.225642681121826 max diff.
+[105/2000] AvgRew: 155.69
+Warning: Ratio not close to 1 at first update! elements differ. 1.9897792339324951 max diff.
+[106/2000] AvgRew: 57.02
+Warning: Ratio not close to 1 at first update! elements differ. 123.29012298583984 max diff.
+[107/2000] AvgRew: -17.80
+Warning: Ratio not close to 1 at first update! elements differ. 26.580318450927734 max diff.
+[108/2000] AvgRew: -38.60
+Warning: Ratio not close to 1 at first update! elements differ. 263.55535888671875 max diff.
+[109/2000] AvgRew: -1.27
+Warning: Ratio not close to 1 at first update! elements differ. 4.75671911239624 max diff.
+[110/2000] AvgRew: 110.98
+Finished with reward: 97.4, Reward per episode: [314.8  94.7  29.  227.3  14.1  85.7 -30.3 -29.6 174.4  93.4]
+Warning: Ratio not close to 1 at first update! elements differ. 1.9265601634979248 max diff.
+[111/2000] AvgRew: 61.53
+Warning: Ratio not close to 1 at first update! elements differ. 10.494074821472168 max diff.
+[112/2000] AvgRew: 15.64
+Warning: Ratio not close to 1 at first update! elements differ. 30.375812530517578 max diff.
+[113/2000] AvgRew: 26.62
+Warning: Ratio not close to 1 at first update! elements differ. 68.61121368408203 max diff.
+[114/2000] AvgRew: -59.39
+Warning: Ratio not close to 1 at first update! elements differ. 58.37615966796875 max diff.
+[115/2000] AvgRew: -52.03
+Warning: Ratio not close to 1 at first update! elements differ. 144.18824768066406 max diff.
+[116/2000] AvgRew: -53.85
+Warning: Ratio not close to 1 at first update! elements differ. 34.899070739746094 max diff.
+[117/2000] AvgRew: -60.91
+Warning: Ratio not close to 1 at first update! elements differ. 857.4798583984375 max diff.
+[118/2000] AvgRew: -57.13
+Warning: Ratio not close to 1 at first update! elements differ. 32.149009704589844 max diff.
+[119/2000] AvgRew: -68.47
+Warning: Ratio not close to 1 at first update! elements differ. 86.5548324584961 max diff.
+[120/2000] AvgRew: -66.00
+Finished with reward: -13.6, Reward per episode: [-22.2 -10.9 -28.3  -2.9 -26.2 -21.4  10.7 -23.8  -2.5  -8.2]
+Warning: Ratio not close to 1 at first update! elements differ. 16.988014221191406 max diff.
+[121/2000] AvgRew: -64.03
+Warning: Ratio not close to 1 at first update! elements differ. 34.331485748291016 max diff.
+[122/2000] AvgRew: -63.20
+Warning: Ratio not close to 1 at first update! elements differ. 65.38751220703125 max diff.
+[123/2000] AvgRew: -63.25
+Warning: Ratio not close to 1 at first update! elements differ. 40.5975227355957 max diff.
+[124/2000] AvgRew: -47.03
+Warning: Ratio not close to 1 at first update! elements differ. 39.59712600708008 max diff.
+[125/2000] AvgRew: -41.69
+Warning: Ratio not close to 1 at first update! elements differ. 368.656005859375 max diff.
+[126/2000] AvgRew: -32.08
+Warning: Ratio not close to 1 at first update! elements differ. 106.7928237915039 max diff.
+[127/2000] AvgRew: -33.34
+Warning: Ratio not close to 1 at first update! elements differ. 24.02967643737793 max diff.
+[128/2000] AvgRew: -31.69
+Warning: Ratio not close to 1 at first update! elements differ. 39.827789306640625 max diff.
+[129/2000] AvgRew: 36.60
+Warning: Ratio not close to 1 at first update! elements differ. 5.777838230133057 max diff.
+[130/2000] AvgRew: -10.26
+Finished with reward: 136.6, Reward per episode: [122.2 266.3 143.7 536.7  98.  125.   63.9 -17.9  22.7   4.9]
+Warning: Ratio not close to 1 at first update! elements differ. 3.681522846221924 max diff.
+[131/2000] AvgRew: 78.84
+Warning: Ratio not close to 1 at first update! elements differ. 10.085042953491211 max diff.
+[132/2000] AvgRew: -15.84
+Warning: Ratio not close to 1 at first update! elements differ. 80.48782348632812 max diff.
+[133/2000] AvgRew: 91.67
+Warning: Ratio not close to 1 at first update! elements differ. 15.09160041809082 max diff.
+[134/2000] AvgRew: 149.11
+Warning: Ratio not close to 1 at first update! elements differ. 5.694866180419922 max diff.
+[135/2000] AvgRew: 242.36
+Warning: Ratio not close to 1 at first update! elements differ. 6.634450912475586 max diff.
+[136/2000] AvgRew: -54.55
+Warning: Ratio not close to 1 at first update! elements differ. 2.191088914871216 max diff.
+[137/2000] AvgRew: 220.39
+Warning: Ratio not close to 1 at first update! elements differ. 7.38856315612793 max diff.
+[138/2000] AvgRew: 192.99
+Warning: Ratio not close to 1 at first update! elements differ. 4.616858005523682 max diff.
+[139/2000] AvgRew: 209.48
+Warning: Ratio not close to 1 at first update! elements differ. 18.450496673583984 max diff.
+[140/2000] AvgRew: 238.77
+Finished with reward: 476.4, Reward per episode: [718.5 405.  803.2 723.7 185.2 242.9 637.7 163.9 708.7 175.4]
+Warning: Ratio not close to 1 at first update! elements differ. 4.320254802703857 max diff.
+[141/2000] AvgRew: 260.51
+Warning: Ratio not close to 1 at first update! elements differ. 236.12896728515625 max diff.
+[142/2000] AvgRew: 241.14
+Warning: Ratio not close to 1 at first update! elements differ. 21.469133377075195 max diff.
+[143/2000] AvgRew: 326.63
+Warning: Ratio not close to 1 at first update! elements differ. 0.9999415874481201 max diff.
+[144/2000] AvgRew: 222.81
+Warning: Ratio not close to 1 at first update! elements differ. 8.83477783203125 max diff.
+[145/2000] AvgRew: 318.45
+Warning: Ratio not close to 1 at first update! elements differ. 15.710865020751953 max diff.
+[146/2000] AvgRew: 337.16
+Warning: Ratio not close to 1 at first update! elements differ. 6.808493137359619 max diff.
+[147/2000] AvgRew: 314.59
+Warning: Ratio not close to 1 at first update! elements differ. 8.431132316589355 max diff.
+[148/2000] AvgRew: 261.01
+Warning: Ratio not close to 1 at first update! elements differ. 3.660917282104492 max diff.
+[149/2000] AvgRew: 357.04
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+[150/2000] AvgRew: 341.88
+Finished with reward: 629.6, Reward per episode: [766.7 411.6 706.5 723.7 843.  778.6 633.6 163.9 719.5 549.2]
+Warning: Ratio not close to 1 at first update! elements differ. 0.9999546408653259 max diff.
+[151/2000] AvgRew: 320.97
+Warning: Ratio not close to 1 at first update! elements differ. 2.0650877952575684 max diff.
+[152/2000] AvgRew: 263.91
+Warning: Ratio not close to 1 at first update! elements differ. 7.987062454223633 max diff.
+[153/2000] AvgRew: 326.11
+Warning: Ratio not close to 1 at first update! elements differ. 15.580820083618164 max diff.
+[154/2000] AvgRew: 368.09
+Warning: Ratio not close to 1 at first update! elements differ. 4.070008754730225 max diff.
+[155/2000] AvgRew: 312.41
+Warning: Ratio not close to 1 at first update! elements differ. 4.9425787925720215 max diff.
+[156/2000] AvgRew: 362.41
+Warning: Ratio not close to 1 at first update! elements differ. 4.121462821960449 max diff.
+[157/2000] AvgRew: 304.75
+Warning: Ratio not close to 1 at first update! elements differ. 0.9999973177909851 max diff.
+[158/2000] AvgRew: 147.39
+Warning: Ratio not close to 1 at first update! elements differ. 4.4799346923828125 max diff.
+[159/2000] AvgRew: 295.07
+Warning: Ratio not close to 1 at first update! elements differ. 1.0354371070861816 max diff.
+[160/2000] AvgRew: 320.14
+Finished with reward: 359.1, Reward per episode: [718.5 375.2  75.6 504.3  30.9  57.1 613.1 172.7 694.2 349.2]
+Warning: Ratio not close to 1 at first update! elements differ. 20.43754005432129 max diff.
+[161/2000] AvgRew: 224.72
+Warning: Ratio not close to 1 at first update! elements differ. 21.33164405822754 max diff.
+[162/2000] AvgRew: 180.78
+Warning: Ratio not close to 1 at first update! elements differ. 2.107835054397583 max diff.
+[163/2000] AvgRew: 279.10
+Warning: Ratio not close to 1 at first update! elements differ. 2.7130138874053955 max diff.
+[164/2000] AvgRew: 162.24
+Warning: Ratio not close to 1 at first update! elements differ. 63.75941467285156 max diff.
+[165/2000] AvgRew: 77.14
+Warning: Ratio not close to 1 at first update! elements differ. 234.65121459960938 max diff.
+[166/2000] AvgRew: -67.77
+Warning: Ratio not close to 1 at first update! elements differ. 56.16666793823242 max diff.
+[167/2000] AvgRew: -23.50
+Warning: Ratio not close to 1 at first update! elements differ. 12.106404304504395 max diff.
+[168/2000] AvgRew: 95.19
+Warning: Ratio not close to 1 at first update! elements differ. 23.07617950439453 max diff.
+[169/2000] AvgRew: 211.12
+Warning: Ratio not close to 1 at first update! elements differ. 93.9481430053711 max diff.
+[170/2000] AvgRew: -5.37
+Finished with reward: -9.3, Reward per episode: [ 88.9 -63.7 136.6 -49.6 -76.5  85.7 -54.9 -53.1 -42.2 -63.9]
+Warning: Ratio not close to 1 at first update! elements differ. 505.8979187011719 max diff.
+[171/2000] AvgRew: 43.69
+Warning: Ratio not close to 1 at first update! elements differ. 1.269061803817749 max diff.
+[172/2000] AvgRew: 143.04
+Warning: Ratio not close to 1 at first update! elements differ. 9.11226749420166 max diff.
+[173/2000] AvgRew: 95.37
+Warning: Ratio not close to 1 at first update! elements differ. 5.902580261230469 max diff.
+[174/2000] AvgRew: 160.90
+Warning: Ratio not close to 1 at first update! elements differ. 14.722466468811035 max diff.
+[175/2000] AvgRew: 31.85
+Warning: Ratio not close to 1 at first update! elements differ. 1.691988468170166 max diff.
+[176/2000] AvgRew: 237.62
+Warning: Ratio not close to 1 at first update! elements differ. 13.13172435760498 max diff.
+[177/2000] AvgRew: 45.70
+Warning: Ratio not close to 1 at first update! elements differ. 3.3407793045043945 max diff.
+[178/2000] AvgRew: 235.64
+Warning: Ratio not close to 1 at first update! elements differ. 8.687864303588867 max diff.
+[179/2000] AvgRew: 478.18
+Warning: Ratio not close to 1 at first update! elements differ. 6.142208576202393 max diff.
+[180/2000] AvgRew: 235.87
+Finished with reward: 103.2, Reward per episode: [-77.8 -73.6 688.5 -71.2 155.  707.1 -71.3 -76.5 -74.7 -73.8]
+Warning: Ratio not close to 1 at first update! elements differ. 12.907777786254883 max diff.
+[181/2000] AvgRew: 296.81
+Warning: Ratio not close to 1 at first update! elements differ. 4.5720014572143555 max diff.
+[182/2000] AvgRew: 309.34
+Warning: Ratio not close to 1 at first update! elements differ. 471.00567626953125 max diff.
+[183/2000] AvgRew: 243.51
+Warning: Ratio not close to 1 at first update! elements differ. 1.5577731132507324 max diff.
+[184/2000] AvgRew: 326.19
+Warning: Ratio not close to 1 at first update! elements differ. 36.25415802001953 max diff.
+[185/2000] AvgRew: 283.83
+Warning: Ratio not close to 1 at first update! elements differ. 4.197895526885986 max diff.
+[186/2000] AvgRew: 254.21
+Warning: Ratio not close to 1 at first update! elements differ. 3.827664375305176 max diff.
+[187/2000] AvgRew: 299.05
+Warning: Ratio not close to 1 at first update! elements differ. 46.40089797973633 max diff.
+[188/2000] AvgRew: 328.42
+Warning: Ratio not close to 1 at first update! elements differ. 2.6116628646850586 max diff.
+[189/2000] AvgRew: 185.85
+Warning: Ratio not close to 1 at first update! elements differ. 22.034069061279297 max diff.
+[190/2000] AvgRew: 325.85
+Finished with reward: 414.0, Reward per episode: [648.1 352.1 484.2 223.7 114.8 532.1 576.2 161.  632.9 414.8]
+Warning: Ratio not close to 1 at first update! elements differ. 5.371089458465576 max diff.
+[191/2000] AvgRew: 279.42
+Warning: Ratio not close to 1 at first update! elements differ. 36.156898498535156 max diff.
+[192/2000] AvgRew: 270.69
+Warning: Ratio not close to 1 at first update! elements differ. 10.485040664672852 max diff.
+[193/2000] AvgRew: 408.27
+Warning: Ratio not close to 1 at first update! elements differ. 22.68808937072754 max diff.
+[194/2000] AvgRew: 339.95
+Warning: Ratio not close to 1 at first update! elements differ. 15.393125534057617 max diff.
+[195/2000] AvgRew: 249.80
+Warning: Ratio not close to 1 at first update! elements differ. 10.435796737670898 max diff.
+[196/2000] AvgRew: 296.65
+Warning: Ratio not close to 1 at first update! elements differ. 23.114818572998047 max diff.
+[197/2000] AvgRew: 137.62
+Warning: Ratio not close to 1 at first update! elements differ. 11.313843727111816 max diff.
+[198/2000] AvgRew: 362.61
+Warning: Ratio not close to 1 at first update! elements differ. 9.78137493133545 max diff.
+[199/2000] AvgRew: 446.77
+Warning: Ratio not close to 1 at first update! elements differ. 119.43975067138672 max diff.
+[200/2000] AvgRew: 373.30
+Finished with reward: -93.0, Reward per episode: [-92.6 -93.4 -92.8 -92.8 -93.3 -92.9 -91.8 -94.1 -92.8 -93.4]
+Warning: Ratio not close to 1 at first update! elements differ. 15.486812591552734 max diff.
+[201/2000] AvgRew: 391.47
+Warning: Ratio not close to 1 at first update! elements differ. 22.86397361755371 max diff.
+[202/2000] AvgRew: 427.07
+Warning: Ratio not close to 1 at first update! elements differ. 1.9848194122314453 max diff.
+[203/2000] AvgRew: 508.77
+Warning: Ratio not close to 1 at first update! elements differ. 7.072592735290527 max diff.
+[204/2000] AvgRew: 521.37
+Warning: Ratio not close to 1 at first update! elements differ. 1.2688746452331543 max diff.
+[205/2000] AvgRew: 335.62
+Warning: Ratio not close to 1 at first update! elements differ. 25.540597915649414 max diff.
+[206/2000] AvgRew: 488.94
+Warning: Ratio not close to 1 at first update! elements differ. 3.3019986152648926 max diff.
+[207/2000] AvgRew: 377.82
+Warning: Ratio not close to 1 at first update! elements differ. 77.03234100341797 max diff.
+[208/2000] AvgRew: 492.09
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+[209/2000] AvgRew: 586.86
+Warning: Ratio not close to 1 at first update! elements differ. 8.99901294708252 max diff.
+[210/2000] AvgRew: 460.69
+Finished with reward: 77.8, Reward per episode: [-14.8 121.1  47.   83.5  27.5  60.7 125.4 102.3 141.9  83.6]
+Warning: Ratio not close to 1 at first update! elements differ. 20.15814208984375 max diff.
+[211/2000] AvgRew: 458.18
+Warning: Ratio not close to 1 at first update! elements differ. 1.325585126876831 max diff.
+[212/2000] AvgRew: 481.23
+Warning: Ratio not close to 1 at first update! elements differ. 4.920633316040039 max diff.
+[213/2000] AvgRew: 463.23
+Warning: Ratio not close to 1 at first update! elements differ. 16.94256019592285 max diff.
+[214/2000] AvgRew: 454.24
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+[215/2000] AvgRew: 296.54
+Warning: Ratio not close to 1 at first update! elements differ. 16.163291931152344 max diff.
+[216/2000] AvgRew: 337.36
+Warning: Ratio not close to 1 at first update! elements differ. 104.75885009765625 max diff.
+[217/2000] AvgRew: 380.82
+Warning: Ratio not close to 1 at first update! elements differ. 2.3083457946777344 max diff.
+[218/2000] AvgRew: 344.69
+Warning: Ratio not close to 1 at first update! elements differ. 3.950519561767578 max diff.
+[219/2000] AvgRew: 438.80
+Warning: Ratio not close to 1 at first update! elements differ. 5.405266761779785 max diff.
+[220/2000] AvgRew: 175.53
+Finished with reward: -93.0, Reward per episode: [-92.6 -93.4 -92.8 -92.8 -93.3 -92.9 -91.8 -94.1 -92.8 -93.4]
+Warning: Ratio not close to 1 at first update! elements differ. 1.9091198444366455 max diff.
+[221/2000] AvgRew: 399.71
+Warning: Ratio not close to 1 at first update! elements differ. 7.154659271240234 max diff.
+[222/2000] AvgRew: 369.75
+Warning: Ratio not close to 1 at first update! elements differ. 32.096885681152344 max diff.
+[223/2000] AvgRew: 411.17
+Warning: Ratio not close to 1 at first update! elements differ. 6.252575397491455 max diff.
+[224/2000] AvgRew: 380.19
+Warning: Ratio not close to 1 at first update! elements differ. 3.8432416915893555 max diff.
+[225/2000] AvgRew: 336.38
+Warning: Ratio not close to 1 at first update! elements differ. 8.284875869750977 max diff.
+[226/2000] AvgRew: 278.51
+Warning: Ratio not close to 1 at first update! elements differ. 1.1031553745269775 max diff.
+[227/2000] AvgRew: 325.60
+Warning: Ratio not close to 1 at first update! elements differ. 2.568268299102783 max diff.
+[228/2000] AvgRew: 333.95
+Warning: Ratio not close to 1 at first update! elements differ. 15.734308242797852 max diff.
+[229/2000] AvgRew: 376.29
+Warning: Ratio not close to 1 at first update! elements differ. 1.2776451110839844 max diff.
+[230/2000] AvgRew: 339.32
+Finished with reward: -83.6, Reward per episode: [-88.9 -80.2 -89.2 -78.4 -89.9 -92.9 -75.4 -82.4 -78.3 -80.3]
+Warning: Ratio not close to 1 at first update! elements differ. 12.980484962463379 max diff.
+[231/2000] AvgRew: 363.64
+Warning: Ratio not close to 1 at first update! elements differ. 15.975156784057617 max diff.
+[232/2000] AvgRew: 428.45
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+[233/2000] AvgRew: 373.71
+Warning: Ratio not close to 1 at first update! elements differ. 6.839985370635986 max diff.
+[234/2000] AvgRew: 506.13
+Warning: Ratio not close to 1 at first update! elements differ. 12.87567138671875 max diff.
+[235/2000] AvgRew: 386.38
+Warning: Ratio not close to 1 at first update! elements differ. 2.492662191390991 max diff.
+[236/2000] AvgRew: 447.96
+Warning: Ratio not close to 1 at first update! elements differ. 44.273902893066406 max diff.
+[237/2000] AvgRew: 341.05
+Warning: Ratio not close to 1 at first update! elements differ. 46.44904327392578 max diff.
+[238/2000] AvgRew: 512.01
+Warning: Ratio not close to 1 at first update! elements differ. 4.269798278808594 max diff.
+[239/2000] AvgRew: 516.13
+Warning: Ratio not close to 1 at first update! elements differ. 1.5664520263671875 max diff.
+[240/2000] AvgRew: 530.15
+Finished with reward: 38.2, Reward per episode: [-77.8  68.3 -78.5 130.2 -79.9 -75.  154.1  90.6 156.3  93.4]
+Warning: Ratio not close to 1 at first update! elements differ. 106.473388671875 max diff.
+[241/2000] AvgRew: 467.89
+Warning: Ratio not close to 1 at first update! elements differ. 2.6782193183898926 max diff.
+[242/2000] AvgRew: 379.37
+Warning: Ratio not close to 1 at first update! elements differ. 7.050877571105957 max diff.
+[243/2000] AvgRew: 508.06
+Warning: Ratio not close to 1 at first update! elements differ. 2.2070205211639404 max diff.
+[244/2000] AvgRew: 520.67
+Warning: Ratio not close to 1 at first update! elements differ. 2.332221031188965 max diff.
+[245/2000] AvgRew: 449.48
+Warning: Ratio not close to 1 at first update! elements differ. 2.1620190143585205 max diff.
+[246/2000] AvgRew: 433.19
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+[247/2000] AvgRew: 390.96
+Warning: Ratio not close to 1 at first update! elements differ. 2.861851215362549 max diff.
+[248/2000] AvgRew: 276.53
+Warning: Ratio not close to 1 at first update! elements differ. 1.9415245056152344 max diff.
+[249/2000] AvgRew: 409.00
+Warning: Ratio not close to 1 at first update! elements differ. 14.46829891204834 max diff.
+[250/2000] AvgRew: 388.73
+Finished with reward: 362.7, Reward per episode: [607.4 230.  369.5 227.3 225.5 657.1 543.4 117.  336.8 313.1]
+Warning: Ratio not close to 1 at first update! elements differ. 10.177658081054688 max diff.
+[251/2000] AvgRew: 379.10
+Warning: Ratio not close to 1 at first update! elements differ. 12.403721809387207 max diff.
+[252/2000] AvgRew: 325.10
+Warning: Ratio not close to 1 at first update! elements differ. 8.669708251953125 max diff.
+[253/2000] AvgRew: 323.57
+Warning: Ratio not close to 1 at first update! elements differ. 2.8272550106048584 max diff.
+[254/2000] AvgRew: 329.29
+Warning: Ratio not close to 1 at first update! elements differ. 3.740604877471924 max diff.
+[255/2000] AvgRew: 317.46
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+[256/2000] AvgRew: 412.00
+Warning: Ratio not close to 1 at first update! elements differ. 53.354957580566406 max diff.
+[257/2000] AvgRew: 405.95
+Warning: Ratio not close to 1 at first update! elements differ. 3.8669991493225098 max diff.
+[258/2000] AvgRew: 276.07
+Warning: Ratio not close to 1 at first update! elements differ. 89.45765686035156 max diff.
+[259/2000] AvgRew: 374.90
+Warning: Ratio not close to 1 at first update! elements differ. 11.605364799499512 max diff.
+[260/2000] AvgRew: 415.47
+Finished with reward: 435.4, Reward per episode: [592.6 216.8 638.4 274.1 242.3 710.7 621.3 424.9 293.5 339.3]
+Warning: Ratio not close to 1 at first update! elements differ. 12.303098678588867 max diff.
+[261/2000] AvgRew: 452.41
+Warning: Ratio not close to 1 at first update! elements differ. 153.63980102539062 max diff.
+[262/2000] AvgRew: 378.97
+Warning: Ratio not close to 1 at first update! elements differ. 11.47643756866455 max diff.
+[263/2000] AvgRew: 425.61
+Warning: Ratio not close to 1 at first update! elements differ. 10.597899436950684 max diff.
+[264/2000] AvgRew: 425.97
+Warning: Ratio not close to 1 at first update! elements differ. 5.32392692565918 max diff.
+[265/2000] AvgRew: 544.46
+Warning: Ratio not close to 1 at first update! elements differ. 2.580570936203003 max diff.
+[266/2000] AvgRew: 387.97
+Warning: Ratio not close to 1 at first update! elements differ. 112.60733032226562 max diff.
+[267/2000] AvgRew: 236.47
+Warning: Ratio not close to 1 at first update! elements differ. 3.6816234588623047 max diff.
+[268/2000] AvgRew: 319.63
+Warning: Ratio not close to 1 at first update! elements differ. 37.966957092285156 max diff.
+[269/2000] AvgRew: 368.09
+Warning: Ratio not close to 1 at first update! elements differ. 4.61081600189209 max diff.
+[270/2000] AvgRew: 379.26
+Finished with reward: 6.4, Reward per episode: [-51.9 325.7 165.2 -24.5  -6.  -71.4 -59.  -76.5 -67.5 -70.5]
+Warning: Ratio not close to 1 at first update! elements differ. 7.69081974029541 max diff.
+[271/2000] AvgRew: 477.74
+Warning: Ratio not close to 1 at first update! elements differ. 13.569499969482422 max diff.
+[272/2000] AvgRew: 431.50
+Warning: Ratio not close to 1 at first update! elements differ. 29.649606704711914 max diff.
+[273/2000] AvgRew: 397.48
+Warning: Ratio not close to 1 at first update! elements differ. 15.160013198852539 max diff.
+[274/2000] AvgRew: 465.72
+Warning: Ratio not close to 1 at first update! elements differ. 2.050365924835205 max diff.
+[275/2000] AvgRew: 425.53
+Warning: Ratio not close to 1 at first update! elements differ. 42.429195404052734 max diff.
+[276/2000] AvgRew: 419.64
+Warning: Ratio not close to 1 at first update! elements differ. 33.89497756958008 max diff.
+[277/2000] AvgRew: 502.44
+Warning: Ratio not close to 1 at first update! elements differ. 7.835580825805664 max diff.
+[278/2000] AvgRew: 428.08
+Warning: Ratio not close to 1 at first update! elements differ. 23.311325073242188 max diff.
+[279/2000] AvgRew: 440.88
+Warning: Ratio not close to 1 at first update! elements differ. 15.466259002685547 max diff.
+[280/2000] AvgRew: 420.00
+Finished with reward: 455.8, Reward per episode: [466.7 220.1 663.4 245.3 383.2 525.  801.6 357.5 434.3 460.7]
+Warning: Ratio not close to 1 at first update! elements differ. 85.90504455566406 max diff.
+[281/2000] AvgRew: 459.97
+Warning: Ratio not close to 1 at first update! elements differ. 9.591513633728027 max diff.
+[282/2000] AvgRew: 468.08
+Warning: Ratio not close to 1 at first update! elements differ. 229.17994689941406 max diff.
+[283/2000] AvgRew: 412.70
+Warning: Ratio not close to 1 at first update! elements differ. 11.908329010009766 max diff.
+[284/2000] AvgRew: 406.06
+Warning: Ratio not close to 1 at first update! elements differ. 3.481494426727295 max diff.
+[285/2000] AvgRew: 353.21
+Warning: Ratio not close to 1 at first update! elements differ. 7.317783355712891 max diff.
+[286/2000] AvgRew: 432.28
+Warning: Ratio not close to 1 at first update! elements differ. 2.7892210483551025 max diff.
+[287/2000] AvgRew: 446.57
+Warning: Ratio not close to 1 at first update! elements differ. 16.285249710083008 max diff.
+[288/2000] AvgRew: 392.29
+Warning: Ratio not close to 1 at first update! elements differ. 94.89495086669922 max diff.
+[289/2000] AvgRew: 410.92
+Warning: Ratio not close to 1 at first update! elements differ. 5.4579668045043945 max diff.
+[290/2000] AvgRew: 400.66
+Finished with reward: 421.5, Reward per episode: [477.8 253.1 573.8 543.9 349.7 353.6 789.3 187.4 448.7 237.7]
+Warning: Ratio not close to 1 at first update! elements differ. 7.547834396362305 max diff.
+[291/2000] AvgRew: 314.99
+Warning: Ratio not close to 1 at first update! elements differ. 9.492765426635742 max diff.
+[292/2000] AvgRew: 290.04
+Warning: Ratio not close to 1 at first update! elements differ. 6.970597267150879 max diff.
+[293/2000] AvgRew: 367.35
+Warning: Ratio not close to 1 at first update! elements differ. 111.16850280761719 max diff.
+[294/2000] AvgRew: 345.73
+Warning: Ratio not close to 1 at first update! elements differ. 87.64039611816406 max diff.
+[295/2000] AvgRew: 329.64
+Warning: Ratio not close to 1 at first update! elements differ. 7.75743293762207 max diff.
+[296/2000] AvgRew: 363.09
+Warning: Ratio not close to 1 at first update! elements differ. 27.56744384765625 max diff.
+[297/2000] AvgRew: 317.47
+Warning: Ratio not close to 1 at first update! elements differ. 13.070704460144043 max diff.
+[298/2000] AvgRew: 278.12
+Warning: Ratio not close to 1 at first update! elements differ. 233.74636840820312 max diff.

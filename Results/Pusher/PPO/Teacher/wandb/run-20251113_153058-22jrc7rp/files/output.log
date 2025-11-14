@@ -1,0 +1,124 @@
+Start training...
+Sanity check for NaNs in model parameters, iteration: 1
+[1/2000] AvgRew: -103.26
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/Pusher/PPO/Teacher/videos/PPO_Pusher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -55.0, Reward per episode: [-63.9 -51.9 -52.6 -56.8 -62.  -50.8 -60.7 -46.6 -57.3 -47.7]
+Sanity check for NaNs in model parameters, iteration: 2
+[2/2000] AvgRew: -103.87
+Sanity check for NaNs in model parameters, iteration: 3
+[3/2000] AvgRew: -101.33
+Sanity check for NaNs in model parameters, iteration: 4
+[4/2000] AvgRew: -104.58
+Sanity check for NaNs in model parameters, iteration: 5
+[5/2000] AvgRew: -101.85
+Sanity check for NaNs in model parameters, iteration: 6
+[6/2000] AvgRew: -97.85
+Sanity check for NaNs in model parameters, iteration: 7
+[7/2000] AvgRew: -99.46
+Sanity check for NaNs in model parameters, iteration: 8
+[8/2000] AvgRew: -94.67
+Sanity check for NaNs in model parameters, iteration: 9
+[9/2000] AvgRew: -93.32
+Sanity check for NaNs in model parameters, iteration: 10
+[10/2000] AvgRew: -92.13
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/Pusher/PPO/Teacher/videos/PPO_Pusher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -48.1, Reward per episode: [-52.9 -49.9 -46.5 -46.8 -51.5 -48.6 -50.5 -41.5 -48.7 -43.8]
+Sanity check for NaNs in model parameters, iteration: 11
+[11/2000] AvgRew: -90.09
+Sanity check for NaNs in model parameters, iteration: 12
+[12/2000] AvgRew: -84.89
+Sanity check for NaNs in model parameters, iteration: 13
+[13/2000] AvgRew: -86.51
+Sanity check for NaNs in model parameters, iteration: 14
+[14/2000] AvgRew: -84.67
+Sanity check for NaNs in model parameters, iteration: 15
+[15/2000] AvgRew: -85.25
+Sanity check for NaNs in model parameters, iteration: 16
+[16/2000] AvgRew: -81.97
+Sanity check for NaNs in model parameters, iteration: 17
+[17/2000] AvgRew: -86.06
+Sanity check for NaNs in model parameters, iteration: 18
+[18/2000] AvgRew: -79.29
+Sanity check for NaNs in model parameters, iteration: 19
+[19/2000] AvgRew: -78.77
+Sanity check for NaNs in model parameters, iteration: 20
+[20/2000] AvgRew: -79.85
+Finished with reward: -41.4, Reward per episode: [-51.4 -36.  -39.3 -43.6 -49.6 -38.6 -46.5 -31.3 -44.7 -32.8]
+Sanity check for NaNs in model parameters, iteration: 21
+[21/2000] AvgRew: -82.43
+Sanity check for NaNs in model parameters, iteration: 22
+[22/2000] AvgRew: -81.18
+Sanity check for NaNs in model parameters, iteration: 23
+[23/2000] AvgRew: -80.11
+Sanity check for NaNs in model parameters, iteration: 24
+[24/2000] AvgRew: -80.02
+Sanity check for NaNs in model parameters, iteration: 25
+[25/2000] AvgRew: -80.46
+Sanity check for NaNs in model parameters, iteration: 26
+[26/2000] AvgRew: -79.55
+Sanity check for NaNs in model parameters, iteration: 27
+[27/2000] AvgRew: -79.92
+Sanity check for NaNs in model parameters, iteration: 28
+[28/2000] AvgRew: -82.04
+Warning: Ratio not close to 1 at first update! elements differ. 0.6111754179000854 max diff.
+Sanity check for NaNs in model parameters, iteration: 29
+[29/2000] AvgRew: -78.39
+Sanity check for NaNs in model parameters, iteration: 30
+[30/2000] AvgRew: -74.06
+Finished with reward: -40.0, Reward per episode: [-50.1 -39.2 -38.  -41.9 -48.4 -36.1 -43.2 -26.7 -43.5 -33.2]
+Sanity check for NaNs in model parameters, iteration: 31
+[31/2000] AvgRew: -73.59
+Warning: Ratio not close to 1 at first update! elements differ. 0.5176931619644165 max diff.
+Sanity check for NaNs in model parameters, iteration: 32
+[32/2000] AvgRew: -75.10
+Warning: Ratio not close to 1 at first update! elements differ. 0.47531449794769287 max diff.
+Sanity check for NaNs in model parameters, iteration: 33
+[33/2000] AvgRew: -76.98
+Sanity check for NaNs in model parameters, iteration: 34
+[34/2000] AvgRew: -76.81
+Warning: Ratio not close to 1 at first update! elements differ. 0.4732828140258789 max diff.
+Sanity check for NaNs in model parameters, iteration: 35
+[35/2000] AvgRew: -75.26
+Sanity check for NaNs in model parameters, iteration: 36
+[36/2000] AvgRew: -76.21
+Sanity check for NaNs in model parameters, iteration: 37
+[37/2000] AvgRew: -74.86
+Warning: Ratio not close to 1 at first update! elements differ. 40.835670471191406 max diff.
+Sanity check for NaNs in model parameters, iteration: 38
+[38/2000] AvgRew: -77.26
+Warning: Ratio not close to 1 at first update! elements differ. 3.288182258605957 max diff.
+Sanity check for NaNs in model parameters, iteration: 39
+[39/2000] AvgRew: -74.15
+Warning: Ratio not close to 1 at first update! elements differ. 1.7788138389587402 max diff.
+Sanity check for NaNs in model parameters, iteration: 40
+[40/2000] AvgRew: -75.73
+Finished with reward: -42.3, Reward per episode: [-53.6 -37.  -40.8 -45.5 -51.7 -35.8 -47.4 -32.  -46.7 -32.7]
+Sanity check for NaNs in model parameters, iteration: 41
+[41/2000] AvgRew: -82.11
+Warning: Ratio not close to 1 at first update! elements differ. 8.947747230529785 max diff.
+Sanity check for NaNs in model parameters, iteration: 42
+[42/2000] AvgRew: -78.21
+Warning: Ratio not close to 1 at first update! elements differ. 4.121091365814209 max diff.
+Sanity check for NaNs in model parameters, iteration: 43
+[43/2000] AvgRew: -81.27
+Warning: Ratio not close to 1 at first update! elements differ. 7.979022026062012 max diff.
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 76, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 72, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 336, in train
+    return mean_reward
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 201, in ppo_update
+    _, newlogprob, entropy, newvalue = self.agent.get_action_and_value(b_obs[mb_inds], b_actions[mb_inds])
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 207, in get_action_and_value
+    """Restituisce (azione, log_prob, entropia, valore)."""
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 194, in get_action
+    # log_prob corretto
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/distributions/normal.py", line 85, in log_prob
+    var = self.scale**2
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/_tensor.py", line 39, in wrapped
+    return f(*args, **kwargs)
+KeyboardInterrupt

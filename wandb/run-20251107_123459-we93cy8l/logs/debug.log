@@ -1,0 +1,806 @@
+2025-11-07 12:34:59,267 INFO    MainThread:3179691 [wandb_setup.py:_flush():80] Current SDK version is 0.21.1
+2025-11-07 12:34:59,267 INFO    MainThread:3179691 [wandb_setup.py:_flush():80] Configure stats pid to 3179691
+2025-11-07 12:34:59,267 INFO    MainThread:3179691 [wandb_setup.py:_flush():80] Loading settings from /home/l.callisti/.config/wandb/settings
+2025-11-07 12:34:59,267 INFO    MainThread:3179691 [wandb_setup.py:_flush():80] Loading settings from /home/l.callisti/Distillation_LunarLander/Final_pipeline/wandb/settings
+2025-11-07 12:34:59,267 INFO    MainThread:3179691 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-11-07 12:34:59,267 INFO    MainThread:3179691 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /home/l.callisti/Distillation_LunarLander/Final_pipeline/wandb/run-20251107_123459-we93cy8l/logs/debug.log
+2025-11-07 12:34:59,267 INFO    MainThread:3179691 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /home/l.callisti/Distillation_LunarLander/Final_pipeline/wandb/run-20251107_123459-we93cy8l/logs/debug-internal.log
+2025-11-07 12:34:59,267 INFO    MainThread:3179691 [wandb_init.py:init():830] calling init triggers
+2025-11-07 12:34:59,267 INFO    MainThread:3179691 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'seed': 1, 'torch_deterministic': True, 'cuda': True, 'track': True, 'capture_video': True, 'device': 'cuda:4', 'enviroment': 'CarRacing', 'total_timesteps': 10000000, 'learning_rate': 0.0001, 'num_envs': 16, 'num_steps': 1024, 'anneal_lr': False, 'target_reward': 200, 'gamma': 0.9, 'gae_lambda': 0.98, 'num_minibatches': 128, 'update_epochs': 4, 'norm_adv': True, 'clip_coef': 0.2, 'clip_vloss': True, 'ent_coef': 0.01, 'Anneal_ent_coef': True, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'target_kl': None, 'path_folder': 'Teacher_files', 'batch_size': 16384, 'minibatch_size': 128, 'num_iterations': 610, '_wandb': {'code_path': 'code/PPO-Teacher.py'}}
+2025-11-07 12:34:59,267 INFO    MainThread:3179691 [wandb_init.py:init():871] starting backend
+2025-11-07 12:34:59,476 INFO    MainThread:3179691 [wandb_init.py:init():874] sending inform_init request
+2025-11-07 12:34:59,482 INFO    MainThread:3179691 [wandb_init.py:init():882] backend started and connected
+2025-11-07 12:34:59,485 INFO    MainThread:3179691 [wandb_init.py:init():953] updated telemetry
+2025-11-07 12:34:59,486 INFO    MainThread:3179691 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2025-11-07 12:35:00,378 INFO    MainThread:3179691 [wandb_init.py:init():1029] starting run threads in backend
+2025-11-07 12:35:01,175 INFO    MainThread:3179691 [wandb_run.py:_config_callback():1380] config_cb None None {'_wandb': {'code_path': 'source-CarRacing-Distillation-PPO-Teacher.py'}}
+2025-11-07 12:35:01,261 INFO    MainThread:3179691 [wandb_run.py:_console_start():2494] atexit reg
+2025-11-07 12:35:01,261 INFO    MainThread:3179691 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2025-11-07 12:35:01,261 INFO    MainThread:3179691 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2025-11-07 12:35:01,261 INFO    MainThread:3179691 [wandb_run.py:_redirect():2434] Redirects installed.
+2025-11-07 12:35:01,263 INFO    MainThread:3179691 [wandb_init.py:init():1075] run started, returning control to user process
+2025-11-07 12:37:45,274 INFO    MsgRouterThr:3179691 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
+2025-11-07 12:37:59,446 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,450 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,451 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,452 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,452 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,453 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,454 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,454 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,455 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,455 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,456 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,456 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,457 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,457 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,458 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,459 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,459 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,460 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,461 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,461 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,462 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,462 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,463 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,464 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,464 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,465 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,465 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,466 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-11-07 12:37:59,467 ERROR   MainThread:3179691 [redirect.py:_on_write():664] [all runs] error in stderr callback
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2421, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1583, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 771, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 166, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 146, in send_server_request
+    self._send_message(msg)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 143, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 122, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe

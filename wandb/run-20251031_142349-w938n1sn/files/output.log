@@ -1,0 +1,13 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing/Teacher_files/videos/Teacher_lr_1.00e-04_ent_coef_1.00e-02_Anneal_ent folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+linear_input_size 128
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py(138)train()
+-> if agent.agent_type == 'Image':
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 333, in <module>
+    train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 140, in train
+    input = agent.init_deque(get_screen(envs = None, screen = next_obs))
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Utils_PPO.py", line 639, in get_screen
+    screen = torch.from_numpy(screen).permute(2, 0, 1).float() / 255.0
+TypeError: expected np.ndarray (got Tensor)

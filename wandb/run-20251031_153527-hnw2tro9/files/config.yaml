@@ -1,0 +1,144 @@
+_wandb:
+    value:
+        cli_version: 0.21.1
+        code_path: source-CarRacing-Distillation-PPO-Teacher.py
+        e:
+            xgbyvex7dlnijrswnjyaftpmhcznb918:
+                codePath: PPO-Teacher.py
+                codePathLocal: PPO-Teacher.py
+                cpu_count: 32
+                cpu_count_logical: 64
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "942328844288"
+                        used: "48261378048"
+                email: luca.callisti@gmail.com
+                executable: /home/l.callisti/Distillation/distillation/bin/python
+                gpu: NVIDIA A100-PCIE-40GB
+                gpu_count: 8
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-PCIE-40GB
+                      uuid: GPU-25388d4a-917b-24f2-d02d-b87289f261fb
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-PCIE-40GB
+                      uuid: GPU-59ac89a0-9dd2-269a-7d7f-e0ee2de7609f
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-PCIE-40GB
+                      uuid: GPU-d0e54712-a8e8-5742-aa8b-6921320a131b
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-PCIE-40GB
+                      uuid: GPU-bb3d5e60-9522-2a6a-1b75-cf8d27e228a7
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-PCIE-40GB
+                      uuid: GPU-4bf90ae0-7d4f-91ef-fca4-959edcfc35d5
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-PCIE-40GB
+                      uuid: GPU-0c9d99f0-ee3a-a568-226d-eac9e3015881
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-PCIE-40GB
+                      uuid: GPU-e03a4a54-dad6-3eb5-0a64-b6687aa7d99b
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "42949672960"
+                      name: NVIDIA A100-PCIE-40GB
+                      uuid: GPU-0894c4f1-0724-4bb4-04d4-527cd5e059b1
+                host: gpu1
+                memory:
+                    total: "1623216566272"
+                os: Linux-5.15.0-153-generic-x86_64-with-glibc2.35
+                program: /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py
+                python: CPython 3.10.12
+                root: /home/l.callisti/Distillation_LunarLander/Final_pipeline
+                startedAt: "2025-10-31T14:35:27.387255Z"
+                writerId: xgbyvex7dlnijrswnjyaftpmhcznb918
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 13
+                - 16
+                - 61
+            "4": 3.10.12
+            "5": 0.21.1
+            "12": 0.21.1
+            "13": linux-x86_64
+Anneal_ent_coef:
+    value: true
+anneal_lr:
+    value: false
+batch_size:
+    value: 16384
+capture_video:
+    value: true
+clip_coef:
+    value: 0.2
+clip_vloss:
+    value: true
+cuda:
+    value: true
+device:
+    value: cuda:4
+ent_coef:
+    value: 0.01
+enviroment:
+    value: CarRacing
+gae_lambda:
+    value: 0.98
+gamma:
+    value: 0.99
+learning_rate:
+    value: 0.0001
+max_grad_norm:
+    value: 0.5
+minibatch_size:
+    value: 128
+norm_adv:
+    value: true
+num_envs:
+    value: 16
+num_iterations:
+    value: 610
+num_minibatches:
+    value: 128
+num_steps:
+    value: 1024
+path_folder:
+    value: Teacher_files
+seed:
+    value: 1
+target_kl:
+    value: null
+target_reward:
+    value: 200
+torch_deterministic:
+    value: true
+total_timesteps:
+    value: 10000000
+track:
+    value: true
+update_epochs:
+    value: 4
+vf_coef:
+    value: 0.5

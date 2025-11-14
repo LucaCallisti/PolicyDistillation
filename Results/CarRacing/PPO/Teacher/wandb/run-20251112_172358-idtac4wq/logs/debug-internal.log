@@ -1,0 +1,13 @@
+{"time":"2025-11-12T17:23:58.936203478+01:00","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-11-12T17:23:59.381614659+01:00","level":"INFO","msg":"stream: created new stream","id":"idtac4wq"}
+{"time":"2025-11-12T17:23:59.381680998+01:00","level":"INFO","msg":"stream: started","id":"idtac4wq"}
+{"time":"2025-11-12T17:23:59.381745297+01:00","level":"INFO","msg":"handler: started","stream_id":"idtac4wq"}
+{"time":"2025-11-12T17:23:59.381717497+01:00","level":"INFO","msg":"writer: started","stream_id":"idtac4wq"}
+{"time":"2025-11-12T17:23:59.381732357+01:00","level":"INFO","msg":"sender: started","stream_id":"idtac4wq"}
+{"time":"2025-11-12T17:23:59.670799427+01:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-11-12T17:28:30.113852698+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/luca-callisti-/PPO_CarRacing-v3/idtac4wq/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-11-13T08:59:18.621502867+01:00","level":"INFO","msg":"stream: closing","id":"idtac4wq"}
+{"time":"2025-11-13T08:59:19.239775876+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-13T08:59:19.463765138+01:00","level":"INFO","msg":"handler: closed","stream_id":"idtac4wq"}
+{"time":"2025-11-13T08:59:19.463966556+01:00","level":"INFO","msg":"sender: closed","stream_id":"idtac4wq"}
+{"time":"2025-11-13T08:59:19.464018005+01:00","level":"INFO","msg":"stream: closed","id":"idtac4wq"}

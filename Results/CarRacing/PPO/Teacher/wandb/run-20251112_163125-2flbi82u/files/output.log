@@ -1,0 +1,79 @@
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Warning: Ratio not close to 1 at first update! elements differ. 0.01838505268096924 max diff.
+Sanity check for NaNs in model parameters, iteration: 1
+Sanity check - CNN params sum: 400.6163112649613
+Sanity check - critic params sum: -20.875967293849953
+Sanity check - actor_backbone params sum: 8.447970941662788
+Sanity check - mu_layer params sum: 0.058175182435661554
+Sanity check - log_std_param params sum: -2.164954073727131
+[1/2000] AvgRew: nan
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -46.5, Reward per episode: [ -29.6  -43.9  -21.1  -49.6  -36.2 -123.9  -22.1  -58.9  -38.6  -41. ]
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Warning: Ratio not close to 1 at first update! elements differ. 0.7570995092391968 max diff.
+Sanity check for NaNs in model parameters, iteration: 2
+Sanity check - CNN params sum: 342.97808779590196
+Sanity check - critic params sum: -23.11768166764523
+Sanity check - actor_backbone params sum: 4.573150850832462
+Sanity check - mu_layer params sum: 0.14173900615423918
+Sanity check - log_std_param params sum: -2.396721661090851
+[2/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 1.4007930755615234 max diff.
+Sanity check for NaNs in model parameters, iteration: 3
+Sanity check - CNN params sum: 172.18764709942775
+Sanity check - critic params sum: -25.49043978890404
+Sanity check - actor_backbone params sum: 6.021170036867261
+Sanity check - mu_layer params sum: 0.07851941557601094
+Sanity check - log_std_param params sum: -2.517828017473221
+[3/2000] AvgRew: -26.95
+Warning: Ratio not close to 1 at first update! elements differ. 0.4801417589187622 max diff.
+Sanity check for NaNs in model parameters, iteration: 4
+Sanity check - CNN params sum: -5.566482419175941
+Sanity check - critic params sum: -25.24526438047178
+Sanity check - actor_backbone params sum: 4.265356861054897
+Sanity check - mu_layer params sum: 0.010484847240149975
+Sanity check - log_std_param params sum: -2.6858911514282227
+[4/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 2.271042823791504 max diff.
+Sanity check for NaNs in model parameters, iteration: 5
+Sanity check - CNN params sum: -136.57778564692626
+Sanity check - critic params sum: -24.458966942038387
+Sanity check - actor_backbone params sum: 2.04703751206398
+Sanity check - mu_layer params sum: 0.029796471819281578
+Sanity check - log_std_param params sum: -2.8655319809913635
+[5/2000] AvgRew: -26.37
+Warning: Ratio not close to 1 at first update! elements differ. 1.2569754123687744 max diff.
+Sanity check for NaNs in model parameters, iteration: 6
+Sanity check - CNN params sum: -297.04345973632394
+Sanity check - critic params sum: -22.969661129405722
+Sanity check - actor_backbone params sum: 1.331551417708397
+Sanity check - mu_layer params sum: -0.0832293126732111
+Sanity check - log_std_param params sum: -2.881710708141327
+[6/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 2.2879514694213867 max diff.
+Sanity check for NaNs in model parameters, iteration: 7
+Sanity check - CNN params sum: -373.0780516130228
+Sanity check - critic params sum: -22.678801845759153
+Sanity check - actor_backbone params sum: 2.1782386749982834
+Sanity check - mu_layer params sum: -0.15262005757540464
+Sanity check - log_std_param params sum: -3.009200930595398
+[7/2000] AvgRew: -26.42
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 110, in <module>
+    )
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 106, in Train_teacher
+    dict_enviroment=dict_enviroment,
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 311, in train
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 146, in collect_rollouts
+    next_obs, reward, terminations, truncations, infos = self.envs.step(action.cpu().numpy())
+KeyboardInterrupt

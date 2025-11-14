@@ -1,0 +1,27 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/PPD/videos/PPD_LunarLander_PPDparam1.0 folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py(148)ppo_update()
+-> Student_distribution = self.agent.get_last_distribution()
+Categorical(probs: torch.Size([512, 4]), logits: torch.Size([512, 4]))
+*** TypeError: 'Categorical' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 150, in <module>
+    Train_student_PPD()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 147, in Train_student_PPD
+    PPD_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 288, in train
+    logs = self.ppo_update(advantages, returns)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 148, in ppo_update
+    Student_distribution = self.agent.get_last_distribution()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 148, in ppo_update
+    Student_distribution = self.agent.get_last_distribution()
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

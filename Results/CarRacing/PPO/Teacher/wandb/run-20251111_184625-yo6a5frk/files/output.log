@@ -1,0 +1,57 @@
+Start training...
+[1/1000] AvgRew: -26.71
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -93.7, Reward per episode: [ -54.5 -117.5  -69.5 -111.   -64.8  -63.8 -100.7 -122.  -113.2 -120.3]
+[2/1000] AvgRew: -26.91
+[3/1000] AvgRew: -32.76
+[4/1000] AvgRew: -31.14
+[5/1000] AvgRew: -31.68
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: 8.3, Reward per episode: [ 29.6  -1.    0.4  18.7  24.2  39.3  27.   -3.2 -20.6 -31.1]
+[6/1000] AvgRew: -22.48
+[7/1000] AvgRew: -28.67
+[8/1000] AvgRew: -28.37
+[9/1000] AvgRew: -20.38
+[10/1000] AvgRew: -27.58
+Finished with reward: -20.8, Reward per episode: [-11.1  -7.6 -39.1 -28.1 -29.5 -17.9 -13.9 -32.6 -20.6  -8.2]
+[11/1000] AvgRew: -22.46
+[12/1000] AvgRew: -24.78
+[13/1000] AvgRew: -32.70
+[14/1000] AvgRew: -18.18
+[15/1000] AvgRew: -25.83
+Finished with reward: 3.0, Reward per episode: [-18.5   2.3  21.9  22.3 -26.2  28.6  18.9 -12.    1.1  -8.2]
+[16/1000] AvgRew: -25.82
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py(215)ppo_update()
+-> assert torch.isclose(ratio, torch.tensor(1.0), atol=1e-4).all(), "Ratio not close to 1 at first update!"
+tensor([1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0001, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0013, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000,
+        1.0000, 1.0000], device='cuda:7', grad_fn=<ExpBackward0>)
+tensor(False, device='cuda:7')
+tensor(True, device='cuda:7')
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 110, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 106, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 282, in train
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 215, in ppo_update
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 215, in ppo_update
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

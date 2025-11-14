@@ -1,0 +1,28 @@
+Failure # 1 (occurred at 2025-11-14_10-51-02)
+[36mray::ImplicitFunc.train()[39m (pid=2430979, ip=10.30.3.131, actor_id=9a017da2805b6e4367c92d2101000000, repr=Train_teacher)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/ray/tune/trainable/trainable.py", line 331, in train
+    raise skipped from exception_cause(skipped)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/ray/air/_internal/util.py", line 107, in run
+    self._ret = self._target(*self._args, **self._kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/ray/tune/trainable/function_trainable.py", line 44, in <lambda>
+    training_func=lambda: self._trainable_func(self.config),
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/ray/tune/trainable/function_trainable.py", line 249, in _trainable_func
+    output = fn()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 72, in Train_teacher
+    PPO_trainer = PPOTrainer(
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 87, in __init__
+    self.agent = agent.to(device)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.

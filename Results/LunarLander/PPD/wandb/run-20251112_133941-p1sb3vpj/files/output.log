@@ -1,0 +1,70 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/PPD/videos/PPD_LunarLander_PPDparam1.0 folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-2 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py", line 741, in _async_worker
+    observation, info = env.reset(**data)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/My_wrapper.py", line 12, in reset
+    frame = self._render_frame()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/My_wrapper.py", line 25, in _render_frame
+    frame = self.env.render()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/core.py", line 337, in render
+    return self.env.render()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/core.py", line 337, in render
+    return self.env.render()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/My_env.py", line 686, in render
+    assert self.spec is not None
+AssertionError
+[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-11 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-7 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-13 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-12 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-9 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-10 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-8 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-17 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-0 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-16 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-3 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-14 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-15 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-6 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-4 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-1 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Received the following error from Worker-5 - Shutting it down[0m
+  self._raise_if_errors(successes)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py:361: UserWarning: [31mERROR: Raising the last exception back to the main process.[0m
+  self._raise_if_errors(successes)
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 150, in <module>
+    Train_student_PPD()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 138, in Train_student_PPD
+    PPD_trainer = PPD(
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 20, in __init__
+    self.next_obs, self.info = self.envs.reset(seed=config["seed"])
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py", line 265, in reset
+    return self.reset_wait()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py", line 361, in reset_wait
+    self._raise_if_errors(successes)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py", line 711, in _raise_if_errors
+    raise exctype(value)
+AssertionError

@@ -1,0 +1,34 @@
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/PPD/videos/StudentDistillation_LunarLander folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:416: UserWarning: [33mWARN: Unable to save last video! Did you call close()?[0m
+  logger.warn("Unable to save last video! Did you call close()?")
+Finished with reward: -628.1, Reward per episode: [-1050.5  -486.  -1025.1  -467.9  -611.1  -706.4  -339.6  -641.3  -491.6
+  -461.5]
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 0 that is less than the current step 2. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[25/1737] AvgRew: -243.72
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/PPD/videos/StudentDistillation_LunarLander folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:416: UserWarning: [33mWARN: Unable to save last video! Did you call close()?[0m
+  logger.warn("Unable to save last video! Did you call close()?")
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 0 that is less than the current step 4. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 207, in <module>
+    Train_student_distillation()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 202, in Train_student_distillation
+    Distillation_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/StudentTeacher_distillation.py", line 191, in train
+    if (rewards_np > cfg["target_reward"]).all():
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/StudentTeacher_distillation.py", line 136, in update
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 205, in get_action_and_value
+    def get_action_and_value(self, x, action=None):
+KeyboardInterrupt

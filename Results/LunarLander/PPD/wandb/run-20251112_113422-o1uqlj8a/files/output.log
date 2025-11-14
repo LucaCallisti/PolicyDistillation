@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 150, in <module>
+    Train_student_PPD()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 138, in Train_student_PPD
+    PPD_trainer = PPD(
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 14, in __init__
+    self.envs = gym.vector.AsyncVectorEnv([make_env(dict_enviroment, idx, wrappers=[RenderFrameWrapper]) for idx in range(config["num_envs"])])
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/async_vector_env.py", line 154, in __init__
+    dummy_env = env_fns[0]()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 32, in thunk
+    env = wrapper(env)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/My_wrapper.py", line 10, in __init__
+    frame = self._render_frame()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/My_wrapper.py", line 33, in _render_frame
+    frame = self.env.render()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/core.py", line 337, in render
+    return self.env.render()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/core.py", line 337, in render
+    return self.env.render()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/My_env.py", line 685, in render
+    assert self.spec is not None
+AssertionError

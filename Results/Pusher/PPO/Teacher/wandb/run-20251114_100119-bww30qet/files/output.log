@@ -1,0 +1,53 @@
+Start training...
+[1/3000] AvgRew: -103.09
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/Pusher/PPO/Teacher/videos/PPO_Pusher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -53.5, Reward per episode: [-63.  -49.8 -51.1 -55.7 -61.  -48.6 -59.3 -44.7 -56.1 -45.6]
+[2/3000] AvgRew: -102.53
+[3/3000] AvgRew: -102.82
+[4/3000] AvgRew: -100.67
+[5/3000] AvgRew: -98.90
+[6/3000] AvgRew: -97.20
+[7/3000] AvgRew: -96.24
+[8/3000] AvgRew: -94.57
+[9/3000] AvgRew: -93.01
+[10/3000] AvgRew: -93.16
+[11/3000] AvgRew: -91.25
+[12/3000] AvgRew: -90.10
+[13/3000] AvgRew: -88.34
+[14/3000] AvgRew: -86.66
+[15/3000] AvgRew: -84.58
+[16/3000] AvgRew: -82.84
+[17/3000] AvgRew: -81.39
+[18/3000] AvgRew: -83.72
+[19/3000] AvgRew: -85.27
+[20/3000] AvgRew: -84.34
+[21/3000] AvgRew: -83.30
+[22/3000] AvgRew: -82.65
+[23/3000] AvgRew: -83.09
+[24/3000] AvgRew: -80.70
+[25/3000] AvgRew: -81.69
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/Pusher/PPO/Teacher/videos/PPO_Pusher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -44.5, Reward per episode: [-47.3 -48.2 -43.6 -42.2 -46.3 -46.9 -44.9 -39.2 -44.5 -41.9]
+[26/3000] AvgRew: -81.93
+[27/3000] AvgRew: -82.33
+[28/3000] AvgRew: -79.23
+[29/3000] AvgRew: -79.33
+[30/3000] AvgRew: -78.86
+[31/3000] AvgRew: -77.73
+[32/3000] AvgRew: -75.21
+[33/3000] AvgRew: -77.28
+[34/3000] AvgRew: -77.47
+[35/3000] AvgRew: -76.67
+[36/3000] AvgRew: -77.23
+[37/3000] AvgRew: -77.87
+[38/3000] AvgRew: -79.71
+[39/3000] AvgRew: -77.37
+[40/3000] AvgRew: -79.38
+[41/3000] AvgRew: -81.73
+[42/3000] AvgRew: -78.14
+[43/3000] AvgRew: -79.23
+Warning: Ratio not close to 1 at first update! elements differ. 106.04898071289062 max diff.
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py(212)ppo_update()
+-> with torch.no_grad():

@@ -1,0 +1,173 @@
+Start training...
+Sanity check for NaNs in model parameters, iteration: 1
+Sanity check - CNN params sum: 793.7477228511125
+Sanity check - critic params sum: -17.321771120186895
+Sanity check - actor_backbone params sum: 14.165310759097338
+Sanity check - mu_layer params sum: 0.034501404501497746
+Sanity check - log_std_param params sum: -1.9832631051540375
+[1/2000] AvgRew: nan
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher_GroupNorm folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -92.3, Reward per episode: [-92.6 -93.4 -92.8 -92.8 -93.3 -92.9 -91.8 -94.1 -89.2 -90.2]
+Sanity check for NaNs in model parameters, iteration: 2
+Sanity check - CNN params sum: 731.2553580948152
+Sanity check - critic params sum: -13.85094714272418
+Sanity check - actor_backbone params sum: 11.55597772449255
+Sanity check - mu_layer params sum: 0.04482967406511307
+Sanity check - log_std_param params sum: -2.0760492347180843
+[2/2000] AvgRew: nan
+Sanity check for NaNs in model parameters, iteration: 3
+Sanity check - CNN params sum: 558.9115865039639
+Sanity check - critic params sum: -13.39247386981151
+Sanity check - actor_backbone params sum: 11.852168768644333
+Sanity check - mu_layer params sum: 0.1775506092235446
+Sanity check - log_std_param params sum: -2.1454976946115494
+[3/2000] AvgRew: -27.04
+Sanity check for NaNs in model parameters, iteration: 4
+Sanity check - CNN params sum: 591.0156987789087
+Sanity check - critic params sum: -12.593229858321138
+Sanity check - actor_backbone params sum: 12.5529023706913
+Sanity check - mu_layer params sum: 0.12018699757754803
+Sanity check - log_std_param params sum: -2.3008723109960556
+[4/2000] AvgRew: nan
+Sanity check for NaNs in model parameters, iteration: 5
+Sanity check - CNN params sum: 417.2637198474258
+Sanity check - critic params sum: -13.321035229717381
+Sanity check - actor_backbone params sum: 11.216190412640572
+Sanity check - mu_layer params sum: 0.2152087800204754
+Sanity check - log_std_param params sum: -2.361788034439087
+[5/2000] AvgRew: -26.06
+Sanity check for NaNs in model parameters, iteration: 6
+Sanity check - CNN params sum: 399.5237447414547
+Sanity check - critic params sum: -13.51355140726082
+Sanity check - actor_backbone params sum: 8.763829566538334
+Sanity check - mu_layer params sum: 0.20570029877126217
+Sanity check - log_std_param params sum: -2.3930299878120422
+[6/2000] AvgRew: nan
+Sanity check for NaNs in model parameters, iteration: 7
+Sanity check - CNN params sum: 232.75763155519962
+Sanity check - critic params sum: -8.904682099935599
+Sanity check - actor_backbone params sum: 13.468698345124722
+Sanity check - mu_layer params sum: 0.17917797714471817
+Sanity check - log_std_param params sum: -2.483855187892914
+[7/2000] AvgRew: -25.81
+Sanity check for NaNs in model parameters, iteration: 8
+Sanity check - CNN params sum: 337.02598842512816
+Sanity check - critic params sum: -10.855643416987732
+Sanity check - actor_backbone params sum: 9.342773646116257
+Sanity check - mu_layer params sum: 0.18661679327487946
+Sanity check - log_std_param params sum: -2.562385320663452
+[8/2000] AvgRew: nan
+Sanity check for NaNs in model parameters, iteration: 9
+Sanity check - CNN params sum: 263.38930679950863
+Sanity check - critic params sum: -7.574451603810303
+Sanity check - actor_backbone params sum: 11.332338877022266
+Sanity check - mu_layer params sum: 0.16859276592731476
+Sanity check - log_std_param params sum: -2.493447333574295
+[9/2000] AvgRew: -22.40
+Warning: Ratio not close to 1 at first update! elements differ. 0.013202428817749023 max diff.
+Sanity check for NaNs in model parameters, iteration: 10
+Sanity check - CNN params sum: 177.69373482931405
+Sanity check - critic params sum: -10.071973067475483
+Sanity check - actor_backbone params sum: 10.167382881045341
+Sanity check - mu_layer params sum: -0.025540035218000412
+Sanity check - log_std_param params sum: -2.6847862005233765
+[10/2000] AvgRew: nan
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher_GroupNorm folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -19.1, Reward per episode: [-123.9    2.3  -53.4   18.7  -26.2  -35.7   39.3   -0.3  -17.     4.9]
+Warning: Ratio not close to 1 at first update! elements differ. 0.012604713439941406 max diff.
+Sanity check for NaNs in model parameters, iteration: 11
+Sanity check - CNN params sum: 165.72352499887347
+Sanity check - critic params sum: -8.549187618424185
+Sanity check - actor_backbone params sum: 10.854909837245941
+Sanity check - mu_layer params sum: 0.019525650888681412
+Sanity check - log_std_param params sum: -2.752728581428528
+[11/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 0.010226547718048096 max diff.
+Sanity check for NaNs in model parameters, iteration: 12
+Sanity check - CNN params sum: 68.80883735325187
+Sanity check - critic params sum: -6.990684906486422
+Sanity check - actor_backbone params sum: 11.221793591976166
+Sanity check - mu_layer params sum: -0.04490332119166851
+Sanity check - log_std_param params sum: -2.910977602005005
+[12/2000] AvgRew: -20.76
+Warning: Ratio not close to 1 at first update! elements differ. 0.027716338634490967 max diff.
+Sanity check for NaNs in model parameters, iteration: 13
+Sanity check - CNN params sum: 21.80081256479025
+Sanity check - critic params sum: -7.3751625954173505
+Sanity check - actor_backbone params sum: 10.26457180082798
+Sanity check - mu_layer params sum: -0.047268038615584373
+Sanity check - log_std_param params sum: -2.9238245487213135
+[13/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 0.015749454498291016 max diff.
+Sanity check for NaNs in model parameters, iteration: 14
+Sanity check - CNN params sum: -138.22315008565784
+Sanity check - critic params sum: -4.352319682715461
+Sanity check - actor_backbone params sum: 11.660614848136902
+Sanity check - mu_layer params sum: -0.012851167470216751
+Sanity check - log_std_param params sum: -2.987718880176544
+[14/2000] AvgRew: -17.96
+Warning: Ratio not close to 1 at first update! elements differ. 0.013730764389038086 max diff.
+Sanity check for NaNs in model parameters, iteration: 15
+Sanity check - CNN params sum: -229.07189968973398
+Sanity check - critic params sum: -4.948363613104448
+Sanity check - actor_backbone params sum: 12.141276083886623
+Sanity check - mu_layer params sum: -0.024441257119178772
+Sanity check - log_std_param params sum: -2.913279712200165
+[15/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 0.018445611000061035 max diff.
+Sanity check for NaNs in model parameters, iteration: 16
+Sanity check - CNN params sum: -336.4195030108094
+Sanity check - critic params sum: -2.940933513920754
+Sanity check - actor_backbone params sum: 14.15396786481142
+Sanity check - mu_layer params sum: -0.0056955236941576
+Sanity check - log_std_param params sum: -2.985587179660797
+[16/2000] AvgRew: -17.73
+Warning: Ratio not close to 1 at first update! elements differ. 0.032356977462768555 max diff.
+Sanity check for NaNs in model parameters, iteration: 17
+Sanity check - CNN params sum: -337.6245726905763
+Sanity check - critic params sum: -1.4923733167815953
+Sanity check - actor_backbone params sum: 14.506083503365517
+Sanity check - mu_layer params sum: 0.02346654422581196
+Sanity check - log_std_param params sum: -3.1280267238616943
+[17/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 0.020314335823059082 max diff.
+Sanity check for NaNs in model parameters, iteration: 18
+Sanity check - CNN params sum: -443.0453096628189
+Sanity check - critic params sum: -0.06374931754544377
+Sanity check - actor_backbone params sum: 17.002729691565037
+Sanity check - mu_layer params sum: -0.05256977863609791
+Sanity check - log_std_param params sum: -3.3010683059692383
+[18/2000] AvgRew: -16.18
+Warning: Ratio not close to 1 at first update! elements differ. 0.02704101800918579 max diff.
+Sanity check for NaNs in model parameters, iteration: 19
+Sanity check - CNN params sum: -513.8264300636947
+Sanity check - critic params sum: 2.3423406806541607
+Sanity check - actor_backbone params sum: 16.57401717826724
+Sanity check - mu_layer params sum: 0.024530276656150818
+Sanity check - log_std_param params sum: -3.2812365293502808
+[19/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py(178)get_action()
+-> if self.deterministic:
+*** NameError: name 'xit' is not defined
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 116, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 112, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 319, in train
+    avg_rew, reward_episodes = self.collect_rollouts()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 199, in ppo_update
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 210, in get_action_and_value
+    action, log_prob, entropy = self.get_action(x, action)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 178, in get_action
+    if self.deterministic:
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 178, in get_action
+    if self.deterministic:
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

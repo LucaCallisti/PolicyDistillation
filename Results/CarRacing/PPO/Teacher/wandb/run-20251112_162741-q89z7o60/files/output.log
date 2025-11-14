@@ -1,0 +1,81 @@
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Sanity check for NaNs in model parameters, iteration: 1
+Sanity check - CNN params sum: -808.54215747118
+Sanity check - critic params sum: -12.90595998428762
+Sanity check - actor_backbone params sum: 17.516663536429405
+Sanity check - mu_layer params sum: 0.17600205820053816
+Sanity check - log_std_param params sum: -2.1633548624813557
+[1/2000] AvgRew: nan
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -40.3, Reward per episode: [-54.  -34.  -52.4 -28.1 -65.2 -48.  -18.  -41.3 -27.8 -34.4]
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Sanity check for NaNs in model parameters, iteration: 2
+Sanity check - CNN params sum: -1419.3127221763134
+Sanity check - critic params sum: -12.071480272934423
+Sanity check - actor_backbone params sum: 18.62252452224493
+Sanity check - mu_layer params sum: 0.15712811145931482
+Sanity check - log_std_param params sum: -2.316494360566139
+[2/2000] AvgRew: nan
+Sanity check for NaNs in model parameters, iteration: 3
+Sanity check - CNN params sum: -2121.648103043437
+Sanity check - critic params sum: -13.380832618568093
+Sanity check - actor_backbone params sum: 19.668465634807944
+Sanity check - mu_layer params sum: 0.21220548823475838
+Sanity check - log_std_param params sum: -2.3905301988124847
+[3/2000] AvgRew: -26.93
+Sanity check for NaNs in model parameters, iteration: 4
+Sanity check - CNN params sum: -2752.6935911029577
+Sanity check - critic params sum: -13.404000121634454
+Sanity check - actor_backbone params sum: 15.7771016061306
+Sanity check - mu_layer params sum: 0.4006289467215538
+Sanity check - log_std_param params sum: -2.44402015209198
+[4/2000] AvgRew: nan
+Sanity check for NaNs in model parameters, iteration: 5
+Sanity check - CNN params sum: -3896.6743412464857
+Sanity check - critic params sum: -14.270150721538812
+Sanity check - actor_backbone params sum: 11.721961662173271
+Sanity check - mu_layer params sum: 0.5081297028809786
+Sanity check - log_std_param params sum: -2.4125003814697266
+[5/2000] AvgRew: -26.18
+Sanity check for NaNs in model parameters, iteration: 6
+Sanity check - CNN params sum: -4474.750929415226
+Sanity check - critic params sum: -15.267654689960182
+Sanity check - actor_backbone params sum: 10.260464072227478
+Sanity check - mu_layer params sum: 0.6836730446666479
+Sanity check - log_std_param params sum: -2.6179786026477814
+[6/2000] AvgRew: nan
+Sanity check for NaNs in model parameters, iteration: 7
+Sanity check - CNN params sum: -5315.859911426902
+Sanity check - critic params sum: -15.151336199603975
+Sanity check - actor_backbone params sum: 9.957265406847
+Sanity check - mu_layer params sum: 0.7491245847195387
+Sanity check - log_std_param params sum: -2.696660578250885
+[7/2000] AvgRew: -26.23
+Sanity check for NaNs in model parameters, iteration: 8
+Sanity check - CNN params sum: -5905.873463898897
+Sanity check - critic params sum: -15.679576816037297
+Sanity check - actor_backbone params sum: 10.306990176439285
+Sanity check - mu_layer params sum: 0.8873298689723015
+Sanity check - log_std_param params sum: -2.898238480091095
+[8/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 0.014934301376342773 max diff.
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 110, in <module>
+    "folder_path" : folder_path
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 106, in Train_teacher
+    "run_name": "PPO_CarRacing_Teacher",
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 323, in train
+    rewards_np = np.array(reward_episodes)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 201, in ppo_update
+    ratio = logratio.exp()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 206, in get_action_and_value
+    return self.get_action(x)[0]
+KeyboardInterrupt

@@ -1,0 +1,37 @@
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/PPO/Teacher/videos/PPO_LunarLander_Teacher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -550.1, Reward per episode: [-616.3 -486.  -512.6 -672.8 -572.8 -706.4 -339.6 -641.3 -491.6 -461.5]
+[25/1000] AvgRew: 12.02
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/PPO/Teacher/videos/PPO_LunarLander_Teacher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: 4.3, Reward per episode: [-31.6  38.6 -38.1  20.7  14.5 -18.    4.9  30.4  22.9  -1.1]
+[50/1000] AvgRew: 53.51
+Finished with reward: 60.7, Reward per episode: [31.  95.5 12.7 88.6 69.5 53.7 35.  78.8 84.8 57.8]
+[75/1000] AvgRew: 116.44
+Finished with reward: 101.9, Reward per episode: [ 85.5 148.6  45.9 129.8 111.3  45.1  67.  130.3 136.5 118.7]
+[100/1000] AvgRew: 119.36
+Finished with reward: 146.9, Reward per episode: [ 89.9 156.7 143.3 146.1 127.9 205.5 206.1 140.7 137.4 115.1]
+[125/1000] AvgRew: 140.04
+Finished with reward: 227.4, Reward per episode: [205.8 274.8 103.9 246.7 251.8 202.8 214.3 261.8 260.1 252.3]
+[150/1000] AvgRew: 205.96
+Finished with reward: 222.5, Reward per episode: [217.1 272.6 202.7 271.9 136.5 190.3 146.4 266.4 269.2 252.1]
+[175/1000] AvgRew: 224.85
+Finished with reward: 243.6, Reward per episode: [210.8 284.  215.8 283.8 263.2 124.5 253.5 279.8 270.9 249.2]
+[200/1000] AvgRew: 215.73
+Finished with reward: 249.8, Reward per episode: [219.8 294.1 212.5 290.7 268.1 131.7 265.6 276.8 278.4 260.3]
+[225/1000] AvgRew: 227.37
+Finished with reward: 259.3, Reward per episode: [240.  295.7 218.2 297.3 276.2 141.4 283.1 289.3 283.6 268.2]
+[250/1000] AvgRew: 244.38
+Finished with reward: 274.9, Reward per episode: [239.9 301.6 230.8 294.3 281.  265.8 287.5 290.3 287.  270.9]
+[275/1000] AvgRew: 261.68
+Finished with reward: 275.8, Reward per episode: [242.  303.1 224.5 295.5 286.7 268.9 282.9 287.4 288.4 278.3]
+[300/1000] AvgRew: 266.02
+Finished with reward: 279.6, Reward per episode: [238.7 305.2 245.9 303.2 284.2 272.8 287.7 288.2 289.6 280.8]
+[325/1000] AvgRew: 262.16
+Finished with reward: 271.4, Reward per episode: [122.  307.  245.3 305.  286.9 274.3 299.8 301.3 290.6 282. ]
+[350/1000] AvgRew: 257.56
+Finished with reward: 285.6, Reward per episode: [251.7 303.7 244.  304.  290.9 278.9 301.3 306.8 291.6 283.3]
+Solved at iteration 355: Avg reward = 275.10
+Finished with reward: 284.5, Reward per episode: [249.  302.8 241.5 304.5 287.3 278.  303.6 308.4 289.9 279.6]
+Training completed. 19807.38783121109

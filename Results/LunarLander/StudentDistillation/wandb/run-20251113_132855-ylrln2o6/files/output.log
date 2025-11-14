@@ -1,0 +1,25 @@
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/StudentDistillation/videos/StudentDistillation_LunarLander folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:416: UserWarning: [33mWARN: Unable to save last video! Did you call close()?[0m
+  logger.warn("Unable to save last video! Did you call close()?")
+Finished with reward: -628.1, Reward per episode: [-1050.5  -486.  -1025.1  -467.9  -611.1  -706.4  -339.6  -641.3  -491.6
+  -461.5]
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 207, in <module>
+    Train_student_distillation()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 202, in Train_student_distillation
+    Distillation_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/StudentTeacher_distillation.py", line 185, in train
+    logs = self.update()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/StudentTeacher_distillation.py", line 130, in update
+    _, newlogprob, entropy, newvalue = self.student.get_action_and_value(b_obs[mb_inds], b_actions[mb_inds])
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 226, in get_action_and_value
+    self._last_std = std
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 171, in get_action
+    dist = Categorical(logits=logits)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/distributions/categorical.py", line 73, in __init__
+    super().__init__(batch_shape, validate_args=validate_args)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/distributions/distribution.py", line 71, in __init__
+    if not torch._is_all_true(valid):
+KeyboardInterrupt

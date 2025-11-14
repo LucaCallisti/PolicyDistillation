@@ -1,0 +1,12 @@
+{
+  "clip_coef": 0.13676348127427448,
+  "ent_coef": 0.004193835104846294,
+  "gae_lambda": 0.9518505221138754,
+  "gamma": 0.9916440631469028,
+  "hidden_size": 256,
+  "learning_rate": 9.268248593596136e-05,
+  "minibatch_size": 256,
+  "num_envs": 8,
+  "update_epochs": 20,
+  "vf_coef": 0.38693731962363054
+}

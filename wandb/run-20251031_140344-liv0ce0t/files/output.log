@@ -1,0 +1,24 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing/Teacher_files/videos/Teacher_lr_1.00e-04_ent_coef_1.00e-02_Anneal_ent folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 325, in <module>
+    train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 99, in train
+    agent = PPO_Image_model(envs).to(args.device)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Utils_PPO.py", line 288, in __init__
+    frame = self.get_screen(env)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Utils_PPO.py", line 348, in get_screen
+    return self.get_screen_fun.get_screen(env)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Utils_PPO.py", line 631, in get_screen
+    screen = envs.render()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/core.py", line 337, in render
+    return self.env.render()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py", line 365, in render
+    render_out = super().render()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/core.py", line 337, in render
+    return self.env.render()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/core.py", line 337, in render
+    return self.env.render()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 405, in render
+    raise ResetNeeded(
+gymnasium.error.ResetNeeded: Cannot call `env.render()` before calling `env.reset()`, if this is an intended action, set `disable_render_order_enforcing=True` on the OrderEnforcer wrapper.

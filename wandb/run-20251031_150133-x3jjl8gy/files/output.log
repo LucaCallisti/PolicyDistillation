@@ -1,0 +1,44 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing/Teacher_files/videos/Teacher_lr_1.00e-04_ent_coef_1.00e-02_Anneal_ent folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+frame di prova shape: torch.Size([1, 1, 133, 200])
+torch.Size([1, 4, 133, 200])
+torch.Size([1, 32, 129, 196])
+torch.Size([1, 64, 125, 192])
+torch.Size([1, 64, 58, 92])
+torch.Size([1, 128, 54, 88])
+torch.Size([1, 128, 23, 40])
+torch.Size([1, 128, 19, 36])
+linear_input_size 128
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 336, in <module>
+    train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 107, in train
+    input = agent.init_deque(get_screen(screen = obs))
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Utils_PPO.py", line 654, in get_screen
+    screen = resize_fun(screen)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 1573, in forward
+    return F.rgb_to_grayscale(img, num_output_channels=self.num_output_channels)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 1291, in rgb_to_grayscale
+    return F_t.rgb_to_grayscale(img, num_output_channels)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torchvision/transforms/_functional_tensor.py", line 160, in rgb_to_grayscale
+    l_img = (0.2989 * r + 0.587 * g + 0.114 * b).to(img.dtype)
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x7f286eb7f1c0>
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 150, in <module>
+    Train_student_PPD()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 138, in Train_student_PPD
+    PPD_trainer = PPD(
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 14, in __init__
+    self.envs = gym.vector.AsyncVectorEnv([RenderFrameWrapper(make_env(dict_enviroment, idx)) for idx in range(config["num_envs"])])
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 14, in <listcomp>
+    self.envs = gym.vector.AsyncVectorEnv([RenderFrameWrapper(make_env(dict_enviroment, idx)) for idx in range(config["num_envs"])])
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/My_wrapper.py", line 8, in __init__
+    super().__init__(env)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/core.py", line 313, in __init__
+    assert isinstance(
+AssertionError: Expected env to be a `gymnasium.Env` but got <class 'function'>

@@ -1,0 +1,13 @@
+{"time":"2025-11-04T11:48:50.171689695+01:00","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-11-04T11:48:50.943070098+01:00","level":"INFO","msg":"stream: created new stream","id":"dn5akkr5"}
+{"time":"2025-11-04T11:48:50.943201736+01:00","level":"INFO","msg":"stream: started","id":"dn5akkr5"}
+{"time":"2025-11-04T11:48:50.943246726+01:00","level":"INFO","msg":"handler: started","stream_id":"dn5akkr5"}
+{"time":"2025-11-04T11:48:50.943257475+01:00","level":"INFO","msg":"writer: started","stream_id":"dn5akkr5"}
+{"time":"2025-11-04T11:48:50.943314445+01:00","level":"INFO","msg":"sender: started","stream_id":"dn5akkr5"}
+{"time":"2025-11-04T11:48:51.189655145+01:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-11-04T18:41:06.947009635+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/luca-callisti-/CarRacing-Distillation/dn5akkr5/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-11-05T21:42:33.747695808+01:00","level":"INFO","msg":"stream: closing","id":"dn5akkr5"}
+{"time":"2025-11-05T21:42:34.362125845+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-05T21:42:34.568674233+01:00","level":"INFO","msg":"handler: closed","stream_id":"dn5akkr5"}
+{"time":"2025-11-05T21:42:34.568861311+01:00","level":"INFO","msg":"sender: closed","stream_id":"dn5akkr5"}
+{"time":"2025-11-05T21:42:34.568894+01:00","level":"INFO","msg":"stream: closed","id":"dn5akkr5"}

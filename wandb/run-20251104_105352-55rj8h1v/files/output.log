@@ -1,0 +1,42 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing/Teacher_files/videos/Teacher_lr_1.00e-04_ent_coef_1.00e-02_Anneal_ent folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+SPS: 92, Avg rew: -61.72, it: 1/610, n times average reward >= 200: 0/100
+SPS: 86, Avg rew: -54.56, it: 2/610, n times average reward >= 200: 0/100
+SPS: 85, Avg rew: -38.83, it: 3/610, n times average reward >= 200: 0/100
+SPS: 85, Avg rew: -29.00, it: 4/610, n times average reward >= 200: 0/100
+SPS: 85, Avg rew: -20.37, it: 5/610, n times average reward >= 200: 0/100
+SPS: 86, Avg rew: -35.16, it: 6/610, n times average reward >= 200: 0/100
+SPS: 86, Avg rew: -41.77, it: 7/610, n times average reward >= 200: 0/100
+SPS: 85, Avg rew: -48.65, it: 8/610, n times average reward >= 200: 0/100
+SPS: 83, Avg rew: -49.23, it: 9/610, n times average reward >= 200: 0/100
+SPS: 83, Avg rew: -55.55, it: 10/610, n times average reward >= 200: 0/100
+SPS: 83, Avg rew: -57.90, it: 11/610, n times average reward >= 200: 0/100
+SPS: 83, Avg rew: -56.42, it: 12/610, n times average reward >= 200: 0/100
+SPS: 82, Avg rew: -60.34, it: 13/610, n times average reward >= 200: 0/100
+SPS: 82, Avg rew: -72.68, it: 14/610, n times average reward >= 200: 0/100
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 341, in <module>
+    train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 156, in train
+    next_obs, reward, terminations, truncations, infos = envs.step(action.cpu().numpy())
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/sync_vector_env.py", line 264, in step
+    ) = self.envs[i].step(action)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 513, in step
+    obs, reward, terminated, truncated, info = super().step(action)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 125, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 285, in step
+    return self.env.step(action)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/envs/box2d/car_racing.py", line 563, in step
+    self.state = self._render("state_pixels")
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/envs/box2d/car_racing.py", line 658, in _render
+    return self._create_image_array(self.surf, (STATE_W, STATE_H))
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/envs/box2d/car_racing.py", line 789, in _create_image_array
+    scaled_screen = pygame.transform.smoothscale(screen, size)
+KeyboardInterrupt

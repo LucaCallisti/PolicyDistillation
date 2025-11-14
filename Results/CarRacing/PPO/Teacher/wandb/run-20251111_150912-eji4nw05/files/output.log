@@ -1,0 +1,11 @@
+Start training...
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 110, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 106, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 283, in train
+    logs = self.ppo_update(advantages, returns)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 216, in ppo_update
+    assert torch.isclose(ratio, torch.tensor(1.0), atol=1e-4).all(), "Ratio not close to 1 at first update!"
+AssertionError: Ratio not close to 1 at first update!

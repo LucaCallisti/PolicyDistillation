@@ -1,0 +1,1475 @@
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+[1/2000] AvgRew: nan
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -105.5, Reward per episode: [ -64.2 -130.2  -78.4 -123.7  -74.9  -72.9 -114.  -134.  -127.5 -135.1]
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+[2/2000] AvgRew: nan
+[3/2000] AvgRew: -24.09
+[4/2000] AvgRew: nan
+[5/2000] AvgRew: -24.55
+[6/2000] AvgRew: nan
+[7/2000] AvgRew: -26.74
+[8/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 0.013918042182922363 max diff.
+[9/2000] AvgRew: -24.70
+Warning: Ratio not close to 1 at first update! elements differ. 0.04027557373046875 max diff.
+[10/2000] AvgRew: nan
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -33.1, Reward per episode: [-55.6 -67.   32.6 -53.2 -32.9 -46.4  27.  -73.6 -27.8 -34.4]
+Warning: Ratio not close to 1 at first update! elements differ. 0.013722777366638184 max diff.
+[11/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 0.01434093713760376 max diff.
+[12/2000] AvgRew: -25.58
+Warning: Ratio not close to 1 at first update! elements differ. 0.04268014430999756 max diff.
+[13/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 0.017984747886657715 max diff.
+[14/2000] AvgRew: -24.33
+Warning: Ratio not close to 1 at first update! elements differ. 0.020065367221832275 max diff.
+[15/2000] AvgRew: nan
+Warning: Ratio not close to 1 at first update! elements differ. 1.0 max diff.
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py(209)ppo_update()
+->
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor([[[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        ...,
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]]], device='cuda:4')
+tensor([True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True], device='cuda:4')
+tensor([[[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        ...,
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]]], device='cuda:4')
+tensor([True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True], device='cuda:4')
+tensor([[[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        ...,
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]]], device='cuda:4')
+tensor([True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True], device='cuda:4')
+tensor([[[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        ...,
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]]], device='cuda:4')
+tensor([True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True], device='cuda:4')
+tensor([[[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        ...,
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]]], device='cuda:4')
+tensor([True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True], device='cuda:4')
+tensor([[[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        ...,
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]],
+
+
+        [[[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         ...,
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]],
+
+         [[True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True],
+          [True, True, True, True, True]]]], device='cuda:4')
+tensor([True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True, True, True, True, True,
+        True, True, True, True, True, True, True, True], device='cuda:4')
+tensor(0.2081, device='cuda:4', grad_fn=<AddBackward0>)
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py(210)ppo_update()
+->
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py(211)ppo_update()
+-> with torch.no_grad():
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py(213)ppo_update()
+-> clipfracs.append(((ratio - 1.0).abs() > cfg["clip_coef"]).float().mean().item())
+tensor(nan, device='cuda:4', grad_fn=<AddBackward0>)
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(False, device='cuda:4')
+tensor(False, device='cuda:4')
+tensor(False, device='cuda:4')
+tensor(False, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+tensor(True, device='cuda:4')
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 110, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 106, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 298, in train
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 213, in ppo_update
+    clipfracs.append(((ratio - 1.0).abs() > cfg["clip_coef"]).float().mean().item())
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 213, in ppo_update
+    clipfracs.append(((ratio - 1.0).abs() > cfg["clip_coef"]).float().mean().item())
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

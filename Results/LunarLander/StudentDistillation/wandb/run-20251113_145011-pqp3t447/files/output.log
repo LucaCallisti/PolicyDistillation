@@ -1,0 +1,38 @@
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/StudentDistillation/videos/StudentDistillation_LunarLander folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:416: UserWarning: [33mWARN: Unable to save last video! Did you call close()?[0m
+  logger.warn("Unable to save last video! Did you call close()?")
+Finished with reward: -628.1, Reward per episode: [-1050.5  -486.  -1025.1  -467.9  -611.1  -706.4  -339.6  -641.3  -491.6
+  -461.5]
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/StudentDistillation/videos/StudentDistillation_LunarLander folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:416: UserWarning: [33mWARN: Unable to save last video! Did you call close()?[0m
+  logger.warn("Unable to save last video! Did you call close()?")
+Finished with reward: -727.8, Reward per episode: [ -326.   -630.4  -649.7  -572.7  -644.4  -472.7  -346.8 -1927.1  -731.4
+  -976.8]
+[25/1737] AvgRew: -260.23
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+Finished with reward: -548.5, Reward per episode: [-590.5 -482.8 -584.4 -521.4 -587.5 -527.6 -483.2 -590.2 -520.9 -596.5]
+[50/1737] AvgRew: -552.50
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+Finished with reward: -548.5, Reward per episode: [-590.5 -482.8 -584.4 -521.4 -587.5 -527.6 -483.2 -590.2 -520.9 -596.5]
+[75/1737] AvgRew: -532.11
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+Finished with reward: -548.5, Reward per episode: [-590.5 -482.8 -584.4 -521.4 -587.5 -527.6 -483.2 -590.2 -520.9 -596.5]
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 208, in <module>
+    Train_student_distillation()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 203, in Train_student_distillation
+    Distillation_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/StudentTeacher_distillation.py", line 188, in train
+    logs = self.update()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/StudentTeacher_distillation.py", line 162, in update
+    loss.backward()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/_tensor.py", line 648, in backward
+    torch.autograd.backward(
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/autograd/__init__.py", line 353, in backward
+    _engine_run_backward(
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/autograd/graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

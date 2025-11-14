@@ -1,0 +1,29 @@
+Start training...
+Sanity check for NaNs in model parameters, iteration: 1
+[1/2000] AvgRew: -103.26
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/Pusher/PPO/Teacher/videos/PPO_Pusher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/Test_model.py(60)test_model()
+-> action, log_prob_A, entropy = take_action(model_A, done, info)
+*** KeyError: 'state_observation'
+*** NameError: name 'entropy' is not defined
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 76, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Pusher.py", line 72, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 362, in train
+    info = {
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 394, in test
+    return mean_reward
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Test_model.py", line 60, in test_model
+    action, log_prob_A, entropy = take_action(model_A, done, info)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Test_model.py", line 60, in test_model
+    action, log_prob_A, entropy = take_action(model_A, done, info)
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

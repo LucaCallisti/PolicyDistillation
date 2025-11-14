@@ -1,0 +1,26 @@
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py(15)__init__()
+-> self.envs = gym.vector.AsyncVectorEnv([make_env(dict_enviroment, idx, wrappers=[RenderFrameWrapper]) for idx in range(config["num_envs"])])
+*** NameError: name 'LunarLander' is not defined
+*** RuntimeError: Underlying env returned None on render.
+(array([ 1.9194050e-01,  1.4103856e+00, -1.6410473e-10, -2.6666665e-02,
+        2.5124621e-01, -1.6065315e-09,  0.0000000e+00,  0.0000000e+00],
+      dtype=float32), {})
+*** AttributeError: 'NoneType' object has no attribute 'shape'
+(array([-9.6149446e-04,  1.4125121e+00, -9.7396970e-02,  7.0753269e-02,
+        1.1208464e-03,  2.2061877e-02,  0.0000000e+00,  0.0000000e+00],
+      dtype=float32), {})
+*** NameError: name 'exiy' is not defined
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 150, in <module>
+    Train_student_PPD()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 138, in Train_student_PPD
+    PPD_trainer = PPD(
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 15, in __init__
+    self.envs = gym.vector.AsyncVectorEnv([make_env(dict_enviroment, idx, wrappers=[RenderFrameWrapper]) for idx in range(config["num_envs"])])
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 15, in __init__
+    self.envs = gym.vector.AsyncVectorEnv([make_env(dict_enviroment, idx, wrappers=[RenderFrameWrapper]) for idx in range(config["num_envs"])])
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

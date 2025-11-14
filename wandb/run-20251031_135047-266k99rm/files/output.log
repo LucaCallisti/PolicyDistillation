@@ -1,0 +1,73 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander/Teacher_files/videos/Teacher_lr_1.00e-04_ent_coef_1.00e-02_Anneal_ent folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+SPS: 1949, Avg rew: -170.97, it: 1/610, n times average reward >= 250: 0/100
+SPS: 1925, Avg rew: -140.56, it: 2/610, n times average reward >= 250: 0/100
+SPS: 1914, Avg rew: -128.72, it: 3/610, n times average reward >= 250: 0/100
+SPS: 1871, Avg rew: -125.80, it: 4/610, n times average reward >= 250: 0/100
+SPS: 1883, Avg rew: -113.55, it: 5/610, n times average reward >= 250: 0/100
+SPS: 1925, Avg rew: -122.40, it: 6/610, n times average reward >= 250: 0/100
+SPS: 1945, Avg rew: -107.03, it: 7/610, n times average reward >= 250: 0/100
+SPS: 1968, Avg rew: -108.15, it: 8/610, n times average reward >= 250: 0/100
+SPS: 2007, Avg rew: -67.00, it: 9/610, n times average reward >= 250: 0/100
+SPS: 2017, Avg rew: -60.97, it: 10/610, n times average reward >= 250: 0/100
+SPS: 2019, Avg rew: -52.44, it: 11/610, n times average reward >= 250: 0/100
+SPS: 2011, Avg rew: -50.94, it: 12/610, n times average reward >= 250: 0/100
+SPS: 1980, Avg rew: -67.95, it: 13/610, n times average reward >= 250: 0/100
+SPS: 1985, Avg rew: -53.19, it: 14/610, n times average reward >= 250: 0/100
+SPS: 1987, Avg rew: -34.83, it: 15/610, n times average reward >= 250: 0/100
+SPS: 1984, Avg rew: -11.78, it: 16/610, n times average reward >= 250: 0/100
+SPS: 1986, Avg rew: 1.97, it: 17/610, n times average reward >= 250: 0/100
+SPS: 1992, Avg rew: -14.11, it: 18/610, n times average reward >= 250: 0/100
+SPS: 1994, Avg rew: 0.12, it: 19/610, n times average reward >= 250: 0/100
+SPS: 1999, Avg rew: 9.84, it: 20/610, n times average reward >= 250: 0/100
+SPS: 2000, Avg rew: -7.46, it: 21/610, n times average reward >= 250: 0/100
+SPS: 1998, Avg rew: -24.13, it: 22/610, n times average reward >= 250: 0/100
+SPS: 2004, Avg rew: -19.14, it: 23/610, n times average reward >= 250: 0/100
+SPS: 2004, Avg rew: 9.05, it: 24/610, n times average reward >= 250: 0/100
+SPS: 2003, Avg rew: -9.35, it: 25/610, n times average reward >= 250: 0/100
+SPS: 2000, Avg rew: 46.38, it: 26/610, n times average reward >= 250: 0/100
+SPS: 1994, Avg rew: 6.44, it: 27/610, n times average reward >= 250: 0/100
+SPS: 1988, Avg rew: 11.57, it: 28/610, n times average reward >= 250: 0/100
+SPS: 1990, Avg rew: -5.49, it: 29/610, n times average reward >= 250: 0/100
+SPS: 1988, Avg rew: 8.71, it: 30/610, n times average reward >= 250: 0/100
+SPS: 1995, Avg rew: 16.77, it: 31/610, n times average reward >= 250: 0/100
+SPS: 1998, Avg rew: 38.00, it: 32/610, n times average reward >= 250: 0/100
+SPS: 1989, Avg rew: -10.80, it: 33/610, n times average reward >= 250: 0/100
+SPS: 1992, Avg rew: -20.45, it: 34/610, n times average reward >= 250: 0/100
+SPS: 1993, Avg rew: 11.59, it: 35/610, n times average reward >= 250: 0/100
+SPS: 1988, Avg rew: 0.84, it: 36/610, n times average reward >= 250: 0/100
+SPS: 1984, Avg rew: 35.67, it: 37/610, n times average reward >= 250: 0/100
+SPS: 1987, Avg rew: -16.89, it: 38/610, n times average reward >= 250: 0/100
+SPS: 1983, Avg rew: 40.53, it: 39/610, n times average reward >= 250: 0/100
+SPS: 1980, Avg rew: -4.55, it: 40/610, n times average reward >= 250: 0/100
+SPS: 1979, Avg rew: 29.14, it: 41/610, n times average reward >= 250: 0/100
+SPS: 1977, Avg rew: 22.45, it: 42/610, n times average reward >= 250: 0/100
+SPS: 1978, Avg rew: 13.06, it: 43/610, n times average reward >= 250: 0/100
+SPS: 1981, Avg rew: 29.65, it: 44/610, n times average reward >= 250: 0/100
+SPS: 1979, Avg rew: -13.41, it: 45/610, n times average reward >= 250: 0/100
+SPS: 1978, Avg rew: 34.93, it: 46/610, n times average reward >= 250: 0/100
+SPS: 1981, Avg rew: 33.93, it: 47/610, n times average reward >= 250: 0/100
+SPS: 1984, Avg rew: 18.53, it: 48/610, n times average reward >= 250: 0/100
+SPS: 1981, Avg rew: 12.10, it: 49/610, n times average reward >= 250: 0/100
+SPS: 1973, Avg rew: 35.36, it: 50/610, n times average reward >= 250: 0/100
+SPS: 1952, Avg rew: 18.36, it: 51/610, n times average reward >= 250: 0/100
+SPS: 1947, Avg rew: 24.23, it: 52/610, n times average reward >= 250: 0/100
+SPS: 1946, Avg rew: 11.04, it: 53/610, n times average reward >= 250: 0/100
+SPS: 1948, Avg rew: 32.46, it: 54/610, n times average reward >= 250: 0/100
+SPS: 1950, Avg rew: 14.26, it: 55/610, n times average reward >= 250: 0/100
+SPS: 1951, Avg rew: 21.67, it: 56/610, n times average reward >= 250: 0/100
+SPS: 1946, Avg rew: 34.29, it: 57/610, n times average reward >= 250: 0/100
+SPS: 1945, Avg rew: 54.94, it: 58/610, n times average reward >= 250: 0/100
+SPS: 1941, Avg rew: 42.09, it: 59/610, n times average reward >= 250: 0/100
+SPS: 1940, Avg rew: 38.48, it: 60/610, n times average reward >= 250: 0/100
+SPS: 1940, Avg rew: 46.56, it: 61/610, n times average reward >= 250: 0/100
+SPS: 1941, Avg rew: 3.28, it: 62/610, n times average reward >= 250: 0/100
+SPS: 1942, Avg rew: 38.99, it: 63/610, n times average reward >= 250: 0/100
+SPS: 1935, Avg rew: 44.96, it: 64/610, n times average reward >= 250: 0/100
+SPS: 1937, Avg rew: 55.24, it: 65/610, n times average reward >= 250: 0/100
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 323, in <module>
+    train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 227, in train
+    pg_loss2 = -mb_advantages * torch.clamp(ratio, 1 - args.clip_coef, 1 + args.clip_coef)
+KeyboardInterrupt

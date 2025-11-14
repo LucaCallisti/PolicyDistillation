@@ -1,0 +1,31 @@
+Start training...
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 208, in <module>
+    Train_student_distillation()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 203, in Train_student_distillation
+    Distillation_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/StudentTeacher_distillation.py", line 188, in train
+    logs = self.update()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/StudentTeacher_distillation.py", line 133, in update
+    _, newlogprob, entropy, newvalue = self.student.get_action_and_value(b_obs[mb_inds], b_actions[mb_inds])
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 206, in get_action_and_value
+    action, log_prob, entropy = self.get_action(x, action)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 153, in get_action
+    x = self.get_backbone(x)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 139, in get_backbone
+    x = self.cnn_backbone(x)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/container.py", line 240, in forward
+    input = module(input)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.93 GiB. GPU 5 has a total capacity of 39.38 GiB of which 783.81 MiB is free. Process 1201543 has 35.80 GiB memory in use. Including non-PyTorch memory, this process has 2.79 GiB memory in use. Of the allocated memory 2.25 GiB is allocated by PyTorch, and 30.38 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

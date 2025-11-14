@@ -1,0 +1,62 @@
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+[1/2000] AvgRew: nan
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -105.5, Reward per episode: [ -64.2 -130.2  -78.4 -123.7  -74.9  -72.9 -114.  -134.  -127.5 -135.1]
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+[2/2000] AvgRew: nan
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py(215)ppo_update()
+-> assert torch.isclose(ratio, torch.tensor(1.0), atol=1e-4).all(), "Ratio not close to 1 at first update!"
+tensor([1.0002, 1.0001, 0.9998, 1.0000, 0.9998, 1.0001, 1.0000, 1.0002, 1.0000,
+        1.0001, 1.0001, 1.0000, 0.9999, 1.0001, 1.0003, 1.0000, 1.0000, 1.0003,
+        1.0001, 0.9997, 1.0003, 1.0002, 1.0000, 1.0000, 0.9999, 0.9998, 1.0000,
+        1.0000, 0.9999, 0.9999, 1.0000, 1.0001, 0.9999, 1.0000, 1.0000, 1.0000,
+        1.0001, 1.0000, 1.0001, 1.0003, 1.0000, 1.0000, 1.0000, 0.9999, 1.0000,
+        1.0002, 1.0001, 1.0000, 1.0001, 1.0001, 1.0000, 1.0000, 1.0001, 1.0000,
+        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0001, 1.0002, 1.0000, 1.0000,
+        0.9998, 0.9998, 0.9998, 1.0001, 1.0002, 1.0000, 1.0001, 0.9999, 0.9999,
+        1.0000, 0.9999, 1.0000, 0.9998, 1.0002, 1.0001, 1.0000, 0.9997, 1.0002,
+        1.0001, 1.0002, 0.9999, 1.0000, 1.0000, 1.0001, 1.0000, 0.9999, 1.0000,
+        1.0002, 1.0000, 1.0000, 1.0001, 1.0001, 0.9998, 0.9997, 0.9999, 1.0000,
+        1.0000, 0.9998, 1.0000, 1.0000, 1.0000, 0.9999, 1.0002, 1.0003, 1.0000,
+        0.9999, 1.0000, 0.9999, 1.0000, 1.0000, 1.0001, 1.0000, 1.0000, 0.9998,
+        0.9997, 1.0003, 0.9998, 1.0000, 1.0000, 1.0001, 1.0000, 1.0000, 1.0001,
+        1.0002, 0.9999, 1.0000, 1.0000, 1.0002, 1.0000, 1.0001, 1.0001, 0.9997,
+        1.0001, 1.0000, 1.0000, 1.0000, 1.0000, 1.0002, 1.0001, 1.0001, 1.0000,
+        0.9999, 0.9998, 1.0000, 1.0000, 1.0002, 0.9998, 1.0002, 0.9999, 0.9999,
+        0.9998, 1.0000, 0.9999, 1.0000, 1.0001, 1.0000, 1.0001, 0.9998, 1.0003,
+        1.0000, 0.9997, 1.0000, 1.0001, 1.0000, 1.0000, 0.9999, 1.0001, 1.0000,
+        1.0000, 1.0002, 1.0000, 1.0002, 1.0000, 1.0000, 1.0001, 1.0002, 1.0001,
+        0.9996, 1.0001, 0.9999, 1.0002, 0.9999, 1.0001, 1.0001, 1.0000, 0.9998,
+        1.0001, 1.0001, 0.9998, 1.0000, 1.0001, 1.0000, 1.0000, 0.9999, 1.0000,
+        1.0001, 1.0000, 1.0002, 1.0000, 0.9998, 1.0000, 1.0000, 0.9999, 1.0003,
+        1.0002, 1.0000, 1.0002, 1.0001, 0.9998, 0.9999, 1.0001, 1.0000, 0.9998,
+        1.0001, 1.0000, 1.0004, 0.9998, 0.9999, 1.0000, 1.0000, 1.0003, 0.9997,
+        1.0000, 1.0000, 1.0001, 0.9998, 1.0000, 0.9999, 0.9997, 1.0000, 1.0000,
+        1.0000, 1.0001, 1.0001, 0.9999, 1.0000, 0.9999, 1.0001, 1.0000, 0.9995,
+        0.9998, 1.0000, 0.9999, 1.0001, 1.0001, 1.0000, 1.0000, 0.9999, 1.0000,
+        1.0001, 1.0000, 1.0002, 1.0000], device='cuda:7',
+       grad_fn=<ExpBackward0>)
+tensor(156, device='cuda:7')
+tensor(256, device='cuda:7')
+torch.Size([256])
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 110, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 106, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 282, in train
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 215, in ppo_update
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 215, in ppo_update
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

@@ -1,0 +1,27 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/PPD/videos/PPD_LunarLander_PPDparam1.0 folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+CNN backbone parameters are all finite after update.
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:416: UserWarning: [33mWARN: Unable to save last video! Did you call close()?[0m
+  logger.warn("Unable to save last video! Did you call close()?")
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 150, in <module>
+    Train_student_PPD()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 147, in Train_student_PPD
+    PPD_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 276, in train
+    avg_rew, reward_episodes = self.collect_rollouts()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 45, in collect_rollouts
+    input_ = self.agent.update_memory(screen, self.next_done.cpu()).to(self.device)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 240, in update_memory
+    return self.input_manager.update_deque(frame, dones)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 334, in update_deque
+    self.input[:, self.current_index] = frames.squeeze()
+RuntimeError: The expanded size of the tensor (10) must match the existing size (18) at non-singleton dimension 0.  Target sizes: [10, 133, 200].  Tensor sizes: [18, 133, 200]

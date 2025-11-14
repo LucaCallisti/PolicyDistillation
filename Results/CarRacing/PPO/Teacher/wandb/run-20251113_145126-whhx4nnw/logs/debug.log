@@ -1,0 +1,22 @@
+2025-11-13 14:51:26,823 INFO    MainThread:1440714 [wandb_setup.py:_flush():80] Current SDK version is 0.21.1
+2025-11-13 14:51:26,823 INFO    MainThread:1440714 [wandb_setup.py:_flush():80] Configure stats pid to 1440714
+2025-11-13 14:51:26,823 INFO    MainThread:1440714 [wandb_setup.py:_flush():80] Loading settings from /home/l.callisti/.config/wandb/settings
+2025-11-13 14:51:26,823 INFO    MainThread:1440714 [wandb_setup.py:_flush():80] Loading settings from /home/l.callisti/Distillation_LunarLander/Final_pipeline/wandb/settings
+2025-11-13 14:51:26,823 INFO    MainThread:1440714 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-11-13 14:51:26,823 INFO    MainThread:1440714 [wandb_init.py:setup_run_log_directory():703] Logging user logs to ./Results/CarRacing/PPO/Teacher/wandb/run-20251113_145126-whhx4nnw/logs/debug.log
+2025-11-13 14:51:26,823 INFO    MainThread:1440714 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to ./Results/CarRacing/PPO/Teacher/wandb/run-20251113_145126-whhx4nnw/logs/debug-internal.log
+2025-11-13 14:51:26,823 INFO    MainThread:1440714 [wandb_init.py:init():830] calling init triggers
+2025-11-13 14:51:26,824 INFO    MainThread:1440714 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'env_name': 'CarRacing-v3', 'seed': 1000, 'torch_deterministic': True, 'num_envs': 32, 'num_steps': 512, 'num_iterations': 2000, 'learning_rate': 0.00025, 'anneal_lr': True, 'gamma': 0.99, 'gae_lambda': 0.95, 'clip_coef': 0.2, 'clip_vloss': True, 'ent_coef': 0.001, 'anneal_ent_coef': True, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'update_epochs': 20, 'minibatch_size': 256, 'norm_adv': True, 'target_reward': 900, 'Test_frequency': 10, 'reset_after_test': True, 'Verbose_frequency': 1, 'run_name': 'PPO_CarRacing_Teacher_GroupNorm', 'render_idx': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], 'record_video_idx': [0], 'folder_path': './Results/CarRacing/PPO/Teacher/', 'wrappers': [<class 'My_wrapper.RenderFrameWrapper_CarRacing'>], 'seeds': [100, 101, 102, 103, 104, 105, 106, 107, 108, 109], 'video_folder': './Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher_GroupNorm', '_wandb': {'code_path': 'code/CarRacing.py'}}
+2025-11-13 14:51:26,824 INFO    MainThread:1440714 [wandb_init.py:init():871] starting backend
+2025-11-13 14:51:27,034 INFO    MainThread:1440714 [wandb_init.py:init():874] sending inform_init request
+2025-11-13 14:51:27,045 INFO    MainThread:1440714 [wandb_init.py:init():882] backend started and connected
+2025-11-13 14:51:27,056 INFO    MainThread:1440714 [wandb_init.py:init():953] updated telemetry
+2025-11-13 14:51:27,058 INFO    MainThread:1440714 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2025-11-13 14:51:27,792 INFO    MainThread:1440714 [wandb_init.py:init():1029] starting run threads in backend
+2025-11-13 14:51:27,893 INFO    MainThread:1440714 [wandb_run.py:_console_start():2494] atexit reg
+2025-11-13 14:51:27,894 INFO    MainThread:1440714 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2025-11-13 14:51:27,894 INFO    MainThread:1440714 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2025-11-13 14:51:27,894 INFO    MainThread:1440714 [wandb_run.py:_redirect():2434] Redirects installed.
+2025-11-13 14:51:27,898 INFO    MainThread:1440714 [wandb_init.py:init():1075] run started, returning control to user process
+2025-11-13 15:01:34,112 INFO    MsgRouterThr:1440714 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

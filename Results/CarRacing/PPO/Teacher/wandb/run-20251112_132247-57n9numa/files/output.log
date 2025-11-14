@@ -1,0 +1,38 @@
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+CNN backbone parameters are all finite after update.
+[1/2000] AvgRew: nan
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/CarRacing/PPO/Teacher/videos/PPO_CarRacing_Teacher folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+Finished with reward: -105.5, Reward per episode: [ -64.2 -130.2  -78.4 -123.7  -74.9  -72.9 -114.  -134.  -127.5 -135.1]
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+CNN backbone parameters are all finite after update.
+[2/2000] AvgRew: nan
+CNN backbone parameters are all finite after update.
+[3/2000] AvgRew: -24.09
+CNN backbone parameters are all finite after update.
+[4/2000] AvgRew: nan
+CNN backbone parameters are all finite after update.
+[5/2000] AvgRew: -24.55
+CNN backbone parameters are all finite after update.
+[6/2000] AvgRew: nan
+CNN backbone parameters are all finite after update.
+[7/2000] AvgRew: -26.74
+CNN backbone parameters are all finite after update.
+[8/2000] AvgRew: nan
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 110, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 106, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 288, in train
+    logs = self.ppo_update(advantages, returns)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 220, in ppo_update
+    print(f"Warning: Ratio not close to 1 at first update! {(not torch.isclose(ratio, torch.tensor(1.0), atol=1e-2)).sum().item()} elements differ. {torch.abs(ratio - 1.0).max().item()} max diff.")
+RuntimeError: Boolean value of Tensor with more than one value is ambiguous

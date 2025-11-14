@@ -1,0 +1,15 @@
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing/Teacher_files/videos/Teacher_lr_1.00e-04_ent_coef_1.00e-02_Anneal_ent folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+linear_input_size 128
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py(146)train()
+-> with torch.no_grad():
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 333, in <module>
+    train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 141, in train
+    input = agent.append_deque(next_obs, next_done)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Utils_PPO.py", line 357, in append_deque
+    return self.input.update_deque(frame, dones)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Utils_PPO.py", line 424, in update_deque
+    self.input[:, self.current_index] = frames.squeeze()
+RuntimeError: expand(torch.cuda.FloatTensor{[16, 96, 96, 3]}, size=[16, 133, 200]): the number of sizes provided (3) must be greater or equal to the number of dimensions in the tensor (4)

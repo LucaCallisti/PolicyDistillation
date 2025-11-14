@@ -1,0 +1,21 @@
+Start training...
+Warning: Ratio not close to 1 at first update! elements differ. 0.01838505268096924 max diff.
+Sanity check for NaNs in model parameters, iteration: 1
+Sanity check - CNN params sum: 368.54637393402925
+Sanity check - critic params sum: -18.889373848302057
+Sanity check - actor_backbone params sum: 8.935484379529953
+Sanity check - mu_layer params sum: 0.03701170766726136
+Sanity check - log_std_param params sum: -2.1278577744960785
+[1/2000] AvgRew: nan
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 116, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 112, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 360, in train
+    mean_rwd_test = self.test()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 392, in test
+    return test_model(model_A=self.agent, env =self.test_envs, iteration=self.iteration, global_step = self.global_step, dict_test=self.dict_test_enviroment, device = self.device)
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+TypeError: test_model() got an unexpected keyword argument 'dict_test'

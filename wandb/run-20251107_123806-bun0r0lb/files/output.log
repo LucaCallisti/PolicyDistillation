@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 341, in <module>
+    train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO-Teacher.py", line 91, in train
+    envs = gym.vector.SyncVectorEnv(
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/sync_vector_env.py", line 96, in __init__
+    self.envs = [env_fn() for env_fn in env_fns]
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/vector/sync_vector_env.py", line 96, in <listcomp>
+    self.envs = [env_fn() for env_fn in env_fns]
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Utils_PPO.py", line 27, in thunk
+    raise NotImplementedError(f"Environment {enviroment} not implemented.")
+NotImplementedError: Environment Pusher-v5 not implemented.

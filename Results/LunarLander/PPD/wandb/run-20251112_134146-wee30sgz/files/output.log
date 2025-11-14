@@ -1,0 +1,23 @@
+0
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/PPD/videos/PPD_LunarLander_PPDparam1.0 folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py(21)__init__()
+-> self.next_obs, self.info = self.envs.reset(seed=config["seed"])
+{'run_name': 'PPD_LunarLander_PPDparam1.0', 'env_name': 'LunarLander', 'render_idx': [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]], 'record_video_idx': [], 'folder_path': './Results/LunarLander/PPD/'}
+*** Error in argument: '(range(0, default_config["num_envs"])'
+*** Error in argument: '(range(0, default_config["num_envs"]))'
+*** Error in argument: '(range(0, config["num_envs"]))'
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 150, in <module>
+    if __name__ == "__main__":
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/LunarLander.py", line 138, in Train_student_PPD
+    }
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 21, in __init__
+    self.next_obs, self.info = self.envs.reset(seed=config["seed"])
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPD.py", line 21, in __init__
+    self.next_obs, self.info = self.envs.reset(seed=config["seed"])
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

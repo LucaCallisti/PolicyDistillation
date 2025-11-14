@@ -1,0 +1,150 @@
+Start training...
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/StudentDistillation/videos/StudentDistillation_LunarLander folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:416: UserWarning: [33mWARN: Unable to save last video! Did you call close()?[0m
+  logger.warn("Unable to save last video! Did you call close()?")
+Finished with reward: -628.1, Reward per episode: [-1050.5  -486.  -1025.1  -467.9  -611.1  -706.4  -339.6  -641.3  -491.6
+  -461.5]
+[25/1737] AvgRew: -243.72
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:283: UserWarning: [33mWARN: Overwriting existing videos at /home/l.callisti/Distillation_LunarLander/Final_pipeline/Results/LunarLander/StudentDistillation/videos/StudentDistillation_LunarLander folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)[0m
+  logger.warn(
+/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/gymnasium/wrappers/rendering.py:416: UserWarning: [33mWARN: Unable to save last video! Did you call close()?[0m
+  logger.warn("Unable to save last video! Did you call close()?")
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[50/1737] AvgRew: -527.05
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[75/1737] AvgRew: -544.05
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[100/1737] AvgRew: -544.43
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[125/1737] AvgRew: -548.24
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[150/1737] AvgRew: -548.90
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[175/1737] AvgRew: -571.27
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[200/1737] AvgRew: -533.54
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[225/1737] AvgRew: -562.14
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[250/1737] AvgRew: -537.16
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[275/1737] AvgRew: -554.81
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[300/1737] AvgRew: -560.68
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[325/1737] AvgRew: -538.81
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[350/1737] AvgRew: -537.95
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[375/1737] AvgRew: -569.91
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[400/1737] AvgRew: -539.63
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[425/1737] AvgRew: -549.81
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[450/1737] AvgRew: -551.86
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[475/1737] AvgRew: -570.36
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[500/1737] AvgRew: -529.97
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[525/1737] AvgRew: -554.37
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[550/1737] AvgRew: -532.44
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[575/1737] AvgRew: -549.63
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[600/1737] AvgRew: -541.06
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[625/1737] AvgRew: -551.71
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[650/1737] AvgRew: -557.55
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[675/1737] AvgRew: -541.62
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[700/1737] AvgRew: -559.86
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[725/1737] AvgRew: -536.22
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[750/1737] AvgRew: -557.39
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[775/1737] AvgRew: -557.21
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[800/1737] AvgRew: -546.43
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[825/1737] AvgRew: -536.05
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[850/1737] AvgRew: -540.56
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[875/1737] AvgRew: -555.21
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[900/1737] AvgRew: -563.43
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[925/1737] AvgRew: -537.90
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[950/1737] AvgRew: -561.84
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[975/1737] AvgRew: -535.35
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1000/1737] AvgRew: -539.73
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1025/1737] AvgRew: -536.39
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1050/1737] AvgRew: -538.16
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1075/1737] AvgRew: -522.91
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1100/1737] AvgRew: -539.95
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1125/1737] AvgRew: -531.68
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1150/1737] AvgRew: -559.77
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1175/1737] AvgRew: -559.26
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1200/1737] AvgRew: -534.38
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1225/1737] AvgRew: -555.96
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1250/1737] AvgRew: -558.38
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1275/1737] AvgRew: -546.42
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1300/1737] AvgRew: -554.30
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1325/1737] AvgRew: -559.95
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1350/1737] AvgRew: -551.44
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1375/1737] AvgRew: -557.82
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1400/1737] AvgRew: -542.43
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1425/1737] AvgRew: -577.53
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1450/1737] AvgRew: -561.36
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1475/1737] AvgRew: -560.17
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1500/1737] AvgRew: -550.12
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1525/1737] AvgRew: -559.29
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1550/1737] AvgRew: -553.26
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1575/1737] AvgRew: -563.22
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1600/1737] AvgRew: -557.69
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1625/1737] AvgRew: -547.16
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1650/1737] AvgRew: -525.07
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1675/1737] AvgRew: -562.95
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1700/1737] AvgRew: -547.41
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+[1725/1737] AvgRew: -538.96
+Finished with reward: -504.1, Reward per episode: [-578.6 -574.5 -578.4 -497.3 -528.7 -445.2 -432.  -508.5 -408.6 -489.6]
+Training completed. 16732.1316447258

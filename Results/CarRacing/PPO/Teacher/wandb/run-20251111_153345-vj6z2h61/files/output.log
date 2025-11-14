@@ -1,0 +1,53 @@
+Start training...
+[INFO] Number of trainable parameters: -19.06790542602539
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py(194)get_action()
+-> log_prob = dist.log_prob(raw_action).sum(-1)
+torch.Size([16, 3])
+torch.Size([16, 3])
+tensor([[ 0.4459,  0.5134,  0.3407],
+        [-0.3123,  0.6448,  0.5071],
+        [-0.3408,  0.6846,  0.3305],
+        [ 0.3252,  0.5539,  0.6014],
+        [-0.7970,  0.4253,  0.2539],
+        [ 0.1946,  0.0894,  0.1045],
+        [-0.7581,  0.3304,  0.7458],
+        [ 0.2215,  0.4345,  0.4419],
+        [-0.4113,  0.5254,  0.1162],
+        [-0.2229,  0.3367,  0.6002],
+        [-0.3735,  0.6039,  0.4364],
+        [ 0.0377,  0.2670,  0.5677],
+        [-0.2620,  0.1933,  0.3771],
+        [ 0.3263,  0.6704,  0.3887],
+        [ 0.1479,  0.7856,  0.3663],
+        [ 0.0440,  0.3050,  0.5256]], device='cuda:7')
+*** NameError: name 'b_obs' is not defined
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py(194)get_action()
+-> log_prob = dist.log_prob(raw_action).sum(-1)
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py(194)get_action()
+-> log_prob = dist.log_prob(raw_action).sum(-1)
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py(194)get_action()
+-> log_prob = dist.log_prob(raw_action).sum(-1)
+> /home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py(194)get_action()
+-> log_prob = dist.log_prob(raw_action).sum(-1)
+Traceback (most recent call last):
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 110, in <module>
+    Train_teacher()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/CarRacing.py", line 106, in Train_teacher
+    PPO_trainer.train()
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 293, in train
+    avg_rew, reward_episodes = self.collect_rollouts()
+  File "/home/l.callisti/Distillation/distillation/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/PPO.py", line 146, in collect_rollouts
+    action, logprob, _, value = self.agent.get_action_and_value(input_)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 207, in get_action_and_value
+    action, log_prob, entropy = self.get_action(x, action)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 194, in get_action
+    log_prob = dist.log_prob(raw_action).sum(-1)
+  File "/home/l.callisti/Distillation_LunarLander/Final_pipeline/Models.py", line 194, in get_action
+    log_prob = dist.log_prob(raw_action).sum(-1)
+  File "/usr/lib/python3.10/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.10/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
