@@ -43,6 +43,14 @@ For offline training (BC and DAgger phases), the repository includes a **Priorit
 
 ---
 
+https://github.com/user-attachments/assets/7bfbd995-4be4-4912-95bc-a3e9720d94ad
+https://github.com/user-attachments/assets/b1d82958-14a8-4873-8bd8-1fd85b09c455
+https://github.com/user-attachments/assets/56e2ccc0-1800-4a89-8b65-3b7d12b45c88
+https://github.com/user-attachments/assets/6c470cbd-6152-4cfc-804e-bf84fcd41766
+https://github.com/user-attachments/assets/18995e55-a2ef-4eb2-a040-277f7a9a1bb1
+
+---
+
 ## Student Model Architectures
 
 Three student model sizes are available, all based on the **IMPALA** CNN backbone:
