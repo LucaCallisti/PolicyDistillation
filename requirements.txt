@@ -1,0 +1,10 @@
+torch
+torchvision
+numpy
+gymnasium[mujoco]
+wandb
+stable-baselines3
+pandas
+matplotlib
+Pillow
+opencv-python
