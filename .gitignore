@@ -12,7 +12,7 @@
 !requirements.txt
 !README.md
 # keep results
-!Results/Pusher/Teacher/*
+!Results/Pusher/*
 # Ignore Datasets
 Results/Pusher/Teacher/dataset_5000steps.pt
 Results/Pusher/Teacher/dataset_10000steps.pt
