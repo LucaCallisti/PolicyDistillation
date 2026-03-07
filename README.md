@@ -17,24 +17,24 @@ $$L = L_{\text{PPO}} + \lambda \cdot L_{\text{distill}}$$
 
 where $\lambda$ (`PPD_coef`) controls the balance between RL exploration and teacher imitation.
 
-### 2. Teacher Distillation (Online)
+### 2. Teacher Distillation
 The **teacher** selects actions in the environment while the student learns to match them. The student is trained using PPO but with the teacher driving the data collection. This provides a stable training signal since the teacher generates high-quality trajectories.
 
-### 3. Student Distillation (Online)
+### 3. Student Distillation
 The **student** selects actions in the environment and the teacher provides corrective supervision. The student optimizes a combination of RL rewards and distillation from the teacher's policy evaluated on the same states. This method encourages the student to explore while learning from the teacher.
 
-### 4. Behavioural Cloning + DAgger
+### 4. Behavioural Cloning
 
 A two-phase offline-to-online approach:
 
-- **Phase 1 (BC)**: The student is trained purely offline on a pre-collected dataset of teacher demonstrations using behavioural cloning (supervised learning on state-action pairs).
-- **Phase 2 (DAgger)**: The student is deployed in the environment to collect new data, which is aggregated with the original dataset. The teacher labels the student-visited states with the correct actions, and training continues on the expanded dataset.
+- **BC**: The student is trained purely offline on a pre-collected dataset of teacher demonstrations using behavioural cloning (supervised learning on state-action pairs).
+- **DAgger (optional)**: The student is deployed in the environment to collect new data, which is aggregated with the original dataset. The teacher labels the student-visited states with the correct actions, and training continues on the expanded dataset.
 
 ---
 
 ## Prioritized Experience Replay Buffer
 
-For offline training (BC and DAgger phases), the repository includes a **Prioritized Experience Replay** buffer with **importance sampling** correction:
+For BC phase, the repository includes a **Prioritized Experience Replay** buffer with **importance sampling** correction:
 
 - **Priority-based sampling**: Samples with higher prediction error are drawn more frequently (controlled by `alpha`).
 - **Importance sampling weights**: Corrects the bias introduced by non-uniform sampling (controlled by `beta`, annealed from an initial value toward 1.0).
@@ -65,7 +65,8 @@ Three student model sizes are available, all based on the **IMPALA** CNN backbon
 | `ImpaalaMid`   | (16, 32, 32)      | Medium model       |
 | `ImpaalaBig`   | (32, 64, 64)      | Full-capacity model|
 
-All models use the same MLP actor head (128→128→action_dim) on top of the CNN backbone.
+Internal states are upscaled and then concatenated with the hidden representation of the visual input. 
+All models use the same MLP actor head on top of the CNN backbone.
 
 ### IMPALA Architecture
 
