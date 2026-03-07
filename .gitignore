@@ -1,20 +1,10 @@
-# ignore everything
-*
-# allow directories so .py in subfolders can be added
-!*/
-# allow python files
-!*.py
-# keep the .gitignore itself
-!.gitignore
-# keep shell scripts
-!*.sh
-# keep requirements and README
-!requirements.txt
-!README.md
-# keep results
-!Results/
-!Results/**/
 # Ignore Datasets
 Results/Pusher/Teacher/dataset_5000steps.pt
 Results/Pusher/Teacher/dataset_10000steps.pt
 Results/Pusher/Teacher/dataset_50000steps.pt
+# Ignore log
+**/wandb/*
+**/.pytest_cache/
+**/__pycache__/
+*.pyc
+*.log
