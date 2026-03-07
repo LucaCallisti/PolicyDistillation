@@ -14,6 +14,6 @@
 # keep results
 !Results/Pusher/Teacher/*
 # Ignore Datasets
-/home/l.callisti/PolicyDistillation_to_github/Results/Pusher/Teacher/dataset_5000steps.pt
-/home/l.callisti/PolicyDistillation_to_github/Results/Pusher/Teacher/dataset_10000steps.pt
-/home/l.callisti/PolicyDistillation_to_github/Results/Pusher/Teacher/dataset_50000steps.pt
+Results/Pusher/Teacher/dataset_5000steps.pt
+Results/Pusher/Teacher/dataset_10000steps.pt
+Results/Pusher/Teacher/dataset_50000steps.pt
