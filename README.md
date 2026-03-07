@@ -17,29 +17,41 @@ $$L = L_{\text{PPO}} + \lambda \cdot L_{\text{distill}}$$
 
 where $\lambda$ (`PPD_coef`) controls the balance between RL exploration and teacher imitation.
 
-### 2. Teacher Distillation (Online)
+### 2. Teacher Distillation
 The **teacher** selects actions in the environment while the student learns to match them. The student is trained using PPO but with the teacher driving the data collection. This provides a stable training signal since the teacher generates high-quality trajectories.
 
-### 3. Student Distillation (Online)
+### 3. Student Distillation
 The **student** selects actions in the environment and the teacher provides corrective supervision. The student optimizes a combination of RL rewards and distillation from the teacher's policy evaluated on the same states. This method encourages the student to explore while learning from the teacher.
 
-### 4. Behavioural Cloning + DAgger
+### 4. Behavioural Cloning
 
 A two-phase offline-to-online approach:
 
-- **Phase 1 (BC)**: The student is trained purely offline on a pre-collected dataset of teacher demonstrations using behavioural cloning (supervised learning on state-action pairs).
-- **Phase 2 (DAgger)**: The student is deployed in the environment to collect new data, which is aggregated with the original dataset. The teacher labels the student-visited states with the correct actions, and training continues on the expanded dataset.
+- **BC**: The student is trained purely offline on a pre-collected dataset of teacher demonstrations using behavioural cloning (supervised learning on state-action pairs).
+- **DAgger (optional)**: The student is deployed in the environment to collect new data, which is aggregated with the original dataset. The teacher labels the student-visited states with the correct actions, and training continues on the expanded dataset.
 
 ---
 
 ## Prioritized Experience Replay Buffer
 
-For offline training (BC and DAgger phases), the repository includes a **Prioritized Experience Replay** buffer with **importance sampling** correction:
+For BC phase, the repository includes a **Prioritized Experience Replay** buffer with **importance sampling** correction:
 
 - **Priority-based sampling**: Samples with higher prediction error are drawn more frequently (controlled by `alpha`).
 - **Importance sampling weights**: Corrects the bias introduced by non-uniform sampling (controlled by `beta`, annealed from an initial value toward 1.0).
 - **Alpha annealing modes**: Supports `constant`, `linear`, `dynamic_mean`, and `dynamic_max` schedules to adapt priorities during training.
 - **Balanced batch sampling**: An optional sampler that draws 50% old data and 50% new data per batch, ensuring both are represented.
+
+---
+
+### Visual Results
+
+| PPD | StudentDistillation | TeacherDistillation |
+| :---: | :---: | :---: |
+| <video src="https://github.com/user-attachments/assets/b5d740b4-4f5d-4caf-bc31-6128925be980" autoplay loop muted playsinline width="100%"></video> | <video src="https://github.com/user-attachments/assets/b42d35b9-05b1-434b-b04e-e49e576f4e83" autoplay loop muted playsinline width="100%"></video> | <video src="https://github.com/user-attachments/assets/5d600667-10cd-4b67-8b87-8cb86174841f" autoplay loop muted playsinline width="100%"></video> |
+
+| BC-10k dataset | BC-50k dataset |
+| :---: | :---: |
+| <video src="https://github.com/user-attachments/assets/bd35eb17-8d80-474e-9ea0-0660843eaedd" autoplay loop muted playsinline width="100%"></video> | <video src="https://github.com/user-attachments/assets/3f3a8531-14a9-457c-bbed-63281ae816bc" autoplay loop muted playsinline width="100%"></video> |
 
 ---
 
@@ -53,7 +65,8 @@ Three student model sizes are available, all based on the **IMPALA** CNN backbon
 | `ImpaalaMid`   | (16, 32, 32)      | Medium model       |
 | `ImpaalaBig`   | (32, 64, 64)      | Full-capacity model|
 
-All models use the same MLP actor head (128→128→action_dim) on top of the CNN backbone.
+Internal states are upscaled and then concatenated with the hidden representation of the visual input. 
+All models use the same MLP actor head on top of the CNN backbone.
 
 ### IMPALA Architecture
 
