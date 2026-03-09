@@ -59,7 +59,7 @@ For BC phase, the repository includes a **Prioritized Experience Replay** buffer
 
 The following plot illustrates the reward convergence across different distillation methods. 
 
-[student_performance.pdf](https://github.com/user-attachments/files/25852702/student_performance.pdf)
+<img width="3119" height="1883" alt="student_performance" src="https://github.com/user-attachments/assets/0842e622-43b6-4c3a-9c81-fd00a26cfa67" />
 
 
 ### Key Observations:
