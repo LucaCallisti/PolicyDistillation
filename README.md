@@ -1,6 +1,6 @@
 # Policy Distillation for MuJoCo Environments
 
-This repository implements **policy distillation** techniques for transferring knowledge from a state-based teacher policy to a **vision-based student policy** in MuJoCo continuous control tasks (e.g., Pusher-v5).
+This repository implements **policy distillation** techniques for transferring knowledge from a state-based teacher policy to a **vision-based student policy** in MuJoCo continuous control tasks (e.g., Pusher).
 
 The student model can process both **rendered image frames** and **internal robot state variables** (e.g., joint positions, velocities), enabling multimodal learning from pixel observations combined with proprioceptive information.
 
@@ -59,7 +59,7 @@ For BC phase, the repository includes a **Prioritized Experience Replay** buffer
 
 The following plot illustrates the reward convergence across different distillation methods. 
 
-<img width="3119" height="1883" alt="student_performance" src="https://github.com/user-attachments/assets/0842e622-43b6-4c3a-9c81-fd00a26cfa67" />
+<img width="1560" height="942" alt="student_performance" src="https://github.com/user-attachments/assets/0842e622-43b6-4c3a-9c81-fd00a26cfa67" />
 
 
 ### Key Observations:
