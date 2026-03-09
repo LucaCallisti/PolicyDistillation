@@ -55,6 +55,20 @@ For BC phase, the repository includes a **Prioritized Experience Replay** buffer
 
 ---
 
+## Training Efficiency & Reward Convergence
+
+The following plot illustrates the reward convergence across different distillation methods. 
+
+[student_performance.pdf](https://github.com/user-attachments/files/25852702/student_performance.pdf)
+
+
+### Key Observations:
+* **Sample Efficiency**: **Behavioural Cloning (BC)** achieves high performance significantly faster than on-policy methods. By leveraging a pre-collected teacher dataset, BC bypasses the need for collecting millions of online environmental transitions during the initial learning phase.
+* **Rapid Growth**: While RL-based methods (PPD, Student/Teacher Distillation) require extensive exploration to stabilize, BC converges almost instantly to a near-teacher level of competence, making it the most resource-efficient choice for visual policy initialization.
+* **Stability**: The BC phase provides a consistent supervised signal, avoiding the high variance typically seen in early-stage Reinforcement Learning.
+
+---
+
 ## Student Model Architectures
 
 Three student model sizes are available, all based on the **IMPALA** CNN backbone:
