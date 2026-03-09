@@ -10,7 +10,7 @@ The student model can process both **rendered image frames** and **internal robo
 
 Four distillation methods are implemented, each with different trade-offs:
 
-### 1. Policy Proximal Distillation (PPD)
+### 1. Policy Proximal Distillation (PPD) [[1]](#references)
 An on-policy method that combines PPO's policy gradient objective with a distillation loss from the teacher. The student collects its own rollouts in the environment and optimizes a combined objective:
 
 $$L = L_{\text{PPO}} + \lambda \cdot L_{\text{distill}}$$
@@ -203,3 +203,11 @@ All experiments are logged to [Weights & Biases](https://wandb.ai). Metrics incl
 - Training loss
 - Buffer statistics (for prioritized replay)
 - Evaluation videos
+
+
+---
+
+## References
+
+<a id="references"></a>
+[1] Spigler, G. (2025). **Proximal Policy Distillation**. *Transactions on Machine Learning Research*. [https://openreview.net/forum?id=WfVXe88oMh](https://openreview.net/forum?id=WfVXe88oMh)
